@@ -31,12 +31,12 @@ def main(stdscr):
     stdscr.keypad(True)
     
     # select the word to display
-    word = vocabulary[0]['words'][0]
+    word = vocabulary[0]['words'][1]
     print(vocabulary)
     print(word)
 
     # display something
-    # display_word_to_translate(word, stdscr)
+    display_word_to_translate(word, stdscr)
 
     stdscr.getch()
 
@@ -48,5 +48,13 @@ def main(stdscr):
 
 
 if __name__ == "__main__":
-    print (locale.getpreferredencoding())
+    # print(vocabulary)
+    # word = vocabulary[0]['words'][3]
+    # print(word)
+    # print(word[1][0])
+    # TRY=1
+    # print(word[TRY][0])
+    # print(GER_IDX)
+    # # print('{:s} {:s}'.format(word[GER_IDX][0], word[GER_IDX][1]))
+
     curses.wrapper(main)

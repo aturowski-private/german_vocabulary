@@ -12,8 +12,7 @@ Ss = "\u00df"   # s ligature
 
 # some helpful constants
 ENG_IDX=0
-GEN_IDX=1
-GER_IDX=2
+GER_IDX=1
 
 duolingo_abstract_2 = {
     'name' : 'Abstract 2',
