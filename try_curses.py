@@ -12,7 +12,7 @@ def display_word_to_translate(word, stdscr):
     # display English word
     stdscr.addstr(  ENGLISH_WORD_POS[1],
                     ENGLISH_WORD_POS[0],
-                    word[ENG_IDX][0])
+                    word[ENG_IDX])
     # display German word
     stdscr.addstr(  GERMAN_GENDER_POS[1],
                     GERMAN_GENDER_POS[0],
