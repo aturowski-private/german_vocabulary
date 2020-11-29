@@ -5,13 +5,8 @@ from german_dictionary import vocabulary, ENG_IDX, GER_IDX, Au, au, Ea, ea, Ou, 
 
 class EnglishText:
     def __init__(self, winPos = (0, 0), winSize = (3, 50)):
-        self.winPos = winPos
-        self.winSize = winSize
-        self.createWindow()
-
-    def createWindow(self):
         # lines, columns, start line, start column
-        self.win = curses.newwin(self.winSize[0], self.winSize[1], self.winPos[0], self.winPos[1])
+        self.win = curses.newwin(winSize[0], winSize[1], winPos[0], winPos[1])
 
     def dispText(self, text):
         self.win.clear()
@@ -21,14 +16,9 @@ class EnglishText:
 
 class InputGermanText:
     def __init__(self, winPos = (5, 0), winSize = (5, 50)):
-        self.winPos = winPos
-        self.winSize = winSize
         self.input = ""
-        self.createWindow()
-
-    def createWindow(self):
         # lines, columns, start line, start column
-        self.win = curses.newwin(self.winSize[0], self.winSize[1], self.winPos[0], self.winPos[1])
+        self.win = curses.newwin(winSize[0], winSize[1], winPos[0], winPos[1])
 
     def printPrompt(self):
         self.win.addstr(0, 0, "1-"+Au+"   2-"+au+"   3-"+Ea+"   4-"+ea)
@@ -97,34 +87,46 @@ class InputGermanText:
 
 class Result:
     def __init__(self, winPos = (9, 0), winSize = (4, 50)):
-        self.winPos = winPos
-        self.winSize = winSize
-        self.createWindow()
-
-    def createWindow(self):
         # lines, columns, start line, start column
-        self.win = curses.newwin(self.winSize[0], self.winSize[1], self.winPos[0], self.winPos[1])
+        self.win = curses.newwin(winSize[0], winSize[1], winPos[0], winPos[1])
 
-    def clear(self):
-        self.win.clear()
-
+    # def decapitalise(self, input):
+    #     # get rid of capital letters to make the comparison not case sensitive
     def dispResult(self, input, germanWord):
-        self.clear()
-        if (input == germanWord):
+        self.win.clear()
+        passed = (input == germanWord)
+        if (passed):
             self.win.addstr(0, 0, "Correct :)")
         else:
             self.win.addstr(0, 0, "ERROR :(")
             self.win.addstr(1, 0, "Got: "+ input)
             self.win.addstr(2, 0, "Should be: "+ germanWord)
-        self.win.addstr(5, 0, "Press any key to continue")
+        self.win.addstr(4, 0, "Press any key to continue")
         self.win.getch()
-        self.clear()
+        self.win.clear()
+        self.win.refresh()
+        return passed
+
+class Progress:
+    def __init__(self, max, winPos= (13, 0), winSize = (4, 50)):
+        self.max = max
+        self.curr = 0
+        # lines, columns, start line, start column
+        self.win = curses.newwin(winSize[0], winSize[1], winPos[0], winPos[1])
+        self.win.clear()
+
+    def increment(self):
+        self.curr = self.curr + 1
+        self.win.clear()
+        self.win.addstr(0, 0, "Done {:d}/{:d}".format(self.curr, self.max))
         self.win.refresh()
 
 def main(stdscr):
+    WORD_COUNT = 50 # the amount of words to be tested
+
     locale.setlocale(locale.LC_ALL, '')
     code = locale.getpreferredencoding()
-
+   
     # clear screen
     stdscr.clear()
     curses.noecho()
@@ -136,6 +138,7 @@ def main(stdscr):
     englishWindow = EnglishText((0, 0), (3, 50))
     germanWindow = InputGermanText((3, 0), (5, 50))
     resultWindow = Result((10, 0), (6, 50))
+    progressWindow = Progress(WORD_COUNT, (16, 0), (3,50))
 
     # select the word to display
     words = vocabulary[0]['words']
@@ -146,9 +149,14 @@ def main(stdscr):
         else:
             englishWord = word[ENG_IDX]
         germanWord = word[GER_IDX]
-        englishWindow.dispText(englishWord)
-        input = germanWindow.getInput()
-        resultWindow.dispResult(input, germanWord)
+        while(True):
+            # test the same word up until user gets it right
+            englishWindow.dispText(englishWord)
+            input = germanWindow.getInput()
+            passed = resultWindow.dispResult(input, germanWord)
+            if passed:
+                break
+        progressWindow.increment()
 
     # finish the application
     stdscr.keypad(False)
