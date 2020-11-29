@@ -2,33 +2,27 @@ import curses
 import locale
 from german_dictionary import vocabulary, ENG_IDX, GER_IDX, Au, au, Ea, ea, Ou, ou, Uu, uu, Ss
 
-
-class DisplayEnglishText:
-    def __init__(self, text, winPos = (0, 0), winSize = (3, 50)):
-        self.text = text
+class EnglishText:
+    def __init__(self, winPos = (0, 0), winSize = (3, 50)):
         self.winPos = winPos
         self.winSize = winSize
         self.createWindow()
-        self.dispText()
 
     def createWindow(self):
         # lines, columns, start line, start column
         self.win = curses.newwin(self.winSize[0], self.winSize[1], self.winPos[0], self.winPos[1])
 
-    def dispText(self):
+    def dispText(self, text):
         self.win.addstr(0, 0, "English word:")
-        self.win.addstr(1, 0, self.text)
+        self.win.addstr(1, 0, text)
         self.win.refresh()
 
 class InputGermanText:
-    def __init__(self,  expectedText = "", winPos = (5, 0), winSize = (5, 50)):
+    def __init__(self, winPos = (5, 0), winSize = (5, 50)):
         self.winPos = winPos
         self.winSize = winSize
-        self.expectedText = expectedText
         self.input = ""
-        self.pos = 0
         self.createWindow()
-        self.printPrompt()
 
     def createWindow(self):
         # lines, columns, start line, start column
@@ -40,7 +34,9 @@ class InputGermanText:
         self.win.addstr(3, 0, "German translation:")
 
     def getInput(self):
+        self.win.clear()
         self.printPrompt()
+        self.pos = 0
         while True:
             k = self.win.getch()
             # now translate the key press into correct action
@@ -83,13 +79,11 @@ class InputGermanText:
             self.input = self.input + char
         return self.input
 
-class DispResult:
-    def __init__(self, passed, germanWord, winPos = (9, 0), winSize = (4, 50)):
+class Result:
+    def __init__(self, winPos = (9, 0), winSize = (4, 50)):
         self.winPos = winPos
         self.winSize = winSize
         self.createWindow()
-        self.dispResult(passed, germanWord)
-        self.win.getch()
 
     def createWindow(self):
         # lines, columns, start line, start column
@@ -102,7 +96,7 @@ class DispResult:
             self.win.addstr(0, 0, "ERROR :(")
             self.win.addstr(1, 0, "Should be: "+germanWord)
         self.win.addstr(3, 0, "Press any key to continue")
-        self.win.refresh()
+        self.win.getch()
 
 def main(stdscr):
     locale.setlocale(locale.LC_ALL, '')
@@ -114,16 +108,20 @@ def main(stdscr):
     curses.cbreak()
     stdscr.keypad(True)
     
+    # create all windows
+    englishWindow = EnglishText()
+    germanWindow = InputGermanText()
+    resultWindow = Result()
+
     # select the word to display
     words = vocabulary[0]['words']
     for word in words:
         word = vocabulary[0]['words'][3]
         englishWord = word[ENG_IDX]
         germanWord = word[GER_IDX]
-        displayEnglishText = DisplayEnglishText(englishWord)
-        inputWindow = InputGermanText()
-        input = inputWindow.getInput()
-        dispResult = DispResult(input == germanWord, germanWord)
+        englishWindow.dispText(englishWord)
+        input = germanWindow.getInput()
+        resultWindow.dispResult(input == germanWord, germanWord)
 
     # finish the application
     stdscr.keypad(False)
