@@ -38,11 +38,14 @@ class InputGermanText:
         self.printPrompt()
         self.pos = 0
         while True:
+            backspace = False
             k = self.win.getch()
             # now translate the key press into correct action
             if (k == curses.KEY_ENTER) or (k == 10) or (k == 13):
                 # user pressed Enter
                 break
+            elif (k == curses.KEY_BACKSPACE) or (k == 8) or (k == 127):
+                backspace = True
             elif (chr(k) == '1'):
                 # german capital A umlaut
                 char = Au
@@ -77,9 +80,16 @@ class InputGermanText:
                 # normal latin letters
                 char = chr(k)
 
-            self.win.addstr(4, self.pos, char)
-            self.pos = self.pos + 1
-            self.input = self.input + char
+            if backspace:
+                if (self.pos > 0):
+                    self.pos = self.pos - 1
+                    self.win.addstr(4, self.pos, ' ')
+                    self.input = self.input[:-1]
+            else:
+                self.win.addstr(4, self.pos, char)
+                self.pos = self.pos + 1
+                self.input = self.input + char
+
         return self.input
 
 class Result:
@@ -93,6 +103,7 @@ class Result:
         self.win = curses.newwin(self.winSize[0], self.winSize[1], self.winPos[0], self.winPos[1])
 
     def dispResult(self, passed, germanWord):
+        self.win.clear()
         if passed:
             self.win.addstr(0, 0, "CORRECT :)")
         else:
@@ -109,6 +120,7 @@ def main(stdscr):
     stdscr.clear()
     curses.noecho()
     curses.cbreak()
+    curses.curs_set(0)
     stdscr.keypad(True)
     
     # create all windows
