@@ -17,10 +17,17 @@ GER_IDX=1
 duolingo_abstract_2 = {
     'name' : 'Abstract 2',
     'words' : [
-        (('deployment', 'dedication'), ('der Einsatz')),
-        (('implementation'), ('die Umsetzung')),
-        (('circle'), ('der Kreis')),
-        (('overview'), ('der '+Uu+'berblick'))
+        (('the deployment', 'the dedication'), ('der Einsatz')),
+        (('the implementation'), ('die Umsetzung')),
+        (('the circle'), ('der Kreis')),
+        (('the overview'), ('der '+Uu+'berblick')),
+        (('the condition'), ('der Zustand')),
+        (('the combination'), ('die Kombination')),
+        (('the difference'), ('der Unterschied')),
+        (('the regulation'), ('die Bestimmung')),
+        (('the encouragement'), ('die Ermunterung')),
+        (('the force'), ('die Kraft')),
+        (('the category'), ('die Kategorie'))
     ]
 }
 

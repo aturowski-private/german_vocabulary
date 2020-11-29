@@ -1,5 +1,6 @@
 import curses
 import locale
+import random
 from german_dictionary import vocabulary, ENG_IDX, GER_IDX, Au, au, Ea, ea, Ou, ou, Uu, uu, Ss
 
 class EnglishText:
@@ -104,8 +105,11 @@ class Result:
         # lines, columns, start line, start column
         self.win = curses.newwin(self.winSize[0], self.winSize[1], self.winPos[0], self.winPos[1])
 
-    def dispResult(self, input, germanWord):
+    def clear(self):
         self.win.clear()
+
+    def dispResult(self, input, germanWord):
+        self.clear()
         if (input == germanWord):
             self.win.addstr(0, 0, "Correct :)")
         else:
@@ -114,6 +118,8 @@ class Result:
             self.win.addstr(2, 0, "Should be: "+ germanWord)
         self.win.addstr(5, 0, "Press any key to continue")
         self.win.getch()
+        self.clear()
+        self.win.refresh()
 
 def main(stdscr):
     locale.setlocale(locale.LC_ALL, '')
@@ -133,7 +139,8 @@ def main(stdscr):
 
     # select the word to display
     words = vocabulary[0]['words']
-    for word in words:
+    randomWords = random.choices(words, k = 50)
+    for word in randomWords:
         if type(word[ENG_IDX]) is tuple:
             englishWord = word[ENG_IDX][0]  # pick first english word from the tuple
         else:
