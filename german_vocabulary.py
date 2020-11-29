@@ -13,6 +13,7 @@ class EnglishText:
         self.win = curses.newwin(self.winSize[0], self.winSize[1], self.winPos[0], self.winPos[1])
 
     def dispText(self, text):
+        self.win.clear()
         self.win.addstr(0, 0, "English word:")
         self.win.addstr(1, 0, text)
         self.win.refresh()
@@ -37,6 +38,7 @@ class InputGermanText:
         self.win.clear()
         self.printPrompt()
         self.pos = 0
+        self.input = ''
         while True:
             backspace = False
             k = self.win.getch()
@@ -102,14 +104,15 @@ class Result:
         # lines, columns, start line, start column
         self.win = curses.newwin(self.winSize[0], self.winSize[1], self.winPos[0], self.winPos[1])
 
-    def dispResult(self, passed, germanWord):
+    def dispResult(self, input, germanWord):
         self.win.clear()
-        if passed:
-            self.win.addstr(0, 0, "CORRECT :)")
+        if (input == germanWord):
+            self.win.addstr(0, 0, "Correct :)")
         else:
             self.win.addstr(0, 0, "ERROR :(")
-            self.win.addstr(1, 0, "Should be: "+germanWord)
-        self.win.addstr(3, 0, "Press any key to continue")
+            self.win.addstr(1, 0, "Got: "+ input)
+            self.win.addstr(2, 0, "Should be: "+ germanWord)
+        self.win.addstr(5, 0, "Press any key to continue")
         self.win.getch()
 
 def main(stdscr):
@@ -126,17 +129,19 @@ def main(stdscr):
     # create all windows
     englishWindow = EnglishText((0, 0), (3, 50))
     germanWindow = InputGermanText((3, 0), (5, 50))
-    resultWindow = Result((10, 0), (4, 50))
+    resultWindow = Result((10, 0), (6, 50))
 
     # select the word to display
     words = vocabulary[0]['words']
     for word in words:
-        word = vocabulary[0]['words'][3]
-        englishWord = word[ENG_IDX]
+        if type(word[ENG_IDX]) is tuple:
+            englishWord = word[ENG_IDX][0]  # pick first english word from the tuple
+        else:
+            englishWord = word[ENG_IDX]
         germanWord = word[GER_IDX]
         englishWindow.dispText(englishWord)
         input = germanWindow.getInput()
-        resultWindow.dispResult(input == germanWord, germanWord)
+        resultWindow.dispResult(input, germanWord)
 
     # finish the application
     stdscr.keypad(False)
