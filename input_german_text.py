@@ -13,10 +13,12 @@ class InputGermanText:
 
     def createWindow(self):
         # lines, columns, start line, start column
-        self.win = curses.newwin(2, 50, self.winPos[0], self.winPos[1])
+        self.win = curses.newwin(5, 50, self.winPos[0], self.winPos[1])
 
     def printPrompt(self):
-        self.win.addstr(0, 0, "German translation:")
+        self.win.addstr(0, 0, "1-"+Au+"   2-"+au+"   3-"+Ea+"   4-"+ea)
+        self.win.addstr(1, 0, "5-"+Ou+"   6-"+ou+"   7-"+Uu+"   8-"+uu+"   9-"+Ss)
+        self.win.addstr(3, 0, "German translation:")
 
     def getInput(self):
         self.printPrompt()
@@ -57,7 +59,7 @@ class InputGermanText:
                 # normal latin letters
                 char = chr(k)
 
-            self.win.addstr(1, self.pos, char.encode('utf-8'))
+            self.win.addstr(4, self.pos, char)
             self.pos = self.pos + 1
             self.input = self.input + char
         return self.input
