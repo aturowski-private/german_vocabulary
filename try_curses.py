@@ -31,7 +31,7 @@ class InputGermanText:
     def printPrompt(self):
         self.win.addstr(0, 0, "1-"+Au+"   2-"+au+"   3-"+Ea+"   4-"+ea)
         self.win.addstr(1, 0, "5-"+Ou+"   6-"+ou+"   7-"+Uu+"   8-"+uu+"   9-"+Ss)
-        self.win.addstr(3, 0, "German translation:")
+        self.win.addstr(2, 0, "German translation:")
 
     def getInput(self):
         self.win.clear()
@@ -70,6 +70,9 @@ class InputGermanText:
             elif (chr(k) == '9'):
                 # german s ligature
                 char = Ss
+            elif (chr(k) == ' '):
+                # space
+                char = ' '
             elif (chr(k).isalpha()):
                 # normal latin letters
                 char = chr(k)
@@ -109,9 +112,9 @@ def main(stdscr):
     stdscr.keypad(True)
     
     # create all windows
-    englishWindow = EnglishText()
-    germanWindow = InputGermanText()
-    resultWindow = Result()
+    englishWindow = EnglishText((0, 0), (3, 50))
+    germanWindow = InputGermanText((3, 0), (5, 50))
+    resultWindow = Result((10, 0), (4, 50))
 
     # select the word to display
     words = vocabulary[0]['words']
