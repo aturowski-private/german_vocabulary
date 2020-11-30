@@ -21,7 +21,7 @@ duolingo_abstract = {
         (('the change'), ('die '+Au+'nderung')),
         (('the note'), ('der Hinweis')),
         (('the selection'), ('die Auswahl')),
-        (('valuable'), ('Vertvoll')),
+        (('valuable'), ('wertvoll')),
         (('the position'), ('die Lage')),
         (('the attempt'), ('der Versuch')),
         (('the gold'), ('das Gold')),
