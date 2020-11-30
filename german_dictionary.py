@@ -204,6 +204,55 @@ duolingo_abstract_2 = {
         (('the category'), ('die Kategorie'))
     ]
 }
+duolingo_business_2 = {
+    'name' : 'Business 2',
+    'words' : [
+        (('the firm'), ('die Firma')),
+        (('young'), ('jung')),
+        (('the house'), ('das Haus')),
+        (('the sale'), ('der Verkauf')),
+        (('the delivery'), ('die Lieferung')),
+        (('the city'), ('die Stadt')),
+        (('now'), ('jetzt')),
+        (('more'), ('mehr')),
+        (('the industry'), ('die Industrie')),
+        (('high'), ('hoch')),
+        (('up'), ('oben')),
+        (('the chart'), ('die Tabelle')),
+        (('the citizen'), ('der B'+uu+'rger')),
+        (('the goods'), ('die Ware')),
+        (('the insurance'), ('die Versicherung')),
+        (('expensive'), ('teuer')),
+        (('the island'), ('die Insel')),
+        (('probably'), ('wahrscheinlich')),
+        (('whom'), ('wen')),
+        (('to pay'), ('zahlen')),
+        (('the enterprise'), ('das Unternehmen')),
+        (('the contract'), ('der Auftrag')),
+        (('to modify'), ('ver'+au+'ndern')),
+        (('the trade fair'), ('die Messe')),
+        (('the deal'), ('das Angebot')),
+        (('the warranty'), ('die Garantie')),
+        (('the advertisement'), ('die Anzeige')),
+        (('the newspaper'), ('die Zeitung')),
+        (('the chance'), ('die Chance')),
+        (('the warehouse'), ('das Lager')),
+        (('the brand'), ('die Marke')),
+        (('the payment'), ('die Bezahlung')),
+        (('the service'), ('der Service')),
+        (('the rating'), ('die Bewertung')),
+        (('the benefit'), ('die Leistung')),
+        (('the customer service'), ('der Kundenservice')),
+        (('the expense'), ('die Ausgabe')),
+        (('the country'), ('das Land')),
+        (('the production'), ('die Produktion')),
+        (('the stock exchange'), ('die B'+ou+'rse')),
+        (('the job offer'), ('das Stellenangebot')),
+        (('between'), ('zwischen')),
+        (('the foundation'), ('die Gr'+uu+'ndung')),
+        (('the industry branch'), ('die Branche')),
+    ]
+}
 
 vocabulary = [
     duolingo_hobbies,
@@ -213,5 +262,6 @@ vocabulary = [
     duolingo_weather,
     duolingo_family_2,
     duolingo_abstract,
-    duolingo_abstract_2
+    duolingo_abstract_2,
+    duolingo_business_2
 ]
