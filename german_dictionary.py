@@ -48,7 +48,7 @@ duolingo_abstract_2 = {
         (('the usage'), ('die Vervendung')),
         (('the background'), ('der Hintergrund')),
         (('the detail'), ('die Einzelheit')),
-        (('the weight'), ('die Gewicht')),
+        (('the weight'), ('das Gewicht')),
         (('the deployment', 'the dedication'), ('der Einsatz')),
         (('the implementation'), ('die Umsetzung')),
         (('the circle'), ('der Kreis')),
