@@ -14,6 +14,70 @@ Ss = "\u00df"   # s ligature
 ENG_IDX=0
 GER_IDX=1
 
+duolingo_hobbies = {
+    'name' : 'Hobbies',
+    'words' : [
+        (('to swim'), ('schwimmen')),
+        (('sometimes'), ('manchmal')),
+        (('to cook'), ('kochen')),
+        (('the mother'), ('die Mutter')),
+        (('the father'), ('der Vater')),
+        (('never'), ('nie')),
+        (('the chess'), ('das Schach')),
+        (('to paint'), ('malen')),
+        (('the piano'), ('das Klavier')),
+        (('the cat'), ('die Katze')),
+        (('the owl'), ('die Eule')),
+        (('the brother'), ('der Bruder')),
+    ]
+}
+duolingo_directions = {
+    'name' : 'Directions',
+    'words' : [
+        (('the library'), ('die Bibliothek')),
+        (('the church'), ('die Kirche')),
+        (('the market'), ('der Markt')),
+        (('the museum'), ('das Museum')),
+        (('excuse me'), ('Entschuldigung')),
+        (('where'), ('wo')),
+        (('the park'), ('der Park')),
+        (('the cinema'), ('das Kino')),
+        (('on the right'), ('rechts')),
+        (('on the left'), ('links')),
+        (('beautiful'), ('sch'+ou+'n')),
+        (('the ATM'), ('der Geldautomat')),
+        (('the university'), ('die Universit'+au+'t')),
+        (('big'), ('gro'+Ss)),
+        (('the coffee shop'), ('das Caf'+ea)),
+        (('the proximity'), ('die N'+au+'he')),
+        (('the coffee'), ('der Kaffee')),
+        (('billig'), ('cheap')),
+        (('the hotel'), ('das Hotel')),
+        (('the supermarket'), ('der Supermarkt')),
+        (('the restaurant'), ('das Restaurant')),
+    ]
+}
+duolingo_questions = {
+    'name' : 'Questions',
+    'words' : [
+        (('the male police officer'), ('der Polizist')),
+        (('the male lawyer'), ('der Anwalt')),
+        (('the female lawyer'), ('die Anw'+au+'ltin')),
+        (('Germany'), ('Deutschland')),
+        (('Canada'), ('Kanada')),
+        (('to speak'), ('sprechen')),
+        (('Russia'), ('Russland')),
+        (('the male professor'), ('der Professor')),
+        (('the female professor'), ('die Professorin')),
+        (('the male doctor'), ('der Arzt')),
+        (('the female doctor'), ('die '+Au+'rztin')),
+        (('France'), ('Frankreich')),
+        (('Switzerland'), ('die Schweiz')),
+        (('Sweden'), ('Schweden')),
+        (('the male pupil'), ('der Sch'+uu+'ler')),
+        (('the female pupil'), ('die Sch'+uu+'lerin')),
+    ]
+}
 duolingo_abstract = {
     'name' : 'Abstract',
     'words' : [
@@ -64,6 +128,9 @@ duolingo_abstract_2 = {
 }
 
 vocabulary = [
+    duolingo_hobbies,
+    duolingo_directions,
+    duolingo_questions,
     duolingo_abstract,
     duolingo_abstract_2
 ]
