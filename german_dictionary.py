@@ -78,6 +78,37 @@ duolingo_questions = {
         (('the female pupil'), ('die Sch'+uu+'lerin')),
     ]
 }
+duolingo_market = {
+    'name' : 'Market',
+    'words' : [
+        (('the pizza'), ('die Pizza')),
+        (('to cost'), ('kosten')),
+        (('for free'), ('kostenlos')),
+        (('the strawberry'), ('die Erdbeere')),
+        (('Thank you very much'), ('vielen Dank')),
+        (('zero'), ('null')),
+        (('one'), ('eins')),
+        (('two'), ('zwei')),
+        (('three'), ('drei')),
+        (('four'), ('vier')),
+        (('five'), ('f'+uu+'nf')),
+        (('six'), ('sechs')),
+        (('seven'), ('sieben')),
+        (('eight'), ('acht')),
+        (('nine'), ('neun')),
+        (('ten'), ('zehn')),
+        (('eleven'), ('elf')),
+        (('twelve'), ('zw'+ou+'lf')),
+        (('you are welcome'), ('gern geschehen')),
+        (('the orange'), ('die Orange')),
+        (('please'), ('bitte')),
+        (('the potato'), ('die Kartoffel')),
+        (('the doner'), ('der D'+ou+'ner')),
+        (('the beer'), ('das Bier')),
+        (('really'), ('wirklich')),
+        (('the market place'), ('der Marktplatz')),
+    ]
+}
 duolingo_abstract = {
     'name' : 'Abstract',
     'words' : [
@@ -131,6 +162,7 @@ vocabulary = [
     duolingo_hobbies,
     duolingo_directions,
     duolingo_questions,
+    duolingo_market,
     duolingo_abstract,
     duolingo_abstract_2
 ]
