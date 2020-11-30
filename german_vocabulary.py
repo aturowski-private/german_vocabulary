@@ -1,3 +1,4 @@
+import argparse
 import curses
 import locale
 import random
@@ -122,8 +123,6 @@ class Progress:
         self.win.refresh()
 
 def main(stdscr):
-    WORD_COUNT = 50 # the amount of words to be tested
-
     locale.setlocale(locale.LC_ALL, '')
     code = locale.getpreferredencoding()
    
@@ -138,11 +137,17 @@ def main(stdscr):
     englishWindow = EnglishText((0, 0), (3, 50))
     germanWindow = InputGermanText((3, 0), (5, 50))
     resultWindow = Result((10, 0), (6, 50))
-    progressWindow = Progress(WORD_COUNT, (16, 0), (3,50))
+    progressWindow = Progress(args.words_count, (16, 0), (3,50))
 
-    # select the word to display
-    words = vocabulary[0]['words']
-    randomWords = random.choices(words, k = 50)
+    # select the word to test
+    if (args.test == -1):
+        # select Duolingo lesson words set at random
+        words = vocabulary[random.randint(0, len(vocabulary)-1)]['words']
+    else:
+        # pick Duoling lesson word set as specified in the command line
+        words = vocabulary[args.test]['words']
+    # now create a random list of from these words
+    randomWords = random.choices(words, k = args.words_count)
     for word in randomWords:
         if type(word[ENG_IDX]) is tuple:
             englishWord = word[ENG_IDX][0]  # pick first english word from the tuple
@@ -165,4 +170,14 @@ def main(stdscr):
     curses.endwin()
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description='Script tests German vocabulary')
+    parser.add_argument('-t', '--test', type=int, default=-1,
+                        help='Specifies Duolingo lesson from which the words will be tested')
+    parser.add_argument('-n', '--words_count', type=int, default=50,
+                        help='Specifies how many words should be tested in the session')
+    args = parser.parse_args()
+    if (len(vocabulary) < args.test):
+        print("-t argument can only take values up to {:d}".format(len(vocabulary)))
+        sys.exit(-1)
     curses.wrapper(main)

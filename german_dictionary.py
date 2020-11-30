@@ -14,6 +14,23 @@ Ss = "\u00df"   # s ligature
 ENG_IDX=0
 GER_IDX=1
 
+duolingo_abstract = {
+    'name' : 'Abstract',
+    'words' : [
+        (('the opportunity'), ('die Gelegenheit')),
+        (('the change'), ('die '+Au+'nderung')),
+        (('the note'), ('der Hinweis')),
+        (('the selection'), ('die Auswahl')),
+        (('valuable'), ('Vertvoll')),
+        (('the position'), ('die Lage')),
+        (('the attempt'), ('der Versuch')),
+        (('the gold'), ('das Gold')),
+        (('the way'), ('die Weise')),
+        (('different'), ('anders')),
+        (('the use'), ('der Gebrauch')),
+        (('the letter'), ('der Brief')),
+    ]
+}
 duolingo_abstract_2 = {
     'name' : 'Abstract 2',
     'words' : [
@@ -47,5 +64,6 @@ duolingo_abstract_2 = {
 }
 
 vocabulary = [
+    duolingo_abstract,
     duolingo_abstract_2
 ]
