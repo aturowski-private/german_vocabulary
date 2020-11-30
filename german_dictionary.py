@@ -109,6 +109,53 @@ duolingo_market = {
         (('the market place'), ('der Marktplatz')),
     ]
 }
+duolingo_weather = {
+    'name' : 'Weather',
+    'words' : [
+        (('sunny'),('sonnig')),
+        (('today'),('heute')),
+        (('the weather'),('das Wetter')),
+        (('the umbrella'),('der Regenschirm')),
+        (('to trek'),('wandern')),
+        (('often'),('oft')),
+        (('the water bottle'),('die Wasserflasche')),
+        (('small'),('klein')),
+        (('the summer'),('der Sommer')),
+        (('the spring'),('der Fr'+uu+'hling')),
+        (('the winter'),('der Winter')),
+        (('the autumn'),('der Herbst')),
+        (('the sun cream'),('die Sonnencreme')),
+        (('always'),('immer')),
+        (('foggy'),('neblig')),
+        (('to rain'),('regnen')),
+        (('windy'),('windig')),
+        (('bad'),('schlecht')),
+    ]
+}
+duolingo_family_2 = {
+    'name' : 'Family 2',
+    'words' : [
+        (('the uncle'),('der Onkel')),
+        (('the snail'),('die Schnecke')),
+        (('the dog'),('der Hund')),
+        (('to love'),('lieben')),
+        (('the male partner'),('der Partner')),
+        (('the aunt'),('die Tante')),
+        (('the fish'),('der Fisch')),
+        (('but'),('aber')),
+        (('the daughter'),('die Tochter')),
+        (('the son'),('der Sohn')),
+        (('the girl'),('das M'+au+'dchen')),
+        (('the boy'),('der Junge')),
+        (('the grandma'),('die Oma')),
+        (('the grandpa'),('der Opa')),
+        (('the male roommate'),('der Mitbewohner')),
+        (('the female roommate'),('die Mitbewohnerin')),
+        (('nice'),('nett')),
+        (('the male friend'),('der Freund')),
+        (('the female friend'),('die Freundin')),
+    ]
+}
 duolingo_abstract = {
     'name' : 'Abstract',
     'words' : [
@@ -163,6 +210,8 @@ vocabulary = [
     duolingo_directions,
     duolingo_questions,
     duolingo_market,
+    duolingo_weather,
+    duolingo_family_2,
     duolingo_abstract,
     duolingo_abstract_2
 ]
