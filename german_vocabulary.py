@@ -150,7 +150,7 @@ def main(stdscr):
     else:
         # pick Duoling lesson word set as specified in the command line
         words = vocabulary[args.test]['words']
-    weights = [1] * len(words)  # initially use uniform probability distribution
+    weights = [10] * len(words)  # initially use uniform probability distribution
     for i in range(args.words_count):
         word = random.choices(words, weights = weights, k = 1)[0]   # randomly select a word from the list taking into accuout weights
         if type(word[ENG_IDX]) is tuple:
@@ -163,12 +163,15 @@ def main(stdscr):
             englishWindow.dispText(englishWord)
             input = germanWindow.getInput()
             passed = resultWindow.dispResult(input, germanWord)
+            index = words.index(word)
             if passed:
+                if (weights[index] > 1):
+                    # we can reduce the likelihood of this word being chosen again
+                    weights[index] = weights[index] - 1
                 break
             else:
-                # user has failed the test, so increase the chance to get this particular word later
-                index = words.index(word)
-                weights[index] = weights[index] + 1
+                # increment the likelihood of choosing the word on which the used has failed
+                weights[index] = weights[index] + 2
         progressWindow.increment()
         # progressWindow.debug(weights)
 
