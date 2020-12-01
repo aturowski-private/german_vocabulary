@@ -122,6 +122,10 @@ class Progress:
         self.win.addstr(0, 0, "Done {:d}/{:d}".format(self.curr, self.max))
         self.win.refresh()
 
+    def debug(self, info):
+        self.win.addstr(2, 0, str(info))
+        self.win.refresh()
+
 def main(stdscr):
     locale.setlocale(locale.LC_ALL, '')
     code = locale.getpreferredencoding()
@@ -146,9 +150,9 @@ def main(stdscr):
     else:
         # pick Duoling lesson word set as specified in the command line
         words = vocabulary[args.test]['words']
-    # now create a random list of from these words
-    randomWords = random.choices(words, k = args.words_count)
-    for word in randomWords:
+    weights = [1] * len(words)  # initially use uniform probability distribution
+    for i in range(args.words_count):
+        word = random.choices(words, weights = weights, k = 1)[0]   # randomly select a word from the list taking into accuout weights
         if type(word[ENG_IDX]) is tuple:
             englishWord = word[ENG_IDX][0]  # pick first english word from the tuple
         else:
@@ -161,7 +165,12 @@ def main(stdscr):
             passed = resultWindow.dispResult(input, germanWord)
             if passed:
                 break
+            else:
+                # user has failed the test, so increase the chance to get this particular word later
+                index = words.index(word)
+                weights[index] = weights[index] + 1
         progressWindow.increment()
+        progressWindow.debug(weights)
 
     # finish the application
     stdscr.keypad(False)
