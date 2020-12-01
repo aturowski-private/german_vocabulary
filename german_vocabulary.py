@@ -123,7 +123,7 @@ class Progress:
         self.win.refresh()
 
     def debug(self, info):
-        self.win.addstr(2, 0, str(info))
+        self.win.addstr(2, 0, "{:s}".format(str(info)))
         self.win.refresh()
 
 def main(stdscr):
@@ -170,7 +170,7 @@ def main(stdscr):
                 index = words.index(word)
                 weights[index] = weights[index] + 1
         progressWindow.increment()
-        progressWindow.debug(weights)
+        # progressWindow.debug(weights)
 
     # finish the application
     stdscr.keypad(False)

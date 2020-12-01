@@ -51,7 +51,7 @@ duolingo_directions = {
         (('the coffee shop'), ('das Caf'+ea)),
         (('the proximity'), ('die N'+au+'he')),
         (('the coffee'), ('der Kaffee')),
-        (('billig'), ('cheap')),
+        (('cheap'), ('billig')),
         (('the hotel'), ('das Hotel')),
         (('the supermarket'), ('der Supermarkt')),
         (('the restaurant'), ('das Restaurant')),
