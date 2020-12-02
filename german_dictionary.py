@@ -36,6 +36,7 @@ at_difficult_1 = {
         (('dissappeared'), ('verschwunden')),
         (('wanted'), ('gewollt')),
         (('elected'), ('gew'+au+'hlt')),
+        (('experience'), ('die Erfahrung')),
     ]
 }
 
@@ -54,6 +55,7 @@ duolingo_hobbies = {
         (('the cat'), ('die Katze')),
         (('the owl'), ('die Eule')),
         (('the brother'), ('der Bruder')),
+        (('some'), ('manche')),
     ]
 }
 duolingo_directions = {
@@ -226,7 +228,17 @@ duolingo_abstract_2 = {
         (('the regulation'), ('die Bestimmung')),
         (('the encouragement'), ('die Ermunterung')),
         (('the force'), ('die Kraft')),
-        (('the category'), ('die Kategorie'))
+        (('the category'), ('die Kategorie')),
+        (('to advise'), ('beraten')),
+        (('been'), ('gewesen')),
+        (('would have'), ('h'+au+'tten')),
+        (('said'), ('gesagt')),
+        (('would have been'), ('w'+au+'ren gewesen')),
+        (('leave'), ('verlassen')),
+        (('the experience'), ('die Erfahrung')),
+        (('the improvement'), ('die Verbesserung')),
+        (('the planning'), ('die Planung')),
+
     ]
 }
 duolingo_business_2 = {
@@ -287,6 +299,8 @@ duolingo_business_2 = {
         (('various'), ('verschieden')),
         (('the male customer'), ('der Kunde')),
         (('the female customer'), ('die Kundin')),
+        (('the knowledge'), ('das Wissen')),
+
     ]
 }
 duolingo_verbs_7 = {
