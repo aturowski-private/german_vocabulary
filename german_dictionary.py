@@ -14,6 +14,31 @@ Ss = "\u00df"   # s ligature
 ENG_IDX=0
 GER_IDX=1
 
+at_difficult_1 = {
+    'name' : 'Adam difficult 1',
+    'words' : [
+        (('to remove'), ('entfernen')),
+        (('the contibution'), ('der Beitrag')),
+        (('to negotiate'), ('verhandeln')),
+        (('the service'), ('die Dienstleistung')),
+        (('the enterprise'), ('das Unternehmen')),
+        (('the contract'), ('der Auftrag')),
+        (('the expense'), ('die Ausgabe')),
+        (('the need'), ('der Bedarf')),
+        (('the business'), ('der Betrieb')),
+        (('the difference'), ('der Unterschied')),
+        (('the encouragement'), ('die Ermunterung')),
+        (('the guide'), ('die Anleitung')),
+        (('the selection'), ('die Auswahl')),
+        (('the use'), ('der Gebrauch')),
+        (('the usage'), ('die Vervendung')),
+        (('the male spectator'), ('der Zuschauer')),
+        (('dissappeared'), ('verschwunden')),
+        (('wanted'), ('gewollt')),
+        (('elected'), ('gew'+au+'hlt')),
+    ]
+}
+
 duolingo_hobbies = {
     'name' : 'Hobbies',
     'words' : [
@@ -38,7 +63,7 @@ duolingo_directions = {
         (('the church'), ('die Kirche')),
         (('the market'), ('der Markt')),
         (('the museum'), ('das Museum')),
-        (('excuse me'), ('Entschuldigung')),
+        (('excuse me'), ('entschuldigung')),
         (('where'), ('wo')),
         (('the park'), ('der Park')),
         (('the cinema'), ('das Kino')),
@@ -411,6 +436,7 @@ duolingo_sport = {
 }
 
 vocabulary = [
+    at_difficult_1,
     duolingo_hobbies,
     duolingo_directions,
     duolingo_questions,
