@@ -31,7 +31,7 @@ at_difficult_1 = {
         (('the guide'), ('die Anleitung')),
         (('the selection'), ('die Auswahl')),
         (('the use'), ('der Gebrauch')),
-        (('the usage'), ('die Vervendung')),
+        (('the usage'), ('die Verwendung')),
         (('the male spectator'), ('der Zuschauer')),
         (('dissappeared'), ('verschwunden')),
         (('wanted'), ('gewollt')),
@@ -56,6 +56,8 @@ duolingo_hobbies = {
         (('the owl'), ('die Eule')),
         (('the brother'), ('der Bruder')),
         (('some'), ('manche')),
+        (('against'), ('gegen')),
+        (('the disease'), ('die Krankheit')),
     ]
 }
 duolingo_directions = {
@@ -238,7 +240,13 @@ duolingo_abstract_2 = {
         (('the experience'), ('die Erfahrung')),
         (('the improvement'), ('die Verbesserung')),
         (('the planning'), ('die Planung')),
-
+        (('the height'), ('die H'+ou+'he')),
+        (('the agriculture'), ('die Landwirtschaft')),
+        (('the means'), ('das Mittel')),
+        (('the recomendation'), ('der Vorschlag')),
+        (('the length'), ('die L'+au+'nge')),
+        (('to suffice'), ('reichen')),
+        (('the ladder'), ('die Leiter')),
     ]
 }
 duolingo_business_2 = {
