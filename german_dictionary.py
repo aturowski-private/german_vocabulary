@@ -456,6 +456,46 @@ duolingo_sport = {
         (('the optical glasses'), ('die Brille')),
     ]
 }
+duolingo_the_arts = {
+    'name' : 'The Arts',
+    'words' : [
+        (('the gallery'), ('die Galerie')),
+        (('is located'), ('befindet sich')),
+        (('the studio'), ('das Studio')),
+        (('excited'), ('begeistert')),
+        (('the guitar'), ('die Gitarre')),
+        (('the art'), ('die Kunst')),
+        (('the homeland'), ('die Heimat')),
+        (('the exhibition'), ('die Ausstellung')),
+        (('the musician'), ('der Musiker')),
+        (('the instrument'), ('das Instrument')),
+        (('the artist'), ('der K'+uu+'nstler')),
+        (('the sculpture'), ('das Plastik')),
+        (('the music'), ('die Musik')),
+        (('the theater'), ('das Theater')),
+        (('the culture'), ('die Kultur')),
+        (('the start'), ('der Start')),
+        (('ready'), ('bereit')),
+        (('everything'), ('alles')),
+        (('the director of the movie'), ('die Regie')),
+        (('the draft'), ('der Entwurf')),
+        (('the movie'), ('der Film')),
+        (('the model'), ('das Modell')),
+        (('the train'), ('der Zug')),
+        (('to dance'), ('tanzen')),
+        (('excellent'), ('ausgezeichnet')),
+        (('the literature'), ('die Literatur')),
+        (('the critique'), ('die Kritik')),
+        (('open'), ('offen')),
+        (('the corner'), ('die Ecke')),
+        (('the design'), ('das Design')),
+        (('the song'), ('das Lied')),
+        (('the collection'), ('die Sammlung')),
+        (('the shoe'), ('der Schuh')),
+        (('the photography'), ('die Fotografie')),
+        (('the recommendation'), ('die Empfehlung')),
+    ]
+}
 
 vocabulary = [
     at_difficult_1,
@@ -470,4 +510,5 @@ vocabulary = [
     duolingo_business_2,
     duolingo_verbs_7,
     duolingo_sport,
+    duolingo_the_arts,
 ]
