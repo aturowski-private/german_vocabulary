@@ -452,7 +452,7 @@ duolingo_sport = {
         (('forgiven'), ('vergeben')),
         (('elected'), ('gew'+au+'hlt')),
         (('the mayor'), ('der B'+uu+'rgermeister')),
-        (('the hand'), ('die Hande')),
+        (('the hand'), ('die Hand')),
         (('the optical glasses'), ('die Brille')),
     ]
 }
