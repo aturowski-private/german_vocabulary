@@ -36,7 +36,7 @@ at_difficult_1 = {
         (('dissappeared'), ('verschwunden')),
         (('wanted'), ('gewollt')),
         (('elected'), ('gew'+au+'hlt')),
-        (('experience'), ('die Erfahrung')),
+        (('the experience'), ('die Erfahrung')),
     ]
 }
 

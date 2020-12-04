@@ -130,6 +130,7 @@ class Progress:
 def main(stdscr):
     locale.setlocale(locale.LC_ALL, '')
     code = locale.getpreferredencoding()
+    random.seed()   # initialize random generator seed using operating system randomness sources
    
     # clear screen
     stdscr.clear()
