@@ -494,6 +494,22 @@ duolingo_the_arts = {
         (('the shoe'), ('der Schuh')),
         (('the photography'), ('die Fotografie')),
         (('the recommendation'), ('die Empfehlung')),
+        (('the concert'), ('das Konzert')),
+        (('the castle'), ('das Schloss')),
+        (('the jazz'), ('der Jazz')),
+        (('the fashion'), ('die Mode')),
+        (('the stage'), ('die B'+uu+'hne')),
+        (('the style'), ('der Stil')),
+        (('the frame'), ('der Rahmen')),
+        (('the dance'), ('der Tanz')),
+        (('all over again'), ('von vorne')),
+        (('the picture'), ('das Bild')),
+        (('the camera'), ('die Kamera')),
+        (('the activitu'), ('die T'+au+'tigkeit')),
+        (('satisfied'), ('zufrieden')),
+        (('the documentiation'), ('die Dokumentation')),
+        (('the male actor'), ('der Schauspieler')),
+        (('the word'), ('das Wort')),
     ]
 }
 
