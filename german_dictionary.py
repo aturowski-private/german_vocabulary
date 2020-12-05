@@ -14,6 +14,13 @@ Ss = "\u00df"   # s ligature
 ENG_IDX=0
 GER_IDX=1
 
+at_unicode_trial = {
+    'name' : 'Adam Unicode Trial',
+    'words' : [
+        (('elected 2'), ('gewählt'))
+    ]
+}
+
 at_difficult_1 = {
     'name' : 'Adam difficult 1',
     'words' : [
@@ -514,6 +521,7 @@ duolingo_the_arts = {
 }
 
 vocabulary = [
+    at_unicode_trial,
     at_difficult_1,
     duolingo_hobbies,
     duolingo_directions,
