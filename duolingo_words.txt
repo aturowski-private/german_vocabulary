@@ -2511,9 +2511,3 @@ heiße	Verb	10 months ago
 heißt	Verb	10 months ago	
 lese	Verb	10 months ago	
 apfel	Noun	10 months ago	
-Spaced repetition
-Duolingo's algorithms figure out when you should practice words to get them into your long-term memory.
-
-Still strong
-Pretty good
-Time to practice
