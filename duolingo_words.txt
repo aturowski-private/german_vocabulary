@@ -1,7 +1,6 @@
 sammlung	Noun	20 hours ago	
 international	Adjective	20 hours ago	
 eigenes	Adjective	20 hours ago	
-einen	Determiner	20 hours ago	
 öffentliche	Adjective	20 hours ago	
 auch	Adverb	20 hours ago	
 denn	Conjunction	20 hours ago	
@@ -12,7 +11,6 @@ aktiv	Adjective	20 hours ago
 ihn	Pronoun	20 hours ago	
 jetzt	Adverb	20 hours ago	
 für	Preposition	20 hours ago	
-meiner	Pronoun	20 hours ago	
 mein	Pronoun	20 hours ago	
 und	Conjunction	20 hours ago	
 schlecht	Adjective	20 hours ago	
@@ -21,13 +19,9 @@ ist	Verb	20 hours ago
 nicht	Adverb	20 hours ago	
 sehr	Adverb	20 hours ago	
 wert	Adjective	20 hours ago	
-eine	Determiner	20 hours ago	
-das	Determiner	20 hours ago	
-die	Determiner	20 hours ago	
 sondern	Conjunction	20 hours ago	
 toll	Adjective	20 hours ago	
 bereit	Adjective	20 hours ago	
-den	Determiner	20 hours ago	
 ihr	Pronoun	20 hours ago	
 eigener	Adjective	20 hours ago	
 tanzt	Verb	20 hours ago	
@@ -49,18 +43,15 @@ dort	Adverb	21 hours ago
 oben	Adverb	21 hours ago	
 begeistert	Adjective	21 hours ago	
 bin	Verb	21 hours ago	
-der	Determiner	21 hours ago	
 echt	Adjective	yesterday	
 offene	Adjective	yesterday	
 beliebt	Adjective	yesterday	
 deine	Pronoun	yesterday	
 wo	Adverb	yesterday	
 grün	Adjective	yesterday	
-das	Pronoun	yesterday	
 wir	Pronoun	yesterday	
 er	Pronoun	yesterday	
 süß	Adjective	yesterday	
-ein	Determiner	yesterday	
 interessant	Adjective	yesterday	
 teuer	Adjective	yesterday	
 reich	Adjective	2 days ago	
@@ -79,16 +70,13 @@ ausstellung	Noun	2 days ago
 gitarre	Noun	2 days ago	
 künste	Noun	2 days ago	
 ihm	Pronoun	2 days ago	
-dem	Determiner	2 days ago	
 aus	Preposition	2 days ago	
 mit	Preposition	2 days ago	
 dir	Pronoun	3 days ago	
-keine	Determiner	3 days ago	
 uns	Pronoun	3 days ago	
 nie	Adverb	3 days ago	
 mir	Pronoun	3 days ago	
 meine	Pronoun	3 days ago	
-keiner	Determiner	3 days ago	
 ja	Adverb	3 days ago	
 schon	Adverb	3 days ago	
 dass	Conjunction	3 days ago	
@@ -134,7 +122,6 @@ zufrieden	Adjective	4 days ago
 etwas	Pronoun	5 days ago	
 solange	Conjunction	5 days ago	
 niemals	Adverb	5 days ago	
-das		5 days ago	
 spieler	Noun	5 days ago	
 willkommen	Adjective	5 days ago	
 groß	Adjective	5 days ago	
@@ -184,7 +171,6 @@ wann	Adverb	1 week ago
 davon	Adverb	1 week ago	
 einfach	Adjective	1 week ago	
 stärker	Adjective	1 week ago	
-einem	Determiner	1 week ago	
 hast	Verb	1 week ago	
 kleiner	Adjective	1 week ago	
 hunger	Noun	1 week ago	
@@ -199,7 +185,6 @@ rechts	Adverb	1 week ago
 neu	Adjective	1 week ago	
 links	Adverb	1 week ago	
 billig	Adjective	1 week ago	
-man	Determiner	1 week ago	
 wenn	Conjunction	1 week ago	
 nein	Adverb	1 week ago	
 von	Preposition	1 week ago	
@@ -235,8 +220,6 @@ voll	Adjective	2 weeks ago
 auftrag	Noun	2 weeks ago	
 regional	Adjective	2 weeks ago	
 antrag	Noun	2 weeks ago	
-malst	Verb	2 weeks ago	
-malt	Verb	2 weeks ago	
 dokumentation	Noun	2 weeks ago	
 tätigkeit	Noun	2 weeks ago	
 kamera	Noun	2 weeks ago	
@@ -367,7 +350,6 @@ heiß	Adjective	3 weeks ago
 offen	Adjective	3 weeks ago	
 weiß	Adjective	3 weeks ago	
 zum	Preposition	3 weeks ago	
-des	Determiner	3 weeks ago	
 leicht	Adjective	3 weeks ago	
 gern	Adverb	3 weeks ago	
 umsetzung	Noun	3 weeks ago	
@@ -438,7 +420,6 @@ verantwortlich	Adjective	1 month ago
 minus	Preposition	1 month ago	
 gesamte	Adjective	1 month ago	
 natürlich	Adverb	1 month ago	
-hohe	Adjective	1 month ago	
 hoher	Adjective	1 month ago	
 besonders	Adverb	1 month ago	
 konto	Noun	1 month ago	
@@ -469,8 +450,6 @@ warum	Adverb	1 month ago
 privat	Adjective	1 month ago	
 rein	Adverb	1 month ago	
 allein	Adverb	1 month ago	
-hättet	Verb	1 month ago	
-hätte	Verb	1 month ago	
 wären	Verb	1 month ago	
 hätten	Verb	1 month ago	
 dünn	Adjective	1 month ago	
@@ -482,12 +461,10 @@ mindestens	Adverb	1 month ago
 unsichtbar	Adjective	1 month ago	
 da	Conjunction	1 month ago	
 gefühlen	Noun	1 month ago	
-gefühle	Noun	1 month ago	
 lebens	Noun	1 month ago	
 sinne	Noun	1 month ago	
 seele	Noun	1 month ago	
 leben	Noun	1 month ago	
-neues	Adjective	1 month ago	
 neue	Adjective	1 month ago	
 hoffnung	Noun	1 month ago	
 meditiere	Verb	1 month ago	
@@ -581,7 +558,6 @@ inzwischen	Adverb	1 month ago
 erhöhen	Verb	1 month ago	
 erwerben	Verb	1 month ago	
 meinen	Pronoun	1 month ago	
-einer	Determiner	1 month ago	
 brennen	Verb	1 month ago	
 trete	Verb	1 month ago	
 wirst	Verb	1 month ago	
@@ -2077,7 +2053,6 @@ sonne	Noun	9 months ago
 deinem	Pronoun	9 months ago	
 ihrem	Pronoun	9 months ago	
 folgt	Verb	9 months ago	
-welcher	Determiner	9 months ago	
 diesem	Pronoun	9 months ago	
 welchem	Determiner	9 months ago	
 vielen	Determiner	9 months ago	
@@ -2150,7 +2125,6 @@ gibt	Verb	9 months ago
 antworte	Verb	9 months ago	
 antworten	Verb	9 months ago	
 antwortet	Verb	9 months ago	
-welches	Determiner	9 months ago	
 pilze	Noun	10 months ago	
 frühstücke	Verb	10 months ago	
 nüsse	Noun	10 months ago	
@@ -2226,7 +2200,6 @@ schwester	Noun	10 months ago
 sohn	Noun	10 months ago	
 antwortest	Verb	10 months ago	
 welche	Determiner	10 months ago	
-welchen	Determiner	10 months ago	
 wen	Pronoun	10 months ago	
 wessen	Pronoun	10 months ago	
 antworten	Noun	10 months ago	
@@ -2317,15 +2290,9 @@ wände	Noun	10 months ago
 fenster	Noun	10 months ago	
 öffnen	Verb	10 months ago	
 meines	Pronoun	10 months ago	
-jeden	Determiner	10 months ago	
-anderes	Determiner	10 months ago	
 alle	Determiner	10 months ago	
 anderen	Determiner	10 months ago	
 jede	Determiner	10 months ago	
-alles	Determiner	10 months ago	
-andere	Determiner	10 months ago	
-jedes	Determiner	10 months ago	
-euren	Pronoun	10 months ago	
 sein	Pronoun	10 months ago	
 diesen	Pronoun	10 months ago	
 eure	Pronoun	10 months ago	

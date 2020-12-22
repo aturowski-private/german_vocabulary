@@ -24,6 +24,10 @@ if __name__ == "__main__":
             word_type = split_line[1]
             # first get the english translation
             english_word = de_to_en.translate(german_word).lower()
+            # make sure that English words have correct letter case
+            if english_word == 'i':
+                english_word = 'I'
+
             if (word_type == 'Noun'):
                 # now find out the gender of German word
                 german_word_with_gender = en_to_de.translate('the ' + english_word)
