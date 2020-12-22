@@ -20,6 +20,8 @@ if __name__ == "__main__":
                 split_line = line.split()
                 german_word = split_line[0]
                 word_type = split_line[1]
+                if (word_type == 'Noun'):
+                    german_word = german_word[0].upper() + german_word[1:]
                 if ((i % args.words_count) == 0):
                     if start:
                         start = False
