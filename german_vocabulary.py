@@ -97,7 +97,7 @@ class Result:
     #     # get rid of capital letters to make the comparison not case sensitive
     def dispResult(self, input, germanWord):
         self.win.clear()
-        passed = (input == germanWord)
+        passed = (input.lower() == germanWord.lower())
         if (passed):
             self.win.addstr(0, 0, "Correct :)")
         else:
