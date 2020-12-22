@@ -30,7 +30,8 @@ if __name__ == "__main__":
 
             if (word_type == 'Noun'):
                 # now find out the gender of German word
-                german_word_with_gender = en_to_de.translate('the ' + english_word)
+                english_word = 'the ' + english_word
+                german_word_with_gender = en_to_de.translate(english_word)
                 german_gender = german_word_with_gender.split()[0].lower()
                 german_word = german_gender + ' ' + german_word[0].upper() + german_word[1:]
             elif (word_type == 'Verb'):
