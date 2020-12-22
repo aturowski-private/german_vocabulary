@@ -4,6 +4,7 @@ import curses
 import locale
 import random
 from german_dictionary import vocabulary, ENG_IDX, GER_IDX, Au, au, Ea, ea, Ou, ou, Uu, uu, Ss
+from duolingo_words import duolingo_sets
 
 class EnglishText:
     def __init__(self, winPos = (0, 0), winSize = (3, 50)):
@@ -146,12 +147,14 @@ def main(stdscr):
     progressWindow = Progress(args.words_count, (16, 0), (3,50))
 
     # select the word to test
+    # sets = vocabulary
+    sets = duolingo_sets
     if (args.test == -1):
         # select Duolingo lesson words set at random
-        words = vocabulary[random.randint(0, len(vocabulary)-1)]['words']
+        words = sets[random.randint(0, len(sets)-1)]['words']
     else:
         # pick Duoling lesson word set as specified in the command line
-        words = vocabulary[args.test]['words']
+        words = sets[args.test]['words']
     weights = [10] * len(words)  # initially use uniform probability distribution
     for i in range(args.words_count):
         word = random.choices(words, weights = weights, k = 1)[0]   # randomly select a word from the list taking into accuout weights
