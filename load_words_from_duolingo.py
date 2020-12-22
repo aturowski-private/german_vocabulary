@@ -25,7 +25,7 @@ if __name__ == "__main__":
             word_type = split_line[1]
             # first get the english translation
             english_word = de_to_en.translate(german_word).lower()
-            dont_process = (word_type == 'Verb') and (english_word in english_verbs)
+            dont_process = (word_type == 'Verb') and ((english_word in english_verbs) or german_word.endswith('st'))
             if not dont_process:
                 # make sure that English words have correct letter case
                 if english_word == 'i':
