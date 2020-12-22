@@ -33,7 +33,6 @@ tatsächlich	Adjective	20 hours ago
 eigene	Adjective	20 hours ago	
 zwei	Numeral	20 hours ago	
 vier	Numeral	20 hours ago	
-sind	Verb	20 hours ago	
 heute	Adverb	20 hours ago	
 du	Pronoun	20 hours ago	
 es	Pronoun	20 hours ago	
@@ -42,7 +41,6 @@ kinder	Noun	20 hours ago
 dort	Adverb	21 hours ago	
 oben	Adverb	21 hours ago	
 begeistert	Adjective	21 hours ago	
-bin	Verb	21 hours ago	
 echt	Adjective	yesterday	
 offene	Adjective	yesterday	
 beliebt	Adjective	yesterday	
@@ -65,7 +63,6 @@ künstler	Noun	2 days ago
 theater	Noun	2 days ago	
 jedenfalls	Adverb	2 days ago	
 obwohl	Conjunction	2 days ago	
-kein	Determiner	2 days ago	
 ausstellung	Noun	2 days ago	
 gitarre	Noun	2 days ago	
 künste	Noun	2 days ago	
@@ -91,7 +88,6 @@ daran	Adverb	3 days ago
 gestern	Adverb	3 days ago	
 dich	Pronoun	3 days ago	
 zuständig	Adjective	3 days ago	
-hat	Verb	3 days ago	
 klar	Adjective	3 days ago	
 mehr	Adverb	3 days ago	
 oft	Adverb	3 days ago	
@@ -109,7 +105,6 @@ rund	Adjective	4 days ago
 morgen	Adverb	4 days ago	
 aufs	Preposition	4 days ago	
 wahrscheinlich	Adjective	4 days ago	
-dazu	Adverb	4 days ago	
 notwendig	Adjective	4 days ago	
 später	Adjective	4 days ago	
 keinen	Determiner	4 days ago	
@@ -149,7 +144,6 @@ bisher	Adverb	1 week ago
 salzig	Adjective	1 week ago	
 habe	Verb	1 week ago	
 fußball	Noun	1 week ago	
-im	Preposition	1 week ago	
 ruhig	Adjective	1 week ago	
 deutsch	Noun	1 week ago	
 mehr	Determiner	1 week ago	
@@ -171,7 +165,6 @@ wann	Adverb	1 week ago
 davon	Adverb	1 week ago	
 einfach	Adjective	1 week ago	
 stärker	Adjective	1 week ago	
-hast	Verb	1 week ago	
 kleiner	Adjective	1 week ago	
 hunger	Noun	1 week ago	
 bist	Verb	1 week ago	
@@ -944,8 +937,7 @@ prüfung	Noun	2 months ago
 kindergarten	Noun	2 months ago	
 gymnasium	Noun	2 months ago	
 institute	Noun	2 months ago	
-lehren	Noun	2 months ago	
-lehre	Noun	2 months ago	
+lehren	Verb	2 months ago	
 hochschule	Noun	2 months ago	
 institut	Noun	2 months ago	
 unterricht	Noun	2 months ago	
@@ -985,7 +977,6 @@ witzig	Adjective	2 months ago
 erlauben	Verb	2 months ago	
 tasten	Noun	2 months ago	
 lade	Verb	2 months ago	
-bildern	Noun	2 months ago	
 bild	Noun	2 months ago	
 bilder	Noun	2 months ago	
 lösche	Verb	2 months ago	
