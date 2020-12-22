@@ -1,3 +1,4 @@
+bären	Noun	6 months ago	
 sammlung	Noun	20 hours ago	
 international	Adjective	20 hours ago	
 eigenes	Adjective	20 hours ago	
@@ -1652,7 +1653,6 @@ innen	Adverb	6 months ago
 drinnen	Adverb	6 months ago	
 original	Adjective	6 months ago	
 guter	Adjective	6 months ago	
-bären	Noun	6 months ago	
 weißen	Adjective	7 months ago	
 dran	Adverb	7 months ago	
 wochenenden	Noun	7 months ago	

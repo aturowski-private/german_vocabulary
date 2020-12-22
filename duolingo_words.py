@@ -1,6 +1,7 @@
 duolingo_set_0 = {
     'name' : 'Duolingo Set 0',
     'words' : [
+        (("the bears"), ("die Bären")),
         (("the collection"), ("die Sammlung")),
         (("public"), ("öffentliche")),
         (("also"), ("auch")),
@@ -30,12 +31,12 @@ duolingo_set_0 = {
         (("the children"), ("die Kinder")),
         (("there"), ("dort")),
         (("above"), ("oben")),
-        (("open"), ("offene")),
     ]
 }
 duolingo_set_1 = {
     'name' : 'Duolingo Set 1',
     'words' : [
+        (("open"), ("offene")),
         (("yours"), ("deine")),
         (("where"), ("wo")),
         (("we"), ("wir")),
@@ -65,12 +66,12 @@ duolingo_set_1 = {
         (("beautiful"), ("schon")),
         (("that"), ("dass")),
         (("me"), ("mich")),
-        (("three"), ("drei")),
     ]
 }
 duolingo_set_2 = {
     'name' : 'Duolingo Set 2',
     'words' : [
+        (("three"), ("drei")),
         (("so"), ("so")),
         (("ever"), ("je")),
         (("as"), ("wie")),
@@ -100,12 +101,12 @@ duolingo_set_2 = {
         (("to"), ("zu")),
         (("the woman"), ("die Frau")),
         (("or"), ("oder")),
-        (("the men"), ("die Männer")),
     ]
 }
 duolingo_set_3 = {
     'name' : 'Duolingo Set 3',
     'words' : [
+        (("the men"), ("die Männer")),
         (("a lot of"), ("viel")),
         (("together"), ("zusammen")),
         (("you're welcome"), ("bitte")),
@@ -135,12 +136,12 @@ duolingo_set_3 = {
         (("when"), ("wann")),
         (("from that"), ("davon")),
         (("the hunger"), ("der Hunger")),
-        (("the boys"), ("die Jungen")),
     ]
 }
 duolingo_set_4 = {
     'name' : 'Duolingo Set 4',
     'words' : [
+        (("the boys"), ("die Jungen")),
         (("the boy"), ("der Junge")),
         (("at the"), ("am")),
         (("the loaf"), ("das Brot")),
@@ -170,12 +171,12 @@ duolingo_set_4 = {
         (("the assignment"), ("die Auftrag")),
         (("the request"), ("die Antrag")),
         (("the documentation"), ("die Dokumentation")),
-        (("the activity"), ("die Tätigkeit")),
     ]
 }
 duolingo_set_5 = {
     'name' : 'Duolingo Set 5',
     'words' : [
+        (("the activity"), ("die Tätigkeit")),
         (("the camera"), ("die Kamera")),
         (("the actor"), ("der Schauspieler")),
         (("the movie theater"), ("der Kino")),
@@ -205,12 +206,12 @@ duolingo_set_5 = {
         (("the studio"), ("das Studio")),
         (("without"), ("ohne")),
         (("eight"), ("acht")),
-        (("gladly"), ("gern")),
     ]
 }
 duolingo_set_6 = {
     'name' : 'Duolingo Set 6',
     'words' : [
+        (("gladly"), ("gern")),
         (("ten"), ("zehn")),
         (("six"), ("sechs")),
         (("nine"), ("neun")),
@@ -240,14 +241,14 @@ duolingo_set_6 = {
         (("the ball"), ("der Ball")),
         (("the activities"), ("die Aktivitäten")),
         (("v. negotiate"), ("verhandeln")),
-        (("the business"), ("das Betrieb")),
     ]
 }
 duolingo_set_7 = {
     'name' : 'Duolingo Set 7',
     'words' : [
+        (("the business"), ("das Betrieb")),
         (("the industry sectors"), ("die Branchen")),
-        (("the companies"), ("die Betriebe")),
+        (("the establishments"), ("die Betriebe")),
         (("the services"), ("die Dienstleistungen")),
         (("the requirement"), ("die Bedarf")),
         (("the services"), ("die Leistungen")),
@@ -275,12 +276,12 @@ duolingo_set_7 = {
         (("the industry"), ("die Industrie")),
         (("the company"), ("die Firma")),
         (("the insurance"), ("die Versicherung")),
-        (("yours"), ("deinen")),
     ]
 }
 duolingo_set_8 = {
     'name' : 'Duolingo Set 8',
     'words' : [
+        (("yours"), ("deinen")),
         (("the use"), ("die Gebrauch")),
         (("same"), ("gleiche")),
         (("before"), ("zuvor")),
@@ -304,19 +305,20 @@ duolingo_set_8 = {
         (("to"), ("bis")),
         (("the course"), ("der Verlauf")),
         (("the manual"), ("das Anleitung")),
-        (("the average"), ("der Mitteln")),
+        (("the means"), ("die Mitteln")),
         (("the proposals"), ("die Vorschläge")),
         (("the suggestion"), ("der Vorschlag")),
+        (("v. have"), ("habt")),
         (("the categories"), ("die Kategorien")),
         (("the quantity"), ("die Menge")),
-        (("the list"), ("die Liste")),
-        (("the difference"), ("der Unterschied")),
     ]
 }
 duolingo_set_9 = {
     'name' : 'Duolingo Set 9',
     'words' : [
-        (("the regulations"), ("die Bestimmungen")),
+        (("the list"), ("die Liste")),
+        (("the difference"), ("der Unterschied")),
+        (("the provisions"), ("die Bestimmungen")),
         (("the experience"), ("die Erfahrungen")),
         (("the versions"), ("die Versionen")),
         (("the look"), ("der Blick")),
@@ -344,13 +346,13 @@ duolingo_set_9 = {
         (("the original"), ("das Original")),
         (("the version"), ("die Version")),
         (("the improvement"), ("die Verbesserung")),
-        (("the determination"), ("die Bestimmung")),
-        (("the differences"), ("die Unterschiede")),
     ]
 }
 duolingo_set_10 = {
     'name' : 'Duolingo Set 10',
     'words' : [
+        (("the determination"), ("die Bestimmung")),
+        (("the differences"), ("die Unterschiede")),
         (("the planning"), ("die Planung")),
         (("the experience"), ("die Erfahrung")),
         (("from where"), ("woher")),
@@ -379,13 +381,13 @@ duolingo_set_10 = {
         (("fewer"), ("weniger")),
         (("times"), ("mal")),
         (("thereon"), ("darauf")),
-        (("himself"), ("selber")),
-        (("why"), ("warum")),
     ]
 }
 duolingo_set_11 = {
     'name' : 'Duolingo Set 11',
     'words' : [
+        (("himself"), ("selber")),
+        (("why"), ("warum")),
         (("purely"), ("rein")),
         (("alone"), ("allein")),
         (("v. would be"), ("wären")),
@@ -406,6 +408,7 @@ duolingo_set_11 = {
         (("the fate"), ("das Schicksal")),
         (("the truth"), ("die Wahrheit")),
         (("the balance"), ("die Gleichgewicht")),
+        (("v. meditate"), ("meditieren")),
         (("the feeling"), ("das Gefühl")),
         (("the sense"), ("der Sinn")),
         (("the souls"), ("die Seelen")),
@@ -413,14 +416,14 @@ duolingo_set_11 = {
         (("the spirituality"), ("die Spiritualität")),
         (("suitable"), ("passende")),
         (("all over"), ("überall")),
-        (("the english"), ("das Englisch")),
-        (("even"), ("sogar")),
-        (("furthermore"), ("außerdem")),
     ]
 }
 duolingo_set_12 = {
     'name' : 'Duolingo Set 12',
     'words' : [
+        (("the english"), ("das Englisch")),
+        (("even"), ("sogar")),
+        (("furthermore"), ("außerdem")),
         (("at all"), ("gar")),
         (("v. eat"), ("essen")),
         (("lovely"), ("schöne")),
@@ -433,7 +436,7 @@ duolingo_set_12 = {
         (("here"), ("hierher")),
         (("the thigh"), ("die Oberschenkel")),
         (("the muscles"), ("die Muskeln")),
-        (("the bowel"), ("der Darm")),
+        (("the intestines"), ("der Darm")),
         (("the organ"), ("das Organ")),
         (("finally"), ("endlich")),
         (("so far"), ("soweit")),
@@ -448,14 +451,14 @@ duolingo_set_12 = {
         (("the muscle"), ("der Muskel")),
         (("the bone"), ("der Knochen")),
         (("the intestines"), ("der Därme")),
-        (("the liver"), ("die Leber")),
-        (("the organs"), ("die Organe")),
-        (("the hips"), ("die Hüften")),
     ]
 }
 duolingo_set_13 = {
     'name' : 'Duolingo Set 13',
     'words' : [
+        (("the liver"), ("die Leber")),
+        (("the organs"), ("die Organe")),
+        (("the hips"), ("die Hüften")),
         (("the toes"), ("die Zehen")),
         (("the hip"), ("die Hüfte")),
         (("the toe"), ("der Zeh")),
@@ -482,15 +485,16 @@ duolingo_set_13 = {
         (("v. burn"), ("brennen")),
         (("v. kick"), ("trete")),
         (("v. will"), ("werde")),
-        (("v. occurs"), ("tritt")),
-        (("v. right"), ("stimmt")),
-        (("v. voice"), ("stimme")),
-        (("tired"), ("müde")),
+        (("v. will"), ("werden")),
     ]
 }
 duolingo_set_14 = {
     'name' : 'Duolingo Set 14',
     'words' : [
+        (("v. occurs"), ("tritt")),
+        (("v. right"), ("stimmt")),
+        (("v. voice"), ("stimme")),
+        (("tired"), ("müde")),
         (("v. developed"), ("entwickelt")),
         (("v. avoid"), ("vermeiden")),
         (("v. to calculate"), ("berechnen")),
@@ -517,16 +521,17 @@ duolingo_set_14 = {
         (("v. to mark"), ("markieren")),
         (("v. talk"), ("reden")),
         (("v. you're welcome"), ("bitte")),
-        (("v. speech"), ("rede")),
-        (("v. reports"), ("meldet")),
-        (("v. call"), ("nennen")),
-        (("v. jumps"), ("springt")),
     ]
 }
 duolingo_set_15 = {
     'name' : 'Duolingo Set 15',
     'words' : [
+        (("v. speech"), ("rede")),
+        (("v. reports"), ("meldet")),
+        (("v. call"), ("nennen")),
+        (("v. jumps"), ("springt")),
         (("v. becomes"), ("wird")),
+        (("v. burn"), ("brenne")),
         (("v. to step"), ("treten")),
         (("v. be right"), ("stimmen")),
         (("v. divide"), ("teilen")),
@@ -551,20 +556,23 @@ duolingo_set_15 = {
         (("v. appears"), ("erscheint")),
         (("v. expect"), ("erwarten")),
         (("v. determined"), ("ermittelt")),
-        (("v. do"), ("tue")),
-        (("v. deserve"), ("verdiene")),
-        (("v. serve"), ("dienen")),
-        (("v. check"), ("überprüfen")),
-        (("v. evaluate"), ("bewerten")),
     ]
 }
 duolingo_set_16 = {
     'name' : 'Duolingo Set 16',
     'words' : [
+        (("v. do"), ("tue")),
+        (("v. support"), ("unterstützen")),
+        (("v. deserve"), ("verdiene")),
+        (("v. serve"), ("dienen")),
+        (("v. check"), ("überprüfen")),
+        (("v. evaluate"), ("bewerten")),
         (("v. eighth"), ("achte")),
+        (("v. present"), ("präsentiere")),
         (("v. are defined"), ("definiert")),
         (("v. to contact"), ("kontaktieren")),
         (("v. based"), ("basiert")),
+        (("v. based"), ("basieren")),
         (("v. report"), ("melden")),
         (("v. to back up"), ("sichern")),
         (("v. ask"), ("bitten")),
@@ -583,6 +591,11 @@ duolingo_set_16 = {
         (("the wasp"), ("die Wespe")),
         (("the tiger"), ("der Tiger")),
         (("the horns"), ("die Hörner")),
+    ]
+}
+duolingo_set_17 = {
+    'name' : 'Duolingo Set 17',
+    'words' : [
         (("the whales"), ("die Wale")),
         (("the zebra"), ("das Zebra")),
         (("v. rode"), ("reitet")),
@@ -591,11 +604,6 @@ duolingo_set_16 = {
         (("ninety"), ("neunzig")),
         (("the penguins"), ("die Pinguine")),
         (("the mammal"), ("das Säugetier")),
-    ]
-}
-duolingo_set_17 = {
-    'name' : 'Duolingo Set 17',
-    'words' : [
         (("the camels"), ("die Kamele")),
         (("the camel"), ("das Kamel")),
         (("the geese"), ("die Gänse")),
@@ -603,6 +611,7 @@ duolingo_set_17 = {
         (("v. bite"), ("beißen")),
         (("the fox"), ("der Fuchs")),
         (("the owl"), ("die Eule")),
+        (("v. bite"), ("beiße")),
         (("the squirrel"), ("das Eichhörnchen")),
         (("the sheep"), ("das Schafe")),
         (("the goose"), ("die Gans")),
@@ -617,6 +626,11 @@ duolingo_set_17 = {
         (("the engagement"), ("die Engagement")),
         (("the recommendation"), ("die Empfehlung")),
         (("the hints"), ("die Hinweise")),
+    ]
+}
+duolingo_set_18 = {
+    'name' : 'Duolingo Set 18',
+    'words' : [
         (("the quality"), ("die Qualität")),
         (("the collaboration"), ("die Zusammenarbeit")),
         (("the dimensions"), ("die Maße")),
@@ -626,11 +640,6 @@ duolingo_set_17 = {
         (("the development"), ("die Entwicklung")),
         (("the competence"), ("die Kompetenz")),
         (("the recommendations"), ("die Empfehlungen")),
-    ]
-}
-duolingo_set_18 = {
-    'name' : 'Duolingo Set 18',
-    'words' : [
         (("the selection"), ("die Auswahl")),
         (("the use"), ("die Nutzen")),
         (("the pressure"), ("der Druck")),
@@ -652,6 +661,11 @@ duolingo_set_18 = {
         (("the terms"), ("die Begriffe")),
         (("rather"), ("eher")),
         (("the word"), ("das Wort")),
+    ]
+}
+duolingo_set_19 = {
+    'name' : 'Duolingo Set 19',
+    'words' : [
         (("the idea"), ("die Idee")),
         (("the words"), ("die Wörter")),
         (("the languages"), ("die Sprachen")),
@@ -661,11 +675,6 @@ duolingo_set_18 = {
         (("the entertainment"), ("die Unterhaltung")),
         (("the summary"), ("die Zusammenfassung")),
         (("v. means"), ("bedeutet")),
-    ]
-}
-duolingo_set_19 = {
-    'name' : 'Duolingo Set 19',
-    'words' : [
         (("the sentence"), ("der Satz")),
         (("the chapter"), ("das Kapitel")),
         (("the directory"), ("das Verzeichnis")),
@@ -687,6 +696,12 @@ duolingo_set_19 = {
         (("the font"), ("die Schrift")),
         (("the importance"), ("die Bedeutung")),
         (("the description"), ("die Beschreibung")),
+    ]
+}
+duolingo_set_20 = {
+    'name' : 'Duolingo Set 20',
+    'words' : [
+        (("v. eat"), ("esse")),
         (("various"), ("verschiedene")),
         (("highest"), ("höchste")),
         (("enough"), ("genug")),
@@ -696,17 +711,12 @@ duolingo_set_19 = {
         (("the value"), ("der Wert")),
         (("the projects"), ("die Projekte")),
         (("the canditature"), ("die Bewerbung")),
-    ]
-}
-duolingo_set_20 = {
-    'name' : 'Duolingo Set 20',
-    'words' : [
         (("the career"), ("die Karriere")),
         (("the job"), ("die Job")),
         (("the jobs"), ("die Jobs")),
         (("the man"), ("der Mannes")),
         (("the trade"), ("der Handel")),
-        (("the win"), ("der Gewinne")),
+        (("the profits"), ("die Gewinne")),
         (("the profit"), ("der Gewinn")),
         (("the consumer"), ("der Verbraucher")),
         (("the purchase"), ("der Kauf")),
@@ -714,13 +724,18 @@ duolingo_set_20 = {
         (("the buyers"), ("die Käufer")),
         (("the rental fee"), ("die Miete")),
         (("the documents"), ("die Dokumente")),
-        (("the posts"), ("die Beiträge")),
+        (("the contributions"), ("die Beiträge")),
         (("the competition"), ("der Wettbewerb")),
         (("the project"), ("das Projekt")),
         (("the management"), ("das Management")),
         (("the orders"), ("die Bestellungen")),
         (("the consultation"), ("die Beratung")),
         (("the bid"), ("das Gebot")),
+    ]
+}
+duolingo_set_21 = {
+    'name' : 'Duolingo Set 21',
+    'words' : [
         (("v. offer"), ("bieten")),
         (("the shares"), ("die Aktien")),
         (("v. rent"), ("mieten")),
@@ -731,11 +746,6 @@ duolingo_set_20 = {
         (("the companies"), ("die Unternehmen")),
         (("the owner"), ("der Inhaber")),
         (("the membership"), ("die Mitgliedschaft")),
-    ]
-}
-duolingo_set_21 = {
-    'name' : 'Duolingo Set 21',
-    'words' : [
         (("the factories"), ("die Fabriken")),
         (("thirteen"), ("dreizehn")),
         (("additional"), ("zusätzliche")),
@@ -756,6 +766,11 @@ duolingo_set_21 = {
         (("the publishing company"), ("der Verlag")),
         (("v. released"), ("veröffentlicht")),
         (("v. send"), ("senden")),
+    ]
+}
+duolingo_set_22 = {
+    'name' : 'Duolingo Set 22',
+    'words' : [
         (("the contact"), ("der Kontakt")),
         (("the invitations"), ("die Einladungen")),
         (("the invitation"), ("die Einladung")),
@@ -766,11 +781,6 @@ duolingo_set_21 = {
         (("the greetings"), ("die Grüße")),
         (("back"), ("hinten")),
         (("well"), ("wohl")),
-    ]
-}
-duolingo_set_22 = {
-    'name' : 'Duolingo Set 22',
-    'words' : [
         (("the women"), ("die Frauen")),
         (("including"), ("einschließlich")),
         (("around"), ("ums")),
@@ -791,6 +801,11 @@ duolingo_set_22 = {
         (("at least"), ("zumindest")),
         (("the radiation"), ("die Strahlung")),
         (("the knowledge"), ("das Kenntnis")),
+    ]
+}
+duolingo_set_23 = {
+    'name' : 'Duolingo Set 23',
+    'words' : [
         (("so"), ("also")),
         (("the proof"), ("der Nachweis")),
         (("the plastic"), ("der Kunststoff")),
@@ -801,15 +816,10 @@ duolingo_set_22 = {
         (("v. test"), ("teste")),
         (("v. testing"), ("testen")),
         (("the internships"), ("die Praktika")),
-    ]
-}
-duolingo_set_23 = {
-    'name' : 'Duolingo Set 23',
-    'words' : [
         (("the method"), ("die Methode")),
         (("the methods"), ("die Methoden")),
         (("the internship"), ("das Praktikum")),
-        (("the scientists"), ("die Wissenschaftlerinnen")),
+        (("the female scientists"), ("die Wissenschaftlerinnen")),
         (("the elements"), ("die Elemente")),
         (("the technology"), ("die Technik")),
         (("the machinery"), ("die Maschinen")),
@@ -826,6 +836,11 @@ duolingo_set_23 = {
         (("the inventions"), ("die Erfindungen")),
         (("the theory"), ("die Theorie")),
         (("the invention"), ("die Erfindung")),
+    ]
+}
+duolingo_set_24 = {
+    'name' : 'Duolingo Set 24',
+    'words' : [
         (("the definitions"), ("die Definitionen")),
         (("the knowledge"), ("das Kenntnisse")),
         (("the definition"), ("die Definition")),
@@ -836,11 +851,6 @@ duolingo_set_23 = {
         (("where"), ("wohin")),
         (("eleven"), ("elf")),
         (("fifteen"), ("fünfzehn")),
-    ]
-}
-duolingo_set_24 = {
-    'name' : 'Duolingo Set 24',
-    'words' : [
         (("the dozen"), ("das Dutzend")),
         (("nineteen"), ("neunzehn")),
         (("the idea"), ("die Ahnung")),
@@ -853,7 +863,7 @@ duolingo_set_24 = {
         (("sixty"), ("sechzig")),
         (("v. quarter"), ("viertel")),
         (("neither"), ("weder")),
-        (("the downtown areas"), ("die Innenstädte")),
+        (("the inner cities"), ("die Innenstädte")),
         (("the areas"), ("die Bereiche")),
         (("the plastic"), ("der Plastik")),
         (("the courses"), ("die Kurse")),
@@ -861,6 +871,11 @@ duolingo_set_24 = {
         (("the pencils"), ("die Stifte")),
         (("the grades"), ("die Noten")),
         (("the education"), ("die Erziehung")),
+    ]
+}
+duolingo_set_25 = {
+    'name' : 'Duolingo Set 25',
+    'words' : [
         (("the exams"), ("die Prüfungen")),
         (("v. think"), ("überlege")),
         (("the subject area"), ("der Fachbereich")),
@@ -869,21 +884,16 @@ duolingo_set_24 = {
         (("the exam"), ("die Prüfung")),
         (("the kindergarten"), ("der Kindergarten")),
         (("the high school"), ("gymnasium Gymnasium")),
-        (("the institute"), ("das Institute")),
+        (("the institutes"), ("die Institute")),
         (("v. to teach"), ("lehren")),
-    ]
-}
-duolingo_set_25 = {
-    'name' : 'Duolingo Set 25',
-    'words' : [
         (("the university"), ("die Hochschule")),
         (("the institute"), ("das Institut")),
         (("the classes"), ("die Unterricht")),
         (("the academy"), ("die Akademie")),
         (("the training"), ("das Ausbildung")),
-        (("the colleges"), ("die Hochschulen")),
+        (("the universities"), ("die Hochschulen")),
         (("the training"), ("das Training")),
-        (("the great"), ("der Klassen")),
+        (("the classes"), ("die Klassen")),
         (("the testing"), ("die Tests")),
         (("the great"), ("der Klasse")),
         (("the test"), ("der Test")),
@@ -895,7 +905,12 @@ duolingo_set_25 = {
         (("the exercises"), ("die Übungen")),
         (("the pen"), ("der Stift")),
         (("the exercise"), ("die Übung")),
-        (("the donate"), ("die Stiften")),
+        (("the pens"), ("die Stiften")),
+    ]
+}
+duolingo_set_26 = {
+    'name' : 'Duolingo Set 26',
+    'words' : [
         (("the reader"), ("der Leser")),
         (("the education"), ("die Bildung")),
         (("the university"), ("die Universität")),
@@ -906,11 +921,6 @@ duolingo_set_25 = {
         (("twenty eight"), ("achtundzwanzig")),
         (("to"), ("bis")),
         (("v. allow"), ("erlauben")),
-    ]
-}
-duolingo_set_26 = {
-    'name' : 'Duolingo Set 26',
-    'words' : [
         (("the keys"), ("die Tasten")),
         (("v. loading"), ("lade")),
         (("the picture"), ("das Bild")),
@@ -920,7 +930,7 @@ duolingo_set_26 = {
         (("v. clears"), ("löscht")),
         (("the programs"), ("die Programme")),
         (("v. to press"), ("drucken")),
-        (("the profile"), ("das Profile")),
+        (("the profiles"), ("die Profile")),
         (("the passwords"), ("die Passwörter")),
         (("the profile"), ("das Profil")),
         (("v. to update"), ("aktualisieren")),
@@ -931,8 +941,16 @@ duolingo_set_26 = {
         (("the comment"), ("der Kommentar")),
         (("the comments"), ("die Kommentare")),
         (("v. sends"), ("schickt")),
+    ]
+}
+duolingo_set_27 = {
+    'name' : 'Duolingo Set 27',
+    'words' : [
         (("the attachments"), ("die Anhänge")),
+        (("v. send"), ("schicken")),
         (("the attachment"), ("der Anhang")),
+        (("v. send"), ("schicke")),
+        (("v. loading"), ("läd")),
         (("the network"), ("das Netz")),
         (("v. load"), ("laden")),
         (("the pages"), ("die Seiten")),
@@ -941,11 +959,6 @@ duolingo_set_26 = {
         (("the photos"), ("die Fotos")),
         (("the photo"), ("das Foto")),
         (("the page"), ("die Seite")),
-    ]
-}
-duolingo_set_27 = {
-    'name' : 'Duolingo Set 27',
-    'words' : [
         (("eighteen"), ("achtzehn")),
         (("since"), ("seit")),
         (("to"), ("bis")),
@@ -963,6 +976,11 @@ duolingo_set_27 = {
         (("the watch tv"), ("die Fernsehen")),
         (("the discussion"), ("die Diskussion")),
         (("the articles"), ("die Artikeln")),
+    ]
+}
+duolingo_set_28 = {
+    'name' : 'Duolingo Set 28',
+    'words' : [
         (("the items"), ("die Artikel")),
         (("the interviews"), ("die Interviews")),
         (("the magazines"), ("die Zeitschriften")),
@@ -974,13 +992,9 @@ duolingo_set_27 = {
         (("the hard drives"), ("die Festplatten")),
         (("the information"), ("die Information")),
         (("the monitor"), ("der Monitor")),
+        (("v. start"), ("starten")),
         (("the keyboards"), ("die Tastaturen")),
         (("v. starts"), ("startet")),
-    ]
-}
-duolingo_set_28 = {
-    'name' : 'Duolingo Set 28',
-    'words' : [
         (("the keyboard"), ("die Tastatur")),
         (("the monitors"), ("die Monitore")),
         (("the computer"), ("der Computer")),
@@ -990,12 +1004,18 @@ duolingo_set_28 = {
         (("the telephones"), ("die Telefone")),
         (("the conversation"), ("die Gespräch")),
         (("the conversations"), ("die Gespräche")),
+        (("v. call"), ("rufen")),
         (("the mobile phone"), ("das Handy")),
         (("the plan"), ("der Plan")),
         (("second"), ("zweite")),
         (("the put"), ("der Stellen")),
         (("the catalogs"), ("die Kataloge")),
         (("the plans"), ("die Pläne")),
+    ]
+}
+duolingo_set_29 = {
+    'name' : 'Duolingo Set 29',
+    'words' : [
         (("sometime"), ("irgendwann")),
         (("anyone"), ("irgendwer")),
         (("anything"), ("irgendwas")),
@@ -1009,13 +1029,8 @@ duolingo_set_28 = {
         (("the pieces"), ("die Stücke")),
         (("the piece"), ("das Stück")),
         (("the gifts"), ("die Geschenke")),
-        (("the shear"), ("die Scheren")),
+        (("the scissors"), ("die Scheren")),
         (("the thing"), ("die Sache")),
-    ]
-}
-duolingo_set_29 = {
-    'name' : 'Duolingo Set 29',
-    'words' : [
         (("the product"), ("das Produkt")),
         (("the catalog"), ("der Katalog")),
         (("the scissors"), ("die Schere")),
@@ -1028,9 +1043,14 @@ duolingo_set_29 = {
         (("the cloud"), ("die Wolke")),
         (("the clouds"), ("die Wolken")),
         (("the rainbow"), ("der Regenbogen")),
-        (("the flashes"), ("die Blitze")),
+        (("the lightning bolts"), ("die Blitze")),
         (("the umbrellas"), ("die Regenschirme")),
         (("the umbrella"), ("der Regenschirm")),
+    ]
+}
+duolingo_set_30 = {
+    'name' : 'Duolingo Set 30',
+    'words' : [
         (("the lightning"), ("der Blitz")),
         (("the thunder"), ("der Donner")),
         (("the storm"), ("der Sturms")),
@@ -1046,11 +1066,6 @@ duolingo_set_29 = {
         (("hundred"), ("hundert")),
         (("forty two"), ("zweiundvierzig")),
         (("thousand"), ("tausend")),
-    ]
-}
-duolingo_set_30 = {
-    'name' : 'Duolingo Set 30',
-    'words' : [
         (("one hundred twenty-three"), ("hundertdreiundzwanzig")),
         (("v. let"), ("ließen")),
         (("v. stayed"), ("blieben")),
@@ -1066,39 +1081,68 @@ duolingo_set_30 = {
         (("v. wait"), ("wart")),
         (("v. began"), ("begannt")),
         (("v. saw"), ("saht")),
-        (("v. showed"), ("zeigten")),
-        (("v. has been"), ("wurde")),
-        (("v. had"), ("hatten")),
-        (("v. were"), ("wurden")),
-        (("v. was standing"), ("stand")),
-        (("v. could"), ("konnte")),
-        (("v. had to"), ("mussten")),
-        (("v. said"), ("sagte")),
-        (("v. led"), ("führte")),
-        (("v. made"), ("machte")),
-        (("v. walked"), ("spazierte")),
-        (("v. worked"), ("arbeiteten")),
-        (("v. posed"), ("stellte")),
-        (("v. slept"), ("schlief")),
-        (("v. received"), ("erhielten")),
     ]
 }
 duolingo_set_31 = {
     'name' : 'Duolingo Set 31',
     'words' : [
+        (("v. showed"), ("zeigten")),
+        (("v. would have"), ("hatte")),
+        (("v. has been"), ("wurde")),
+        (("v. showed"), ("zeigte")),
+        (("v. had"), ("hatten")),
+        (("v. were"), ("wurden")),
+        (("v. was standing"), ("stand")),
+        (("v. could"), ("konnte")),
+        (("v. had to"), ("mussten")),
+        (("v. had to"), ("musste")),
+        (("v. said"), ("sagte")),
+        (("v. led"), ("führte")),
+        (("v. said"), ("sagten")),
+        (("v. made"), ("machte")),
+        (("v. walked"), ("spazierte")),
+        (("v. walked"), ("spazierten")),
+        (("v. worked"), ("arbeiteten")),
+        (("v. worked"), ("arbeitete")),
+        (("v. posed"), ("stellte")),
+        (("v. slept"), ("schlief")),
+        (("v. slept"), ("schliefen")),
+        (("v. received"), ("erhielten")),
+        (("v. let"), ("ließ")),
         (("v. to lead"), ("fuhren")),
+        (("v. wrote"), ("schrieb")),
+        (("v. stayed"), ("blieb")),
         (("v. lock"), ("schloss")),
+        (("v. received"), ("erhielt")),
+        (("v. lost"), ("verlor")),
         (("v. found"), ("fanden")),
+    ]
+}
+duolingo_set_32 = {
+    'name' : 'Duolingo Set 32',
+    'words' : [
+        (("v. thought"), ("dachte")),
+        (("v. took"), ("nahm")),
+        (("v. lay"), ("lag")),
         (("v. gave"), ("gab")),
         (("v. spoke"), ("sprach")),
+        (("v. found"), ("fand")),
+        (("v. thought"), ("dachten")),
+        (("v. read"), ("las")),
         (("v. went"), ("ging")),
+        (("v. went"), ("gingen")),
         (("v. came"), ("kam")),
         (("v. sponge"), ("schwamm")),
+        (("v. saw"), ("sahen")),
         (("v. ate"), ("aß")),
         (("v. started"), ("begann")),
+        (("v. came"), ("kamen")),
+        (("v. were"), ("waren")),
         (("v. eats"), ("aßt")),
+        (("v. saw"), ("sah")),
         (("v. swam"), ("schwammen")),
         (("v. drank"), ("trank")),
+        (("v. ate"), ("aßen")),
         (("because"), ("denn")),
         (("actually"), ("eigentlich")),
         (("otherwise"), ("ansonsten")),
@@ -1107,6 +1151,11 @@ duolingo_set_31 = {
         (("at least"), ("wenigstens")),
         (("inside"), ("drin")),
         (("at the same time"), ("zugleich")),
+    ]
+}
+duolingo_set_33 = {
+    'name' : 'Duolingo Set 33',
+    'words' : [
         (("the operator"), ("der Betreiber")),
         (("the specialties"), ("die Spezialitäten")),
         (("fourteen"), ("vierzehn")),
@@ -1116,11 +1165,6 @@ duolingo_set_31 = {
         (("twenty"), ("zwanzig")),
         (("twenty-one"), ("einundzwanzig")),
         (("twentythree"), ("dreiundzwanzig")),
-    ]
-}
-duolingo_set_32 = {
-    'name' : 'Duolingo Set 32',
-    'words' : [
         (("twenty four"), ("vierundzwanzig")),
         (("seventeen"), ("siebzehn")),
         (("thirty-two"), ("zweiunddreißig")),
@@ -1142,6 +1186,11 @@ duolingo_set_32 = {
         (("on road"), ("unterwegs")),
         (("yours"), ("deines")),
         (("yours"), ("deiner")),
+    ]
+}
+duolingo_set_34 = {
+    'name' : 'Duolingo Set 34',
+    'words' : [
         (("fourty"), ("vierzig")),
         (("eighty"), ("achtzig")),
         (("fifty"), ("fünfzig")),
@@ -1151,11 +1200,6 @@ duolingo_set_32 = {
         (("the east"), ("der Osten")),
         (("the north"), ("der Norden")),
         (("v. bend"), ("bieg")),
-    ]
-}
-duolingo_set_33 = {
-    'name' : 'Duolingo Set 33',
-    'words' : [
         (("v. bends"), ("biegt")),
         (("v. give"), ("schenken")),
         (("further"), ("weitere")),
@@ -1169,7 +1213,7 @@ duolingo_set_33 = {
         (("the specialty"), ("die Spezialität")),
         (("the lawyer"), ("der Rechtsanwalt")),
         (("the judge"), ("der Richter")),
-        (("the experts"), ("die Experten")),
+        (("the experts |"), ("die Experten")),
         (("the cutter"), ("der Schneider")),
         (("the workshop"), ("der Werkstatt")),
         (("the craft"), ("das Handwerk")),
@@ -1177,6 +1221,11 @@ duolingo_set_33 = {
         (("the author"), ("der Verfasser")),
         (("the participants"), ("die Teilnehmern")),
         (("the receiver"), ("der Empfänger")),
+    ]
+}
+duolingo_set_35 = {
+    'name' : 'Duolingo Set 35',
+    'words' : [
         (("the staff"), ("das Personal")),
         (("the developer"), ("der Entwickler")),
         (("the attendees"), ("die Teilnehmer")),
@@ -1185,16 +1234,11 @@ duolingo_set_33 = {
         (("the thirst"), ("der Durst")),
         (("of their"), ("ihrer")),
         (("the house"), ("das Hauses")),
-        (("the stream"), ("der Ströme")),
-    ]
-}
-duolingo_set_34 = {
-    'name' : 'Duolingo Set 34',
-    'words' : [
+        (("the currents"), ("die Ströme")),
         (("the deserts"), ("die Wüsten")),
         (("the rivers"), ("die Flüsse")),
-        (("the brooks"), ("die Bäche")),
-        (("the forests"), ("die Wälder")),
+        (("the streams"), ("die Bäche")),
+        (("the woods"), ("der Wälder")),
         (("rhine"), ("rhein")),
         (("the grasslands"), ("das Wiesen")),
         (("the grasses"), ("die Gräser")),
@@ -1206,12 +1250,17 @@ duolingo_set_34 = {
         (("the plants"), ("die Pflanzen")),
         (("the alles"), ("das All")),
         (("the forest"), ("der Wald")),
-        (("the bach"), ("der Bach")),
+        (("the brook"), ("der Bach")),
         (("the meadow"), ("die Wiese")),
         (("the grass"), ("das Gras")),
         (("the wildlife"), ("das Tierwelt")),
         (("the environment"), ("die Umwelt")),
         (("the beaches"), ("die Strände")),
+    ]
+}
+duolingo_set_36 = {
+    'name' : 'Duolingo Set 36',
+    'words' : [
         (("the amber"), ("der Bernstein")),
         (("the lake"), ("der See")),
         (("the wave"), ("die Welle")),
@@ -1221,19 +1270,14 @@ duolingo_set_34 = {
         (("the air"), ("die Luft")),
         (("approximately"), ("etwa")),
         (("the reason"), ("der Grund")),
-    ]
-}
-duolingo_set_35 = {
-    'name' : 'Duolingo Set 35',
-    'words' : [
         (("v. expand"), ("erweitere")),
         (("v. take over"), ("übernehme")),
         (("no later than"), ("spätestens")),
         (("the places"), ("die Orte")),
         (("the federal states"), ("die Bundesländer")),
         (("the capital cities"), ("die Hauptstädte")),
-        (("the holiday homes"), ("die Ferienhäuser")),
-        (("the echo"), ("das Hallen")),
+        (("the vacation homes"), ("die Ferienhäuser")),
+        (("the halls"), ("die Hallen")),
         (("the downtown"), ("die Innenstadt")),
         (("most"), ("meisten")),
         (("the times"), ("die Mal")),
@@ -1247,6 +1291,11 @@ duolingo_set_35 = {
         (("the time"), ("die Uhrzeit")),
         (("the clocks"), ("die Uhren")),
         (("the duration"), ("die Dauer")),
+    ]
+}
+duolingo_set_37 = {
+    'name' : 'Duolingo Set 37',
+    'words' : [
         (("the time"), ("die Zeitpunkt")),
         (("v. last"), ("dauern")),
         (("the midnight"), ("die Mitternacht")),
@@ -1256,11 +1305,6 @@ duolingo_set_35 = {
         (("the hours"), ("die Stunden")),
         (("the times"), ("die Zeiten")),
         (("the hour"), ("die Stunde")),
-    ]
-}
-duolingo_set_36 = {
-    'name' : 'Duolingo Set 36',
-    'words' : [
         (("the minute"), ("die Minute")),
         (("the minutes"), ("die Minuten")),
         (("the evenings"), ("die Abende")),
@@ -1275,12 +1319,18 @@ duolingo_set_36 = {
         (("the moments"), ("die Momente")),
         (("the meeting"), ("das Termin")),
         (("v. laughs"), ("lacht")),
-        (("the owe"), ("die Schulden")),
+        (("the debt"), ("die Schulden")),
         (("the favorite"), ("der Liebling")),
         (("v. laugh"), ("lache")),
         (("the understanding"), ("das Verständnis")),
+        (("v. laugh"), ("lachen")),
         (("the happiness"), ("die Glück")),
         (("the favourite"), ("der Lieblings")),
+    ]
+}
+duolingo_set_38 = {
+    'name' : 'Duolingo Set 38',
+    'words' : [
         (("v. to hate"), ("hassen")),
         (("the lust"), ("die Lust")),
         (("the trouble"), ("die Ärger")),
@@ -1291,11 +1341,6 @@ duolingo_set_36 = {
         (("the quiet"), ("die Ruhe")),
         (("the dentist"), ("der Zahnarzt")),
         (("the locations"), ("die Standorte")),
-    ]
-}
-duolingo_set_37 = {
-    'name' : 'Duolingo Set 37',
-    'words' : [
         (("the foreign countries"), ("das Ausland")),
         (("the centers"), ("die Zentren")),
         (("the impression"), ("der Eindruck")),
@@ -1309,12 +1354,18 @@ duolingo_set_37 = {
         (("v. dreams"), ("träumt")),
         (("the wishes"), ("die Wünsche")),
         (("the love"), ("die Liebe")),
-        (("the not"), ("das Not")),
+        (("the need"), ("das Not")),
         (("the dreams"), ("die Träume")),
         (("the joy"), ("die Freude")),
         (("the dream"), ("der Traum")),
+        (("v. dreams"), ("träume")),
         (("quality"), ("gute")),
         (("good"), ("guten")),
+    ]
+}
+duolingo_set_39 = {
+    'name' : 'Duolingo Set 39',
+    'words' : [
         (("the toy"), ("das Spielzeug")),
         (("the january"), ("der Januar")),
         (("the september"), ("der September")),
@@ -1326,11 +1377,6 @@ duolingo_set_37 = {
         (("the phases"), ("die Phasen")),
         (("the enough"), ("das Schluss")),
         (("the age"), ("das Alter")),
-    ]
-}
-duolingo_set_38 = {
-    'name' : 'Duolingo Set 38',
-    'words' : [
         (("the birthday"), ("der Geburtstag")),
         (("the century"), ("das Jahrhundert")),
         (("the birthdays"), ("die Geburtstage")),
@@ -1350,6 +1396,11 @@ duolingo_set_38 = {
         (("the june"), ("der Juni")),
         (("the summer"), ("der Sommer")),
         (("the august"), ("der August")),
+    ]
+}
+duolingo_set_40 = {
+    'name' : 'Duolingo Set 40',
+    'words' : [
         (("the years"), ("die Jahre")),
         (("the years"), ("die Jahren")),
         (("the spring"), ("der Frühling")),
@@ -1361,11 +1412,6 @@ duolingo_set_38 = {
         (("the april"), ("der April")),
         (("the asparagus"), ("der Spargel")),
         (("the pair"), ("das Paar")),
-    ]
-}
-duolingo_set_39 = {
-    'name' : 'Duolingo Set 39',
-    'words' : [
         (("the population"), ("die Bevölkerung")),
         (("the couples"), ("die Paare")),
         (("the residents"), ("die Einwohner")),
@@ -1380,13 +1426,20 @@ duolingo_set_39 = {
         (("the relationship"), ("die Verhältnis")),
         (("v. watch"), ("schauen")),
         (("v. to use"), ("benutzen")),
+        (("v. expand"), ("erweitern")),
         (("v. stand"), ("stehen")),
         (("v. waiting"), ("warten")),
         (("v. takes"), ("nimmt")),
         (("v. work"), ("arbeiten")),
+    ]
+}
+duolingo_set_41 = {
+    'name' : 'Duolingo Set 41',
+    'words' : [
         (("v. looks"), ("schaut")),
         (("v. steal"), ("stehle")),
         (("v. look"), ("schaue")),
+        (("v. steal"), ("stehlen")),
         (("v. replace"), ("ersetze")),
         (("v. meet"), ("trefft")),
         (("v. lie"), ("liege")),
@@ -1395,25 +1448,31 @@ duolingo_set_39 = {
         (("v. collects"), ("sammelt")),
         (("v. increases"), ("steigt")),
         (("v. steals"), ("stehlt")),
+        (("v. check"), ("prüfen")),
         (("v. checks"), ("prüft")),
-    ]
-}
-duolingo_set_40 = {
-    'name' : 'Duolingo Set 40',
-    'words' : [
         (("v. my"), ("meine")),
         (("v. is missing"), ("fehlt")),
+        (("v. steals"), ("stiehlt")),
         (("v. climb"), ("steigen")),
         (("v. collect"), ("sammeln")),
+        (("v. collect"), ("sammle")),
+        (("v. means"), ("meint")),
         (("v. absence"), ("fehlen")),
         (("v. accept"), ("akzeptiere")),
         (("v. subscribed"), ("abonniert")),
         (("v. accepted"), ("akzeptiert")),
+        (("v. happen"), ("passieren")),
         (("v. happens"), ("passiert")),
         (("v. walks"), ("spaziert")),
         (("v. subscribe"), ("abonniere")),
         (("v. to stroll"), ("spazieren")),
+    ]
+}
+duolingo_set_42 = {
+    'name' : 'Duolingo Set 42',
+    'words' : [
         (("v. subscribe to"), ("abonnieren")),
+        (("v. accept"), ("akzeptieren")),
         (("v. ordered"), ("bestellt")),
         (("v. shut down"), ("schließen")),
         (("v. recognizes"), ("erkennt")),
@@ -1422,20 +1481,18 @@ duolingo_set_40 = {
         (("v. to order"), ("bestellen")),
         (("v. used"), ("benutzt")),
         (("v. detect"), ("erkennen")),
+        (("v. replace"), ("ersetzen")),
         (("v. miss"), ("verpassen")),
         (("v. replaced"), ("ersetzt")),
         (("v. represents"), ("stellt")),
         (("v. believe"), ("glauben")),
+        (("v. wait"), ("warte")),
         (("v. seems"), ("scheint")),
+        (("v. waiting"), ("wartet")),
         (("v. lies"), ("liegt")),
         (("v. faith"), ("glaube")),
         (("v. believes"), ("glaubt")),
         (("v. to meet"), ("treffen")),
-    ]
-}
-duolingo_set_41 = {
-    'name' : 'Duolingo Set 41',
-    'words' : [
         (("v. stands"), ("steht")),
         (("v. put"), ("stellen")),
         (("v. meets"), ("trifft")),
@@ -1444,7 +1501,15 @@ duolingo_set_41 = {
         (("v. changes"), ("ändert")),
         (("v. like"), ("gefallen")),
         (("v. can"), ("kann")),
+    ]
+}
+duolingo_set_43 = {
+    'name' : 'Duolingo Set 43',
+    'words' : [
+        (("v. can"), ("könnt")),
+        (("v. can"), ("können")),
         (("v. knowledge"), ("wissen")),
+        (("v. work"), ("arbeite")),
         (("v. hope"), ("hoffe")),
         (("v. hold"), ("halten")),
         (("v. to hope"), ("hoffen")),
@@ -1466,16 +1531,16 @@ duolingo_set_41 = {
         (("bad"), ("schlechte")),
         (("the sacrifice"), ("das Opfern")),
         (("the dentist"), ("der Zahnärztin")),
-    ]
-}
-duolingo_set_42 = {
-    'name' : 'Duolingo Set 42',
-    'words' : [
         (("the accidents"), ("die Unfälle")),
         (("the emergency"), ("der Notfall")),
         (("the victim"), ("das Opfer")),
         (("the ambulance"), ("der Krankenwagen")),
         (("the hospitals"), ("die Krankenhäuser")),
+    ]
+}
+duolingo_set_44 = {
+    'name' : 'Duolingo Set 44',
+    'words' : [
         (("the health insurance"), ("die Krankenversicherung")),
         (("the medicine"), ("die Medizin")),
         (("the hospital"), ("das Krankenhaus")),
@@ -1490,8 +1555,8 @@ duolingo_set_42 = {
         (("v. blossom"), ("blute")),
         (("the patient"), ("der Patient")),
         (("v. blossoms"), ("bluten")),
-        (("the patients"), ("die Patienten")),
-        (("the drugs"), ("die Medikamente")),
+        (("the patient"), ("der Patienten")),
+        (("the medication"), ("das Medikamente")),
         (("the band aid"), ("das Pflaster")),
         (("v. bleeds"), ("blutet")),
         (("the wheelchair"), ("der Rollstuhl")),
@@ -1501,25 +1566,25 @@ duolingo_set_42 = {
         (("the pubs"), ("die Kneipen")),
         (("the reasons"), ("die Gründe")),
         (("the districts"), ("die Bezirke")),
-    ]
-}
-duolingo_set_43 = {
-    'name' : 'Duolingo Set 43',
-    'words' : [
         (("next door"), ("nebenan")),
         (("the islands"), ("die Inseln")),
         (("the capital"), ("die Hauptstadt")),
         (("europe"), ("europa")),
         (("the inner"), ("das Innere")),
+    ]
+}
+duolingo_set_45 = {
+    'name' : 'Duolingo Set 45',
+    'words' : [
         (("the homeland"), ("das Heimat")),
         (("the holiday home"), ("das Ferienhaus")),
         (("the island"), ("die Insel")),
         (("the surroundings"), ("die Umgebung")),
         (("the area"), ("das Fläche")),
         (("the property"), ("die Grundstück")),
-        (("the courtyards"), ("die Höfe")),
+        (("the yards"), ("die Höfe")),
         (("the center"), ("das Zentrum")),
-        (("the central"), ("die Zentrale")),
+        (("the headquarters"), ("das Zentrale")),
         (("the hall"), ("die Halle")),
         (("the court"), ("das Hof")),
         (("the region"), ("die Region")),
@@ -1536,17 +1601,16 @@ duolingo_set_43 = {
         (("the pub"), ("die Kneipe")),
         (("the pension"), ("die Pension")),
         (("over there"), ("drüben")),
-    ]
-}
-duolingo_set_44 = {
-    'name' : 'Duolingo Set 44',
-    'words' : [
         (("below"), ("unten")),
         (("inside"), ("innen")),
         (("inside"), ("drinnen")),
-        (("the bear"), ("der Bären")),
         (("on"), ("dran")),
         (("the weekends"), ("die Wochenenden")),
+    ]
+}
+duolingo_set_46 = {
+    'name' : 'Duolingo Set 46',
+    'words' : [
         (("the beginning"), ("der Anfang")),
         (("the past"), ("die Vergangenheit")),
         (("the everyday life"), ("der Alltag")),
@@ -1564,24 +1628,24 @@ duolingo_set_44 = {
         (("the tuesday"), ("der Dienstag")),
         (("the thursday"), ("der Donnerstag")),
         (("the day"), ("der Tag")),
-        (("the meet"), ("das Tagen")),
+        (("the days"), ("die Tagen")),
         (("the friday"), ("der Freitag")),
         (("the cardboard boxes"), ("die Kartons")),
         (("the backpack"), ("der Rucksack")),
         (("the goal"), ("das Tor")),
         (("the refrigerators"), ("die Kühlschränke")),
         (("v. take a shower"), ("duschen")),
-    ]
-}
-duolingo_set_45 = {
-    'name' : 'Duolingo Set 45',
-    'words' : [
         (("the bath"), ("das Bad")),
-        (("the backpacks"), ("die Rucksäcke")),
+        (("the rucksacks"), ("die Rucksäcke")),
         (("the bowls"), ("die Schüsseln")),
-        (("the rooms"), ("die Räume")),
+        (("the spaces"), ("die Räume")),
         (("the toothbrush"), ("die Zahnbürste")),
         (("the take a shower"), ("die Duschen")),
+    ]
+}
+duolingo_set_47 = {
+    'name' : 'Duolingo Set 47',
+    'words' : [
         (("the towels"), ("die Handtücher")),
         (("the towel"), ("das Handtuch")),
         (("the shower gel"), ("das Duschgel")),
@@ -1606,17 +1670,17 @@ duolingo_set_45 = {
         (("the ladders"), ("die Leitern")),
         (("the glasses"), ("die Gläser")),
         (("the batteries"), ("die Batterien")),
-    ]
-}
-duolingo_set_46 = {
-    'name' : 'Duolingo Set 46',
-    'words' : [
         (("the glass"), ("das Glas")),
         (("the move"), ("die Umzug")),
         (("the equipment"), ("die Geräte")),
         (("the household"), ("der Haushalt")),
         (("the sleep"), ("der Schlaf")),
         (("the cleaning"), ("die Reinigung")),
+    ]
+}
+duolingo_set_48 = {
+    'name' : 'Duolingo Set 48',
+    'words' : [
         (("the device"), ("das Gerät")),
         (("the heater"), ("die Heizung")),
         (("the domestic appliances"), ("die Haushaltsgeräte")),
@@ -1641,17 +1705,17 @@ duolingo_set_46 = {
         (("the metal"), ("das Metall")),
         (("the silver"), ("das Silber")),
         (("the gold"), ("das Gold")),
-    ]
-}
-duolingo_set_47 = {
-    'name' : 'Duolingo Set 47',
-    'words' : [
         (("the stole"), ("die Stahl")),
         (("the copper"), ("das Kupfer")),
         (("the wall"), ("die Mauer")),
         (("the cardboard"), ("der Pappe")),
         (("the papers"), ("die Papiere")),
         (("the leather"), ("das Leder")),
+    ]
+}
+duolingo_set_49 = {
+    'name' : 'Duolingo Set 49',
+    'words' : [
         (("the paper"), ("das Papier")),
         (("the cotton"), ("die Baumwolle")),
         (("the wood"), ("das Holz")),
@@ -1676,15 +1740,17 @@ duolingo_set_47 = {
         (("about"), ("über")),
         (("between"), ("zwischen")),
         (("v. lays"), ("legt")),
-    ]
-}
-duolingo_set_48 = {
-    'name' : 'Duolingo Set 48',
-    'words' : [
+        (("v. lay"), ("lege")),
+        (("v. lay"), ("legen")),
         (("in"), ("in")),
         (("on"), ("auf")),
-        (("the dealer"), ("der Händler")),
+        (("the dealers"), ("die Händler")),
         (("the baker"), ("der Bäckerin")),
+    ]
+}
+duolingo_set_50 = {
+    'name' : 'Duolingo Set 50',
+    'words' : [
         (("the teacher"), ("der Lehrerin")),
         (("the halves"), ("die Hälften")),
         (("the pupil"), ("der Schülerin")),
@@ -1711,15 +1777,15 @@ duolingo_set_48 = {
         (("the senior citizens"), ("die Senioren")),
         (("the boss"), ("der Chefin")),
         (("the master"), ("der Meister")),
-    ]
-}
-duolingo_set_49 = {
-    'name' : 'Duolingo Set 49',
-    'words' : [
         (("the mayor"), ("der Bürgermeister")),
         (("the employers"), ("die Arbeitgeberinnen")),
         (("the employees"), ("die Mitarbeiterinnen")),
         (("the chief executive officer"), ("der Geschäftsführer")),
+    ]
+}
+duolingo_set_51 = {
+    'name' : 'Duolingo Set 51',
+    'words' : [
         (("the job"), ("die Arbeit")),
         (("the colleague"), ("der Mitarbeiterin")),
         (("the work"), ("die Arbeiten")),
@@ -1743,14 +1809,22 @@ duolingo_set_49 = {
         (("v. acts"), ("handelt")),
         (("v. be"), ("sei")),
         (("v. go"), ("gehe")),
+        (("v. go"), ("geh")),
         (("v. act"), ("handle")),
+        (("v. let"), ("lass")),
+        (("v. call"), ("ruf")),
         (("v. take"), ("nimm")),
         (("v. drink"), ("trink")),
+        (("v. eat"), ("iss")),
     ]
 }
-duolingo_set_50 = {
-    'name' : 'Duolingo Set 50',
+duolingo_set_52 = {
+    'name' : 'Duolingo Set 52',
     'words' : [
+        (("v. drink"), ("trinke")),
+        (("v. read"), ("lies")),
+        (("v. take"), ("nehmt")),
+        (("v. give"), ("gebt")),
         (("the buses"), ("die Busse")),
         (("tan"), ("braune")),
         (("white"), ("weiße")),
@@ -1777,15 +1851,15 @@ duolingo_set_50 = {
         (("the vacation"), ("der Urlaub")),
         (("the train"), ("der Zug")),
         (("v. beech"), ("buche")),
-        (("v. flies"), ("fliegt")),
-        (("the touring"), ("die Touren")),
-        (("the adventure"), ("das Abenteuer")),
-        (("v. wanders"), ("wandert")),
     ]
 }
-duolingo_set_51 = {
-    'name' : 'Duolingo Set 51',
+duolingo_set_53 = {
+    'name' : 'Duolingo Set 53',
     'words' : [
+        (("v. flies"), ("fliegt")),
+        (("the tours"), ("die Touren")),
+        (("the adventure"), ("das Abenteuer")),
+        (("v. wanders"), ("wandert")),
         (("the motorcycle"), ("das Motorrad")),
         (("the sightseeing"), ("die Sehenswürdigkeit")),
         (("the flights"), ("die Flüge")),
@@ -1812,15 +1886,15 @@ duolingo_set_51 = {
         (("the journey"), ("die Fahrt")),
         (("the rental car"), ("der Mietwagen")),
         (("switzerland"), ("schweiz")),
+    ]
+}
+duolingo_set_54 = {
+    'name' : 'Duolingo Set 54',
+    'words' : [
         (("the swiss"), ("die Schweizer")),
         (("the traffic"), ("der Verkehr")),
         (("the map"), ("die Stadtplan")),
         (("the flight"), ("der Flug")),
-    ]
-}
-duolingo_set_52 = {
-    'name' : 'Duolingo Set 52',
-    'words' : [
         (("the taxi"), ("das Taxi")),
         (("the tourism"), ("der Tourismus")),
         (("the ways"), ("die Wege")),
@@ -1847,15 +1921,15 @@ duolingo_set_52 = {
         (("the supermarkets"), ("die Supermärkte")),
         (("the customers"), ("die Kundinnen")),
         (("the stores"), ("die Läden")),
+    ]
+}
+duolingo_set_55 = {
+    'name' : 'Duolingo Set 55',
+    'words' : [
         (("the pharmacies"), ("die Apotheken")),
         (("the special offer"), ("das Sonderangebot")),
         (("the coupons"), ("die Gutscheine")),
         (("the pharmacy"), ("die Apotheke")),
-    ]
-}
-duolingo_set_53 = {
-    'name' : 'Duolingo Set 53',
-    'words' : [
         (("the shopping mall"), ("das Einkaufszentrum")),
         (("the bags"), ("die Tüten")),
         (("v. sell"), ("verkaufe")),
@@ -1882,15 +1956,15 @@ duolingo_set_53 = {
         (("the blood"), ("das Blut")),
         (("the feet"), ("die Füße")),
         (("the face"), ("das Gesicht")),
+    ]
+}
+duolingo_set_56 = {
+    'name' : 'Duolingo Set 56',
+    'words' : [
         (("the leg"), ("das Bein")),
         (("the foot"), ("der Fuß")),
         (("the legs"), ("die Beine")),
         (("the stomachs"), ("die Mägen")),
-    ]
-}
-duolingo_set_54 = {
-    'name' : 'Duolingo Set 54',
-    'words' : [
         (("the heart"), ("das Herz")),
         (("the chest"), ("die Brust")),
         (("the hearts"), ("die Herzen")),
@@ -1898,6 +1972,7 @@ duolingo_set_54 = {
         (("the breasts"), ("die Brüste")),
         (("the shoulder"), ("die Schulter")),
         (("the tooth"), ("der Zahn")),
+        (("v. to press"), ("drücken")),
         (("the mouth"), ("der Mund")),
         (("v. press"), ("drücke")),
         (("v. presses"), ("drückt")),
@@ -1910,22 +1985,22 @@ duolingo_set_54 = {
         (("the eye"), ("das Auge")),
         (("the body"), ("der Körper")),
         (("the heads"), ("die Köpfe")),
-        (("the menu cards"), ("die Speisekarten")),
+        (("the menus"), ("die Speisekarten")),
         (("the twin"), ("der Zwilling")),
         (("the great-grandchildren"), ("die Urenkel")),
         (("the half sisters"), ("die Halbschwestern")),
         (("the weddings"), ("die Hochzeiten")),
-        (("the half-brothers"), ("die Halbbrüder")),
+        (("the half brothers"), ("die Halbbrüder")),
+    ]
+}
+duolingo_set_57 = {
+    'name' : 'Duolingo Set 57',
+    'words' : [
         (("the half brother"), ("der Halbbruder")),
         (("the wedding"), ("die Hochzeit")),
         (("the partnerships"), ("die Partnerschaften")),
         (("the partnership"), ("die Partnerschaft")),
         (("the half sister"), ("die Halbschwester")),
-    ]
-}
-duolingo_set_55 = {
-    'name' : 'Duolingo Set 55',
-    'words' : [
         (("the great grandmother"), ("die Urgroßmutter")),
         (("the cousins"), ("die Cousinen")),
         (("the twins"), ("die Zwillinge")),
@@ -1933,9 +2008,9 @@ duolingo_set_55 = {
         (("the cousin"), ("der Cousine")),
         (("the relatives"), ("die Verwandten")),
         (("the uncle"), ("der Onkel")),
-        (("the not"), ("das Nichten")),
+        (("the nieces"), ("die Nichten")),
         (("the aunts"), ("die Tanten")),
-        (("the nephew"), ("der Neffen")),
+        (("the nephews"), ("die Neffen")),
         (("the relative"), ("der Verwandte")),
         (("the sun"), ("die Sonne")),
         (("your"), ("deinem")),
@@ -1951,20 +2026,23 @@ duolingo_set_55 = {
         (("his"), ("seinen")),
         (("our"), ("unseren")),
         (("v. consequences"), ("folgen")),
+    ]
+}
+duolingo_set_58 = {
+    'name' : 'Duolingo Set 58',
+    'words' : [
         (("his"), ("seiner")),
         (("our"), ("unserer")),
         (("v. episode"), ("folge")),
         (("v. belong"), ("gehören")),
         (("v. to thank"), ("danken")),
-    ]
-}
-duolingo_set_56 = {
-    'name' : 'Duolingo Set 56',
-    'words' : [
         (("v. thanks"), ("danke")),
         (("v. help"), ("helft")),
+        (("v. help"), ("helfe")),
         (("v. helps"), ("hilft")),
+        (("v. thanks"), ("dankt")),
         (("v. belongs"), ("gehört")),
+        (("v. help"), ("helfen")),
         (("the tip"), ("das Trinkgeld")),
         (("the cents"), ("die Cents")),
         (("the buzz"), ("das Summen")),
@@ -1975,6 +2053,7 @@ duolingo_set_56 = {
         (("v. wins"), ("gewinnt")),
         (("the dollars"), ("die Dollars")),
         (("v. transfer"), ("überweise")),
+        (("v. have"), ("besitzen")),
         (("v. owns"), ("besitzt")),
         (("the dollar"), ("der Dollar")),
         (("the euro"), ("der Euro")),
@@ -1982,6 +2061,11 @@ duolingo_set_56 = {
         (("v. to buy"), ("kaufen")),
         (("the euros"), ("die Euros")),
         (("the money"), ("das Geld")),
+    ]
+}
+duolingo_set_59 = {
+    'name' : 'Duolingo Set 59',
+    'words' : [
         (("the cent"), ("der Cent")),
         (("the prices"), ("die Preise")),
         (("the price"), ("der Preis")),
@@ -1991,17 +2075,16 @@ duolingo_set_56 = {
         (("the banks"), ("die Banken")),
         (("the benches"), ("die Bänke")),
         (("the bank"), ("die Bank")),
-    ]
-}
-duolingo_set_57 = {
-    'name' : 'Duolingo Set 57',
-    'words' : [
         (("v. say"), ("sagen")),
         (("v. legend"), ("sage")),
         (("v. says"), ("sagt")),
         (("v. show"), ("zeige")),
         (("v. shows"), ("zeigt")),
         (("v. demonstrate"), ("zeigen")),
+        (("v. give"), ("gebe")),
+        (("v. give"), ("geben")),
+        (("v. gives"), ("gibt")),
+        (("v. answer"), ("antworte")),
         (("v. reply"), ("antworten")),
         (("v. answers"), ("antwortet")),
         (("the mushrooms"), ("die Pilze")),
@@ -2013,12 +2096,18 @@ duolingo_set_57 = {
         (("the dinner"), ("das Abendessen")),
         (("the onions"), ("die Zwiebeln")),
         (("the garlic"), ("der Knoblauch")),
+    ]
+}
+duolingo_set_60 = {
+    'name' : 'Duolingo Set 60',
+    'words' : [
         (("the starter"), ("der Vorspeise")),
         (("the mustard"), ("der Senf")),
         (("the main dish"), ("das Hauptgericht")),
         (("the beans"), ("die Bohnen")),
         (("v. cook"), ("kochen")),
         (("v. cooks"), ("kocht")),
+        (("v. cook"), ("koche")),
         (("the mushroom"), ("der Pilz")),
         (("the chicken"), ("das Hähnchen")),
         (("the tomato"), ("die Tomate")),
@@ -2026,16 +2115,12 @@ duolingo_set_57 = {
         (("the recipe"), ("das Rezept")),
         (("the butter"), ("die Butter")),
         (("the jam"), ("die Marmelade")),
-    ]
-}
-duolingo_set_58 = {
-    'name' : 'Duolingo Set 58',
-    'words' : [
         (("the honey"), ("der Honig")),
         (("v. breakfast"), ("frühstückt")),
         (("the cereal"), ("das Müsli")),
         (("the breakfast"), ("das Frühstück")),
         (("the nut"), ("die Nuss")),
+        (("v. have breakfast"), ("frühstücken")),
         (("the total"), ("die Summe")),
         (("v. counts"), ("zählt")),
         (("the half"), ("die Hälfte")),
@@ -2046,6 +2131,11 @@ duolingo_set_58 = {
         (("along"), ("entlang")),
         (("their"), ("ihren")),
         (("your"), ("ihre")),
+    ]
+}
+duolingo_set_61 = {
+    'name' : 'Duolingo Set 61',
+    'words' : [
         (("the corners"), ("die Ecken")),
         (("the streets"), ("die Straßen")),
         (("the granddaughters"), ("die Enkelinnen")),
@@ -2057,15 +2147,10 @@ duolingo_set_58 = {
         (("the father"), ("der Vater")),
         (("the mother"), ("die Mutter")),
         (("the mothers"), ("die Mütter")),
-        (("the grannies"), ("die Omas")),
+        (("the grandmas"), ("die Omas")),
         (("the grandpas"), ("die Opas")),
         (("the granny"), ("die Oma")),
         (("the grandpa"), ("der Opa")),
-    ]
-}
-duolingo_set_59 = {
-    'name' : 'Duolingo Set 59',
-    'words' : [
         (("the grandfather"), ("der Großvater")),
         (("the grandmother"), ("die Großmutter")),
         (("the grandson"), ("der Enkel")),
@@ -2081,6 +2166,11 @@ duolingo_set_59 = {
         (("the brothers"), ("die Brüder")),
         (("the sisters"), ("die Schwestern")),
         (("the brothers"), ("die Bruder")),
+    ]
+}
+duolingo_set_62 = {
+    'name' : 'Duolingo Set 62',
+    'words' : [
         (("the sister"), ("die Schwester")),
         (("the son"), ("der Sohn")),
         (("which"), ("welche")),
@@ -2093,14 +2183,9 @@ duolingo_set_59 = {
         (("the question"), ("die Frage")),
         (("what"), ("was")),
         (("the ask"), ("die Fragen")),
-        (("the gender"), ("das Geschlechter")),
+        (("the genders"), ("die Geschlechter")),
         (("the groups"), ("die Gruppen")),
         (("the lady"), ("die Dame")),
-    ]
-}
-duolingo_set_60 = {
-    'name' : 'Duolingo Set 60',
-    'words' : [
         (("the people"), ("die Personen")),
         (("the girlfriends"), ("die Freundinnen")),
         (("the neighbours"), ("die Nachbarn")),
@@ -2111,11 +2196,16 @@ duolingo_set_60 = {
         (("the members"), ("die Mitglieder")),
         (("the beginner"), ("der Anfänger")),
         (("the fans"), ("die Fans")),
-        (("the visitor"), ("der Besucher")),
+        (("the visitors"), ("die Besucher")),
         (("the group"), ("die Gruppe")),
         (("the audience"), ("die Publikum")),
         (("the guests"), ("die Gäste")),
         (("the guest"), ("der Gast")),
+    ]
+}
+duolingo_set_63 = {
+    'name' : 'Duolingo Set 63',
+    'words' : [
         (("the opponent"), ("der Gegner")),
         (("the gender"), ("das Geschlecht")),
         (("the turk"), ("der Türke")),
@@ -2126,16 +2216,11 @@ duolingo_set_60 = {
         (("the citizen"), ("der Bürger")),
         (("the surname"), ("der Name")),
         (("the person"), ("die Person")),
-        (("the first name"), ("der Vornamen")),
+        (("the first names"), ("die Vornamen")),
         (("the first name"), ("der Vorname")),
         (("the friends"), ("die Freunde")),
         (("the names"), ("die Namen")),
         (("the infant"), ("das Baby")),
-    ]
-}
-duolingo_set_61 = {
-    'name' : 'Duolingo Set 61',
-    'words' : [
         (("the girlfriend"), ("die Freundin")),
         (("the friend"), ("der Freund")),
         (("the babies"), ("die Babys")),
@@ -2151,6 +2236,11 @@ duolingo_set_61 = {
         (("the beds"), ("die Betten")),
         (("the socket"), ("die Steckdose")),
         (("the bed"), ("das Bett")),
+    ]
+}
+duolingo_set_64 = {
+    'name' : 'Duolingo Set 64',
+    'words' : [
         (("the carpets"), ("die Teppiche")),
         (("the carpet"), ("der Teppich")),
         (("the sockets"), ("die Steckdosen")),
@@ -2166,11 +2256,6 @@ duolingo_set_61 = {
         (("the balcony"), ("der Balkon")),
         (("the apartments"), ("die Wohnungen")),
         (("the flat"), ("die Wohnung")),
-    ]
-}
-duolingo_set_62 = {
-    'name' : 'Duolingo Set 62',
-    'words' : [
         (("the top, roof"), ("die Dach")),
         (("the basement, cellar"), ("der Keller")),
         (("the roofs"), ("die Dächer")),
@@ -2186,6 +2271,11 @@ duolingo_set_62 = {
         (("the door"), ("die Tür")),
         (("the ceiling"), ("die Decke")),
         (("the walls"), ("die Wände")),
+    ]
+}
+duolingo_set_65 = {
+    'name' : 'Duolingo Set 65',
+    'words' : [
         (("the window"), ("das Fenster")),
         (("v. to open"), ("öffnen")),
         (("mine"), ("meines")),
@@ -2201,11 +2291,6 @@ duolingo_set_62 = {
         (("the building"), ("das Gebäude")),
         (("the bridge"), ("die Brücke")),
         (("the park"), ("der Park")),
-    ]
-}
-duolingo_set_63 = {
-    'name' : 'Duolingo Set 63',
-    'words' : [
         (("the room"), ("der Zimmer")),
         (("the school"), ("die Schule")),
         (("the houses"), ("die Häuser")),
@@ -2221,6 +2306,11 @@ duolingo_set_63 = {
         (("the street"), ("die Straße")),
         (("the lock"), ("das Schloss")),
         (("the libraries"), ("die Bibliotheken")),
+    ]
+}
+duolingo_set_66 = {
+    'name' : 'Duolingo Set 66',
+    'words' : [
         (("the restaurant"), ("das Restaurant")),
         (("the train stations"), ("die Bahnhöfe")),
         (("the railway station"), ("der Bahnhof")),
@@ -2236,11 +2326,6 @@ duolingo_set_63 = {
         (("everyone"), ("jeder")),
         (("lots"), ("viele")),
         (("this"), ("dieses")),
-    ]
-}
-duolingo_set_64 = {
-    'name' : 'Duolingo Set 64',
-    'words' : [
         (("these"), ("diese")),
         (("both"), ("beide")),
         (("this"), ("dies")),
@@ -2256,6 +2341,11 @@ duolingo_set_64 = {
         (("v. falls"), ("fällt")),
         (("the star"), ("der Stern")),
         (("v. fall"), ("fallen")),
+    ]
+}
+duolingo_set_67 = {
+    'name' : 'Duolingo Set 67',
+    'words' : [
         (("v. live"), ("lebe")),
         (("the sea"), ("das Meer")),
         (("the flower"), ("die Blume")),
@@ -2271,11 +2361,6 @@ duolingo_set_64 = {
         (("the shoes"), ("die Schuhe")),
         (("the coats"), ("die Mäntel")),
         (("the jacket"), ("die Jacke")),
-    ]
-}
-duolingo_set_65 = {
-    'name' : 'Duolingo Set 65',
-    'words' : [
         (("the stud"), ("das Knopf")),
         (("the jewellery"), ("der Schmuck")),
         (("the ring"), ("der Ring")),
@@ -2291,6 +2376,11 @@ duolingo_set_65 = {
         (("the pants"), ("die Hosen")),
         (("the coat"), ("der Mantel")),
         (("the shirt"), ("das Hemd")),
+    ]
+}
+duolingo_set_68 = {
+    'name' : 'Duolingo Set 68',
+    'words' : [
         (("the shoe"), ("der Schuh")),
         (("v. wearing"), ("trägt")),
         (("v. wear"), ("tragen")),
@@ -2301,16 +2391,14 @@ duolingo_set_65 = {
         (("the clothes"), ("die Kleider")),
         (("the cap"), ("die Hut")),
         (("the hats"), ("die Hüte")),
+        (("v. wearing"), ("tragt")),
+        (("v. look"), ("seht")),
         (("v. write"), ("schreibe")),
         (("v. games"), ("spiele")),
+        (("v. like"), ("mag")),
         (("v. ride"), ("fahre")),
         (("v. moves"), ("fährt")),
         (("v. likes"), ("mögt")),
-    ]
-}
-duolingo_set_66 = {
-    'name' : 'Duolingo Set 66',
-    'words' : [
         (("v. needs"), ("braucht")),
         (("v. paid"), ("bezahlt")),
         (("v. brings"), ("bringt")),
@@ -2318,36 +2406,55 @@ duolingo_set_66 = {
         (("v. run"), ("rennen")),
         (("v. knows"), ("kennt")),
         (("v. journey"), ("fahrt")),
+        (("v. swim"), ("schwimme")),
         (("v. writes"), ("schreibt")),
         (("v. hears"), ("hört")),
+        (("v. do"), ("machen")),
         (("v. sleep"), ("schlafen")),
+    ]
+}
+duolingo_set_69 = {
+    'name' : 'Duolingo Set 69',
+    'words' : [
         (("v. power"), ("macht")),
         (("v. pay"), ("bezahlen")),
         (("v. enough"), ("reicht")),
+        (("v. pay"), ("bezahle")),
         (("v. begin"), ("beginne")),
+        (("v. start"), ("beginnen")),
         (("v. to wash"), ("waschen")),
         (("v. washes"), ("wäscht")),
         (("v. need"), ("brauchen")),
         (("v. begins"), ("beginnt")),
+        (("v. think"), ("denke")),
         (("v. runs"), ("rennt")),
+        (("v. know"), ("kennen")),
         (("v. thinks"), ("denkt")),
+        (("v. run"), ("renne")),
         (("v. drive"), ("fahren")),
+        (("v. think"), ("denken")),
+        (("v. bring"), ("bringe")),
         (("v. swims"), ("schwimmt")),
         (("v. sees"), ("sieht")),
         (("v. to like"), ("mögen")),
+        (("v. write"), ("schreiben")),
+        (("v. read"), ("lesen")),
         (("v. learns"), ("lernt")),
         (("v. learn"), ("lerne")),
+        (("v. run"), ("laufe")),
         (("v. running"), ("läuft")),
         (("v. make"), ("mache")),
         (("v. to run"), ("laufen")),
-        (("v. want"), ("will")),
+        (("v. sleep"), ("schlafe")),
     ]
 }
-duolingo_set_67 = {
-    'name' : 'Duolingo Set 67',
+duolingo_set_70 = {
+    'name' : 'Duolingo Set 70',
     'words' : [
+        (("v. want"), ("will")),
         (("v. plays"), ("spielt")),
         (("v. goes"), ("geht")),
+        (("v. want"), ("wollen")),
         (("v. play"), ("spielen")),
         (("the beetle"), ("der Käfer")),
         (("the strawberries"), ("die Erdbeeren")),
@@ -2356,6 +2463,7 @@ duolingo_set_67 = {
         (("the pigs"), ("die Schweine")),
         (("the oil"), ("das Öl")),
         (("v. understand"), ("verstehen")),
+        (("v. understand"), ("verstehe")),
         (("v. understands"), ("versteht")),
         (("v. speak"), ("spreche")),
         (("v. speaks"), ("spricht")),
@@ -2440,4 +2548,7 @@ duolingo_sets = [
     duolingo_set_65,
     duolingo_set_66,
     duolingo_set_67,
+    duolingo_set_68,
+    duolingo_set_69,
+    duolingo_set_70,
 ]
