@@ -1,5 +1,6 @@
 import sys
 import argparse
+import deep_translator
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
@@ -15,13 +16,23 @@ if __name__ == "__main__":
         i=0
         set = 0
         start = True
+        de_to_en = deep_translator.GoogleTranslator(source = 'de', target ='en')
+        en_to_de = deep_translator.GoogleTranslator(source = 'en', target ='de')
         for line in infile:
             if (line != ''):
                 split_line = line.split()
                 german_word = split_line[0]
                 word_type = split_line[1]
+                # first get the english translation
+                english_word = de_to_en.translate(german_word).lower()
                 if (word_type == 'Noun'):
-                    german_word = german_word[0].upper() + german_word[1:]
+                    # now find out the gender of German word
+                    german_word_with_gender = en_to_de.translate('the ' + english_word)
+                    german_gender = german_word_with_gender.split()[0].lower()
+                    german_word = german_gender + ' ' + german_word[0].upper() + german_word[1:]
+                elif (word_type == 'Verb'):
+                    if english_word.endswith('en'):
+                       english_word = 'to ' + english_word
                 if ((i % args.words_count) == 0):
                     if start:
                         start = False
@@ -32,5 +43,5 @@ if __name__ == "__main__":
                     outfile.write('    \'name\' : \'Duolingo Set {:d}\',\n'.format(set))
                     outfile.write('    \'words\' : [\n')
                     set = set + 1
-                outfile.write('        ((\'\')), (\'{:s}\')),\n'.format(german_word))
+                outfile.write('        ((\'{:s}\')), (\'{:s}\')),\n'.format(english_word, german_word))
                 i = i + 1
