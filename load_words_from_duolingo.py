@@ -35,7 +35,7 @@ if __name__ == "__main__":
                 german_gender = german_word_with_gender.split()[0].lower()
                 german_word = german_gender + ' ' + german_word[0].upper() + german_word[1:]
             elif (word_type == 'Verb'):
-                if english_word.endswith('en'):
+                if german_word.endswith('en'):
                     english_word = 'to ' + english_word
             if ((i % args.words_count) == 0):
                 if start:
