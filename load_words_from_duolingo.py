@@ -19,13 +19,17 @@ if __name__ == "__main__":
         de_to_en = deep_translator.GoogleTranslator(source = 'de', target ='en')
         en_to_de = deep_translator.GoogleTranslator(source = 'en', target ='de')
         english_verbs = []
+        german_adjectives = []
         for line in infile:
             split_line = line.split()
             german_word = split_line[0]
             word_type = split_line[1]
             # first get the english translation
             english_word = de_to_en.translate(german_word).lower()
-            dont_process = (word_type == 'Verb') and ((english_word in english_verbs) or german_word.endswith('st'))
+            is_not_root_adjective = (word_type == 'Adjective') and (not german_word[-1] == 'e')
+            is_already_in_english_verbs_list = (word_type == 'Verb') and (english_word in english_verbs)
+            german_verb_ends_with_st = (word_type == 'Verb') and german_word.endswith('st')
+            dont_process = is_not_root_adjective or is_already_in_english_verbs_list or german_verb_ends_with_st
             if not dont_process:
                 # make sure that English words have correct letter case
                 if english_word == 'i':

@@ -202,7 +202,6 @@ womit	Adverb	1 week ago
 wofür	Adverb	1 week ago	
 mann	Noun	1 week ago	
 worüber	Adverb	1 week ago	
-seid	Verb	1 week ago	
 wieso	Adverb	1 week ago	
 kind	Noun	1 week ago	
 schön	Adjective	1 week ago	
@@ -278,7 +277,6 @@ wette	Noun	3 weeks ago
 freizeit	Noun	3 weeks ago	
 ski	Noun	3 weeks ago	
 bewegung	Noun	3 weeks ago	
-meinem	Pronoun	3 weeks ago	
 mannschaft	Noun	3 weeks ago	
 sieg	Noun	3 weeks ago	
 zuschauer	Noun	3 weeks ago	
