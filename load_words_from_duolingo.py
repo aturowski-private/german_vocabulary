@@ -46,7 +46,7 @@ if __name__ == "__main__":
                 outfile.write('    \'name\' : \'Duolingo Set {:d}\',\n'.format(set))
                 outfile.write('    \'words\' : [\n')
                 set = set + 1
-            outfile.write('        ((\'{:s}\'), (\'{:s}\')),\n'.format(english_word, german_word))
+            outfile.write('        (("{:s}"), ("{:s}")),\n'.format(english_word, german_word))
             i = i + 1
         # we have translated all words
         outfile.write('    ]\n')
