@@ -24,16 +24,17 @@ if __name__ == "__main__":
             split_line = line.split()
             german_word = split_line[0]
             word_type = split_line[1]
+            # make sure that german nouns start with capital letter to make better translation
+            if (word_type == 'Noun'):
+                german_word = german_word[0].upper() + german_word[1:]
+            # get the english translation
+            english_word = de_to_en.translate(german_word).lower()
             is_not_root_adjective = (word_type == 'Adjective') and (not german_word[-1] == 'e')
             is_already_in_english_verbs_list = (word_type == 'Verb') and (english_word in english_verbs)
             german_verb_ends_with_st = (word_type == 'Verb') and german_word.endswith('st')
-            dont_process = is_not_root_adjective or is_already_in_english_verbs_list or german_verb_ends_with_st
+            english_verb_in_third_singular = (word_type == 'Verb') and english_word.endswith('s')
+            dont_process = is_not_root_adjective or is_already_in_english_verbs_list or german_verb_ends_with_st or english_verb_in_third_singular
             if not dont_process:
-                # make sure that german nouns start with capital letter to make better translation
-                if (word_type == 'Noun'):
-                    german_word = german_word[0].upper() + german_word[1:]
-                # get the english translation
-                english_word = de_to_en.translate(german_word).lower()
                 # make sure that English words have correct letter case
                 if english_word == 'i':
                     english_word = 'I'
