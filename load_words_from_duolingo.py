@@ -9,7 +9,7 @@ if __name__ == "__main__":
                         help='Specifies file name where the words from are present')
     parser.add_argument('-o', '--output', type=str, default='duolingo_words.py',
                         help='Specifies file name where the output dictionary will be saved')
-    parser.add_argument('-n', '--words_count', type=int, default=30,
+    parser.add_argument('-n', '--words_count', type=int, default=20,
                         help='Specifies how many words should made to single dictionary')
     args = parser.parse_args()
     with open(args.input, 'r') as infile, open(args.output, 'w') as outfile:

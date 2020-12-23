@@ -1691,7 +1691,6 @@ handtuch	Noun	7 months ago
 duschgel	Noun	7 months ago	
 dusche	Noun	7 months ago	
 seife	Noun	7 months ago	
-duscht	Verb	7 months ago	
 flaschen	Noun	7 months ago	
 duschst	Verb	7 months ago	
 spiegel	Noun	7 months ago	

@@ -111,8 +111,9 @@ class Result:
         return passed
 
 class Progress:
-    def __init__(self, max, winPos= (13, 0), winSize = (4, 50)):
+    def __init__(self, max, test_index, winPos= (13, 0), winSize = (4, 50)):
         self.max = max
+        self.test_index = test_index
         self.curr = 0
         # lines, columns, start line, start column
         self.win = curses.newwin(winSize[0], winSize[1], winPos[0], winPos[1])
@@ -122,6 +123,7 @@ class Progress:
         self.curr = self.curr + 1
         self.win.clear()
         self.win.addstr(0, 0, "Done {:d}/{:d}".format(self.curr, self.max))
+        self.win.addstr(2, 0, "Test index = {:d}".format(self.test_index))
         self.win.refresh()
 
     def debug(self, info):
@@ -140,22 +142,23 @@ def main(stdscr):
     curses.curs_set(0)
     stdscr.keypad(True)
     
-    # create all windows
-    englishWindow = EnglishText((0, 0), (3, 50))
-    germanWindow = InputGermanText((3, 0), (5, 50))
-    resultWindow = Result((10, 0), (6, 50))
-    progressWindow = Progress(args.words_count, (16, 0), (3,50))
-
     # select the word to test
     # sets = vocabulary
     sets = duolingo_sets
     if (args.test == -1):
         # select Duolingo lesson words set at random
-        words = sets[random.randint(0, len(sets)-1)]['words']
+        test_index = random.randint(0, len(sets)-1)
     else:
         # pick Duoling lesson word set as specified in the command line
-        words = sets[args.test]['words']
+        test_index = args.test
+    words = sets[test_index]['words']
     weights = [10] * len(words)  # initially use uniform probability distribution
+
+    # create all windows
+    englishWindow = EnglishText((0, 0), (3, 50))
+    germanWindow = InputGermanText((3, 0), (5, 50))
+    resultWindow = Result((10, 0), (6, 50))
+    progressWindow = Progress(args.words_count, test_index, (16, 0), (3,50))
     for i in range(args.words_count):
         word = random.choices(words, weights = weights, k = 1)[0]   # randomly select a word from the list taking into accuout weights
         if type(word[ENG_IDX]) is tuple:
