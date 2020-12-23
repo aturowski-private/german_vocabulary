@@ -44,7 +44,8 @@ if __name__ == "__main__":
                     english_word = 'the ' + english_word
                     german_word_with_gender = en_to_de.translate(english_word)
                     german_gender = german_word_with_gender.split()[0].lower()
-                    german_word = german_gender + ' ' + german_word
+                    if (german_gender == 'der') or (german_gender == 'die') or (german_gender == 'das'):
+                        german_word = german_gender + ' ' + german_word
                 elif (word_type == 'Verb'):
                     english_verbs.append(english_word)
                     english_word = 'v. ' + english_word
