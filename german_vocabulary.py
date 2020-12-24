@@ -143,8 +143,10 @@ def main(stdscr):
     stdscr.keypad(True)
     
     # select the word to test
-    # sets = vocabulary
-    sets = duolingo_sets
+    if (args.lessons):
+       sets = vocabulary
+    else:
+        sets = duolingo_sets
     if (args.test == -1):
         # select Duolingo lesson words set at random
         test_index = random.randint(0, len(sets)-1)
@@ -192,6 +194,8 @@ def main(stdscr):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description='Script tests German vocabulary')
+    parser.add_argument('-l', '--lessons', action = 'store_true',
+                        help='Specifies that a set of words from Duolingo lesson will be chosen')
     parser.add_argument('-t', '--test', type=int, default=-1,
                         help='Specifies Duolingo lesson from which the words will be tested')
     parser.add_argument('-n', '--words_count', type=int, default=50,

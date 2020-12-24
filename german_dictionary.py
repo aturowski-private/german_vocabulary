@@ -14,13 +14,6 @@ Ss = "\u00df"   # s ligature
 ENG_IDX=0
 GER_IDX=1
 
-at_unicode_trial = {
-    'name' : 'Adam Unicode Trial',
-    'words' : [
-        (('elected 2'), ('gewählt'))
-    ]
-}
-
 at_difficult_1 = {
     'name' : 'Adam difficult 1',
     'words' : [
@@ -44,6 +37,15 @@ at_difficult_1 = {
         (('wanted'), ('gewollt')),
         (('elected'), ('gew'+au+'hlt')),
         (('the experience'), ('die Erfahrung')),
+    ]
+}
+
+at_difficult_2 = {
+    'name' : 'Adam difficult 2',
+    'words' : [
+        (('v. favored'), ('bevorzugt')),
+        (('v. guaranteed'), ('gewährleistet')),
+        (('v. considered'), ('berücksichtigt')),
     ]
 }
 
@@ -520,19 +522,38 @@ duolingo_the_arts = {
     ]
 }
 
+duolingo_passiv_2 = {
+    'name' : 'The Arts',
+    'words' : [
+        (('v. favored'), ('bevorzugt')),
+        (('v. guaranteed'), ('gewährleistet')),
+        (('seldom'), ('selten')),
+        (('v. eaten'), ('gegessen')),
+        (('v. used'), ('genutzt')),
+        (('v. changed'), ('geändert')),
+        (('v. written'), ('geschrieben')),
+        (('v. published'), ('veröffentlicht')),
+        (('v. considered'), ('berücksichtigt')),
+        (('the application'), ('die Bewerbung')),
+        (('v. stolen'), ('gestohlen')),
+        (('v. assessed'), ('bewertet')),
+    ]
+}
+
 vocabulary = [
-    at_unicode_trial,
-    at_difficult_1,
-    duolingo_hobbies,
-    duolingo_directions,
-    duolingo_questions,
-    duolingo_market,
-    duolingo_weather,
-    duolingo_family_2,
-    duolingo_abstract,
-    duolingo_abstract_2,
-    duolingo_business_2,
-    duolingo_verbs_7,
-    duolingo_sport,
-    duolingo_the_arts,
+    at_difficult_1,         # 0
+    at_difficult_2,         # 1
+    duolingo_hobbies,       # 2
+    duolingo_directions,    # 3
+    duolingo_questions,     # 4
+    duolingo_market,        # 5
+    duolingo_weather,       # 6
+    duolingo_family_2,      # 7
+    duolingo_abstract,      # 8
+    duolingo_abstract_2,    # 9
+    duolingo_business_2,    # 10
+    duolingo_verbs_7,       # 11
+    duolingo_sport,         # 12
+    duolingo_the_arts,      # 13
+    duolingo_passiv_2,      # 14
 ]
