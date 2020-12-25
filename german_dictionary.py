@@ -46,6 +46,12 @@ at_difficult_2 = {
         (('v. favored'), ('bevorzugt')),
         (('v. guaranteed'), ('gewährleistet')),
         (('v. considered'), ('berücksichtigt')),
+        (('the paradise'), ('das Paradies')),
+        (('the belief'), ('der Glaube')),
+        (('v. earn'), ('verdienen')),
+        (('the prayer'), ('das Gebet')),
+        (('the monk'), ('der Mönch')),
+        (('v. believe in'), ('glauben an')),
     ]
 }
 
@@ -540,6 +546,42 @@ duolingo_passiv_2 = {
     ]
 }
 
+duolingo_religion = {
+    'name' : 'Religion',
+    'words' : [
+        (('the religion'), ('die Religion')),
+        (('the death'), ('der Tod')),
+        (('the God'), ('der Gott')),
+        (('the priest'), ('der Priester')),
+        (('the belief'), ('der Glaube')),
+        (('v. pray'), ('beten')),
+        (('v. earn'), ('verdienen')),
+        (('the prayer'), ('das Gebet')),
+        (('the paradise'), ('das Paradies')),
+        (('the islam'), ('der Islam')),
+        (('holy'), ('heilig')),
+        (('the atheist'), ('der Atheist')),
+        (('the buddism'), ('der Buddhismus')),
+        (('the christian'), ('der Christ')),
+        (('the muslim'), ('der Moslem')),
+        (('the jew'), ('der Jude')),
+        (('the muslims'), ('die Muslime')),
+        (('the christians'), ('die Christen')),
+        (('the monk'), ('der Mönch')),
+        (('the monks'), ('die Mönche')),
+        (('the temple'), ('der Tempel')),
+        (('the temples'), ('die Tempel')),
+        (('the church'), ('die Kirche')),
+        (('the churches'), ('die Kirchen')),
+        (('v. meditate'), ('meditieren')),
+        (('the mosque'), ('die Moschee')),
+        (('the synagogue'), ('die Synagoge')),
+        (('the Gods'), ('die Götter')),
+        (('the religions'), ('die Religionen')),
+        (('v. believe in'), ('glauben an')),
+    ]
+}
+
 vocabulary = [
     at_difficult_1,         # 0
     at_difficult_2,         # 1
@@ -556,4 +598,5 @@ vocabulary = [
     duolingo_sport,         # 12
     duolingo_the_arts,      # 13
     duolingo_passiv_2,      # 14
+    duolingo_religion,      # 15
 ]
