@@ -10,6 +10,14 @@ Uu = "\u00dc"   # U umlaut
 uu = "\u00fc"   # u umlaut
 Ss = "\u00df"   # s ligature
 
+# ALT 0223 = ß
+# ALT 0228 = ä
+# ALT 0246 = ö
+# ALT 0252 = ü
+# ALT 0196 = Ä
+# ALT 0214 = Ö
+# ALT 0220 = Ü
+
 # some helpful constants
 ENG_IDX=0
 GER_IDX=1
@@ -48,10 +56,13 @@ at_difficult_2 = {
         (('v. considered'), ('berücksichtigt')),
         (('the paradise'), ('das Paradies')),
         (('the belief'), ('der Glaube')),
-        (('v. earn'), ('verdienen')),
-        (('the prayer'), ('das Gebet')),
         (('the monk'), ('der Mönch')),
         (('v. believe in'), ('glauben an')),
+        (('the agency'), ('die Behörde')),
+        (('the law'), ('das Gesetz')),
+        (('the administration'), ('die Verwaltung')),
+        (('the regulation'), ('die Vorschrift')),
+        (('the term'), ('die Bedingung')),
     ]
 }
 
@@ -582,6 +593,61 @@ duolingo_religion = {
     ]
 }
 
+duolingo_politics_1a = {
+    'name' : 'Politics 1a',
+    'words' : [
+        (('the politics'), ('die Politik')),
+        (('the peace'), ('der Frieden')),
+        (('the power'), ('die Macht')),
+        (('the political party'), ('die Partei')),
+        (('the vote'), ('die Stimme')),
+        (('the president'), ('der Präsident')),
+        (('v. support'), ('fördern')),
+        (('v. belong'), ('gehören')),
+        (('the republic'), ('die Republik')),
+        (('the people'), ('das Volk')),
+        (('the male politician'), ('der Politiker')),
+        (('the female politician'), ('die Politikerin')),
+        (('the success'), ('der Erfolg')),
+        (('the contract'), ('der Vertrag')),
+        (('the contracts'), ('die Verträge')),
+        (('the queen'), ('die Königin')),
+        (('the state'), ('der Staat')),
+        (('the election'), ('die Wahl')),
+        (('the agency'), ('die Behörde')),
+        (('the agencies'), ('die Behörden')),
+    ]
+}
+
+duolingo_politics_1b = {
+    'name' : 'Politics 1b',
+    'words' : [
+        (('the king'), ('der König')),
+        (('the law'), ('das Gesetz')),
+        (('the administration'), ('die Verwaltung')),
+        (('the licence'), ('die Genehmigung')),
+        (('the government'), ('die Regierung')),
+        (('the war'), ('der Krieg')),
+        (('the ministry'), ('das Ministerium')),
+        (('the right'), ('das Recht')),
+        (('the rights'), ('die Rechte')),
+        (('the fight'), ('der Kampf')),
+        (('the regulation'), ('die Vorschrift')),
+        (('the city hall'), ('das Rathaus')),
+        (('the influence'), ('der Einfluss')),
+        (('v. vote'), ('wählen')),
+        (('the princess'), ('die Prinzessin')),
+        (('the rule'), ('die Regel')),
+        (('v. apply to'), ('betreffen')),
+        (('the prince'), ('der Prinz')),
+        (('the control'), ('die Kontrolle')),
+        (('the term'), ('die Bedingung')),
+        (('the decision'), ('die Entscheidung')),
+        (('the legal trial'), ('der Prozess')),
+        (('the procedure'), ('das Verfahren')),
+    ]
+}
+
 vocabulary = [
     at_difficult_1,         # 0
     at_difficult_2,         # 1
@@ -599,4 +665,6 @@ vocabulary = [
     duolingo_the_arts,      # 13
     duolingo_passiv_2,      # 14
     duolingo_religion,      # 15
+    duolingo_politics_1a,   # 16
+    duolingo_politics_1b,   # 17
 ]
