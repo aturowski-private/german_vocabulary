@@ -55,14 +55,13 @@ at_difficult_2 = {
         (('v. guaranteed'), ('gewährleistet')),
         (('v. considered'), ('berücksichtigt')),
         (('the paradise'), ('das Paradies')),
-        (('the belief'), ('der Glaube')),
-        (('the monk'), ('der Mönch')),
-        (('v. believe in'), ('glauben an')),
         (('the agency'), ('die Behörde')),
         (('the law'), ('das Gesetz')),
         (('the administration'), ('die Verwaltung')),
         (('the regulation'), ('die Vorschrift')),
         (('the term'), ('die Bedingung')),
+        (('the administration'), ('die Verwaltung')),
+        (('the licence'), ('die Genehmigung')),
     ]
 }
 
@@ -645,6 +644,7 @@ duolingo_politics_1b = {
         (('the decision'), ('die Entscheidung')),
         (('the legal trial'), ('der Prozess')),
         (('the procedure'), ('das Verfahren')),
+        (('the interest in'), ('das Interesse'))
     ]
 }
 
