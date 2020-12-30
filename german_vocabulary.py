@@ -147,6 +147,9 @@ def main(stdscr):
        sets = vocabulary
     else:
         sets = duolingo_sets
+    if (len(sets) < args.test):
+        print("-t argument can only take values up to {:d}".format(len(sets)))
+        sys.exit(-1)
     if (args.test == -1):
         # select Duolingo lesson words set at random
         test_index = random.randint(0, len(sets)-1)
@@ -201,7 +204,4 @@ if __name__ == "__main__":
     parser.add_argument('-n', '--words_count', type=int, default=50,
                         help='Specifies how many words should be tested in the session')
     args = parser.parse_args()
-    if (len(vocabulary) < args.test):
-        print("-t argument can only take values up to {:d}".format(len(vocabulary)))
-        sys.exit(-1)
     curses.wrapper(main)
