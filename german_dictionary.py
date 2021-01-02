@@ -644,7 +644,8 @@ duolingo_politics_1b = {
         (('the decision'), ('die Entscheidung')),
         (('the legal trial'), ('der Prozess')),
         (('the procedure'), ('das Verfahren')),
-        (('the interest in'), ('das Interesse'))
+        (('the interest in'), ('das Interesse')),
+        (('successful'), ('erfolgreich')),
     ]
 }
 
