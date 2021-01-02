@@ -649,6 +649,27 @@ duolingo_politics_1b = {
     ]
 }
 
+duolingo_adverbs_2 = {
+    'name' : 'Adverbs 2a',
+    'words' : [
+        (('just'), ('soeben')),
+        (('at any time'), ('jederzeit')),
+        (('the jewelry'), ('der Schmuck')),
+        (('in addition'), ('hinzu')),
+        (('as well'), ('ebenfalls')),
+        (('finally'), ('schließlich')),
+        (('that is why'), ('deswegen')),
+        (('on the other hand'), ('hingegen')),
+        (('for this'), ('hierzu')),
+        (('nevertheless'), ('denoch')),
+        (('with this'), ('hiermit')),
+        (('again'), ('nochmals')),
+        (('particularly'), ('insbesondere')),
+        (('currently'), ('derzeit')),
+        (('still'), ('weiterhin')),
+    ]
+}
+
 vocabulary = [
     at_difficult_1,         # 0
     at_difficult_2,         # 1
@@ -668,4 +689,5 @@ vocabulary = [
     duolingo_religion,      # 15
     duolingo_politics_1a,   # 16
     duolingo_politics_1b,   # 17
+    duolingo_adverbs_2,     # 18
 ]
