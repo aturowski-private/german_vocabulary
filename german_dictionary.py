@@ -670,6 +670,87 @@ duolingo_adverbs_2 = {
     ]
 }
 
+duolingo_abstract_3a = {
+    'name' : 'Abstract 3a',
+    'words' : [
+        (('the comparison'), ('der Vergleich')),
+        (('the facility'), ('die Anlage')),
+        (('the section'), ('die Rubrik')),
+        (('the criteria'), ('die Kriterien')),
+        (('the support'), ('die Förderung')),
+        (('the system'), ('das System')),
+        (('the application'), ('die Anwendung')),
+        (('the development'), ('die Entwiklung')),
+        (('the example'), ('das Beispiel')),
+        (('the admission'), ('der Eintritt')),
+        (('the content'), ('der Inhalt')),
+        (('the opening'), ('die Eröffnung')),
+        (('the average'), ('der Durchschnitt')),
+    ]
+}
+
+duolingo_abstract_3b = {
+    'name' : 'Abstract 3b',
+    'words' : [
+        (('the part'), ('der Abschnitt')),
+        (('the loss'), ('der Verlust')),
+        (('the requirement'), ('die Auflage')),
+        (('the remainder'), ('der rest')),
+        (('the supply'), ('die Versorgung')),
+        (('the share'), ('der Anteil')),
+        (('the repair'), ('die Reparatur')),
+        (('the event'), ('das Ereignis')),
+        (('the events'), ('die Ereignisse')),
+        (('the speed'), ('die Geschwindigkeit')),
+        (('the idea'), ('die Vorstellung')),
+        (('the agency'), ('die Agentur')),
+        (('the tradition'), ('die Tradition')),
+    ]
+}
+
+duolingo_abstract_3c = {
+    'name' : 'Abstract 3c',
+    'words' : [
+        (('the circumference'), ('der Umfang')),
+        (('the surface'), ('die Oberfläche')),
+        (('the level'), ('das Niveau')),
+        (('the obligation'), ('die Verpflichtung')),
+        (('the qualification'), ('die Qualifikation')),
+        (('the danger'), ('die Gefahr')),
+        (('the violence'), ('die Gewalt')),
+        (('the character'), ('der Charakter')),
+        (('the lecture'), ('der Vortrag')),
+        (('the material'), ('das Material')),
+        (('the materials'), ('die Materialien')),
+        (('the cover'), ('der Bezug')),
+        (('the leather'), ('das Leder')),
+        (('the round'), ('die Runde')),
+        (('the mailbox'), ('der Briefkasten')),
+        (('the entrance'), ('der Eingang')),
+    ]
+}
+
+duolingo_abstract_3d = {
+    'name' : 'Abstract 3d',
+    'words' : [
+        (('the degree'), ('der Abschluss')),
+        (('the interaction'), ('der Umgang')),
+        (('sincere'), ('herzlich')),
+        (('the approach'), ('der Ansatz')),
+        (('the reception'), ('der Empfang')),
+        (('the attitude'), ('die Einstellung')),
+        (('the ticket'), ('die Karte')),
+        (('v. finished'), ('beendet')),
+        (('the mediation'), ('die Vermittlung')),
+        (('the symbol'), ('das Symbol')),
+        (('the show'), ('die Schau')),
+        (('the cooperation'), ('die Kooperation')),
+        (('the phrase'), ('der Satz')),
+        (('the case'), ('der Fall')),
+        (('the cases'), ('die Fälle')),
+    ]
+}
+
 vocabulary = [
     at_difficult_1,         # 0
     at_difficult_2,         # 1
@@ -690,4 +771,8 @@ vocabulary = [
     duolingo_politics_1a,   # 16
     duolingo_politics_1b,   # 17
     duolingo_adverbs_2,     # 18
+    duolingo_abstract_3a,   # 19
+    duolingo_abstract_3b,   # 20
+    duolingo_abstract_3c,   # 21
+    duolingo_abstract_3d,   # 22
 ]

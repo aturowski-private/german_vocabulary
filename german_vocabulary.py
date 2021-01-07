@@ -102,8 +102,8 @@ class Result:
             self.win.addstr(0, 0, "Correct :)")
         else:
             self.win.addstr(0, 0, "ERROR :(")
-            self.win.addstr(1, 0, "Got: "+ input)
-            self.win.addstr(2, 0, "Should be: "+ germanWord)
+            self.win.addstr(1, 0, "Got:       " + input)
+            self.win.addstr(2, 0, "Should be: " + germanWord)
         self.win.addstr(4, 0, "Press any key to continue")
         self.win.getch()
         self.win.clear()
@@ -134,14 +134,14 @@ def main(stdscr):
     locale.setlocale(locale.LC_ALL, '')
     code = locale.getpreferredencoding()
     random.seed()   # initialize random generator seed using operating system randomness sources
-   
+
     # clear screen
     stdscr.clear()
     curses.noecho()
     curses.cbreak()
     curses.curs_set(0)
     stdscr.keypad(True)
-    
+
     # select the word to test
     if (args.lessons):
        sets = vocabulary
@@ -183,7 +183,7 @@ def main(stdscr):
                     weights[index] = weights[index] - 1
                 break
             else:
-                # increment the likelihood of choosing the word on which the used has failed
+                # increment the likelihood of choosing the word on which the user has failed
                 weights[index] = weights[index] + 2
         progressWindow.increment()
         # progressWindow.debug(weights)
