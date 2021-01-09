@@ -751,6 +751,112 @@ duolingo_abstract_3d = {
     ]
 }
 
+duolingo_verbs_8a = {
+    'name' : 'Verbs 8a',
+    'words' : [
+        (('v. send'), ('schicken')),
+        (('v. compare'), ('vergleichen')),
+        (('v. hike'), ('wandern')),
+        (('v. explain'), ('erklären')),
+        (('v. jump'), ('springen')),
+        (('v. use'), ('verwenden')),
+        (('v. give up'), ('abgeben')),
+        (('v. collect'), ('sammeln')),
+        (('v. save'), ('sparen')),
+        (('v. be enough'), ('reichen')),
+        (('v. cost'), ('kosten')),
+        (('v. share'), ('teilen')),
+        (('v. protect'), ('schützen')),
+    ]
+}
+
+duolingo_verbs_8b = {
+    'name' : 'Verbs 8b',
+    'words' : [
+        (('v. test'), ('testen')),
+        (('v. notice'), ('merken')),
+        (('v. avoid'), ('vermeiden')),
+        (('v. search through'), ('durchsuchen')),
+        (('v. publish'), ('veröffentlichen')),
+        (('v. update'), ('aktualisieren')),
+        (('v. love'), ('lieben')),
+        (('v. book'), ('buchen')),
+        (('the competition'), ('der Wettbewerb')),
+        (('the flight'), ('der Flug')),
+        (('v. achieve'), ('leisten')),
+        (('the plan'), ('der Plan')),
+        (('v. inquire'), ('nachfragen')),
+        (('v. suggest'), ('vorschlagen')),
+        (('daily'), ('taglisch')),
+        (('v. surrender'), ('aufgeben')),
+    ]
+}
+
+duolingo_verbs_8c = {
+    'name' : 'Verbs 8c',
+    'words' : [
+        (('v. watch'), ('beachten')),
+        (('v. belong'), ('gehören')),
+        (('v. terminate'), ('abbrechen')),
+        (('v. ask'), ('bitten')),
+        (('v. respond to'), ('beantworten')),
+        (('v. secure'), ('sichern')),
+        (('v. reside'), ('wohnen')),
+        (('v. stand'), ('stehen')),
+        (('v. quote'), ('zitieren')),
+        (('v. believe'), ('glauben')),
+        (('v. wish'), ('wünschen')),
+        (('v. appear'), ('erscheinen')),
+    ]
+}
+
+duolingo_verbs_8d = {
+    'name' : 'Verbs 8d',
+    'words' : [
+        (('v. offer'), ('bieten')),
+        (('v. shop'), ('einkaufen')),
+        (('v. pay'), ('zahlen')),
+        (('v. own'), ('besitzen')),
+        (('v. follow'), ('folgen')),
+        (('v. turn around'), ('wenden')),
+        (('v. wait'), ('warten')),
+        (('v. report'), ('melden')),
+        (('v. portray'), ('darstellen')),
+        (('v. move'), ('bewegen')),
+        (('v. discuss'), ('diskutieren')),
+    ]
+}
+
+duolingo_verbs_8e = {
+    'name' : 'Verbs 8e',
+    'words' : [
+        (('v. call'), ('rufen')),
+        (('v. be happy'), ('freuen')),
+        (('v. need'), ('benötigen')),
+        (('v. deserve'), ('verdienen')),
+        (('v. press'), ('drucken')),
+        (('v. know'), ('wissen')),
+        (('v. acquire'), ('erwerben')),
+        (('careful'), ('vorsichtig')),
+    ]
+}
+
+# duolingo_verbs_8a = {
+#     'name' : 'Verbs 8a',
+#     'words' : [
+#         ((''), ('')),
+#         ((''), ('')),
+#         ((''), ('')),
+#         ((''), ('')),
+#         ((''), ('')),
+#         ((''), ('')),
+#         ((''), ('')),
+#         ((''), ('')),
+#         ((''), ('')),
+#    ]
+# }
+
+
 vocabulary = [
     at_difficult_1,         # 0
     at_difficult_2,         # 1
@@ -775,4 +881,9 @@ vocabulary = [
     duolingo_abstract_3b,   # 20
     duolingo_abstract_3c,   # 21
     duolingo_abstract_3d,   # 22
+    duolingo_verbs_8a,      # 23
+    duolingo_verbs_8b,      # 24
+    duolingo_verbs_8c,      # 25
+    duolingo_verbs_8d,      # 26
+    duolingo_verbs_8e,      # 27
 ]
