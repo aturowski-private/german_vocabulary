@@ -841,6 +841,55 @@ duolingo_verbs_8e = {
     ]
 }
 
+duolingo_philosophy_1a = {
+    'name' : 'Philosophy 1a',
+    'words' : [
+        (('the reality'), ('die Wirklichkeit')),
+        (('the philosophy'), ('die Philosophie')),
+        (('the consciousness'), ('das Bewusstsein')),
+        (('true'), ('wahr')),
+   ]
+}
+
+duolingo_verbs_9a = {
+    'name' : 'Verbs 9a',
+    'words' : [
+        (('v. demand'), ('fordern')),
+        (('v. lead'), ('führen')),
+        (('v. affect'), ('aufwirken')),
+        (('v. arise'), ('entstehen')),
+        (('v. accomplish'), ('schaffen')),
+        (('finally'), ('endlich')),
+        (('v. leave'), ('verlassen')),
+        (('v. sit'), ('setzen')),
+        (('v. own'), ('verfügen über')),
+        (('v. set down'), ('absetzen')),
+        (('v. result in'), ('ergeben')),
+        (('v. remove'), ('entfernen')),
+        (('v. represent'), ('vertreten')),
+        (('v. deal'), ('handeln')),
+   ]
+}
+
+duolingo_verbs_9b = {
+    'name' : 'Verbs 9b',
+    'words' : [
+        (('v. form'), ('bilden')),
+        (('v. hang'), ('hängen')),
+        (('v. forgive'), ('vergeben')),
+        (('v. deliver'), ('liefern')),
+        (('the lesson'), ('der Unterricht')),
+        (('v. achieve'), ('leisten')),
+        (('v. communicate'), ('vermitteln')),
+        (('v. edited'), ('bearbeitet')),
+        (('v. treat'), ('behandeln')),
+        (('v. confirm'), ('bestätigen')),
+        (('v. authorize'), ('berechitigen')),
+        (('v. consist'), ('besteht')),
+   ]
+}
+
+
 # duolingo_verbs_8a = {
 #     'name' : 'Verbs 8a',
 #     'words' : [
@@ -886,4 +935,7 @@ vocabulary = [
     duolingo_verbs_8c,      # 25
     duolingo_verbs_8d,      # 26
     duolingo_verbs_8e,      # 27
+    duolingo_philosophy_1a, # 28
+    duolingo_verbs_9a,      # 29
+    duolingo_verbs_9b,      # 30
 ]
