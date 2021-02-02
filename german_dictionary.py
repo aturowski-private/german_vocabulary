@@ -955,6 +955,64 @@ duolingo_abstract_4b = {
    ]
 }
 
+duolingo_abstract_4c = {
+    'name' : 'Abstract 4c',
+    'words' : [
+        (('the distance'), ('die Entfernung')),
+        (('the exception'), ('die Ausnahme')),
+        (('the level'), ('die Ebene')),
+        (('the unit'), ('die Einheit')),
+        (('the specification'), ('die Angabe')),
+        (('the line'), ('die Linie')),
+        (('the label'), ('die Bezeichnung')),
+        (('the row'), ('die Reihe')),
+        (('the risk'), ('das Risiko')),
+        (('the spot'), ('der Punkt')),
+        (('v. rise'), ('steigen')),
+        (('the structures'), ('die Strukturen')),
+        (('the expression'), ('der Ausdruck')),
+   ]
+}
+
+duolingo_abstract_4d = {
+    'name' : 'Abstract 4d',
+    'words' : [
+        (('the standard'), ('der Standard')),
+        (('the step'), ('der Schritt')),
+        (('the sequence'), ('die Folge')),
+        (('the possibility'), ('die Möglichkeit')),
+        (('the responsibility'), ('die Verantwortung')),
+        (('the consequence'), ('die Folge')),
+        (('the protection'), ('der Schutz')),
+        (('the depths'), ('die Tiefe')),
+        (('the shift'), ('der Wechsel')),
+        (('the task'), ('die Aufgabe')),
+        (('the width'), ('die Breite')),
+        (('the view'), ('die Ansicht')),
+        (('the requirement'), ('die Anforderung')),
+   ]
+}
+
+duolingo_abstract_4e = {
+    'name' : 'Abstract 4e',
+    'words' : [
+        (('the entry'), ('der Eintrag')),
+        (('the kind'), ('die Art')),
+        (('the detail'), ('das Detail')),
+        (('the alternative'), ('die Alternative')),
+        (('the basic'), ('die Grundlage')),
+        (('the record'), ('die Aufnahme')),
+        (('the usage'), ('die Nutzung')),
+        (('the suggestion'), ('die Anregung')),
+        (('the function'), ('die Funktion')),
+        (('the middle'), ('die Mitte')),
+        (('the mistake'), ('der Fehler')),
+        (('the tape'), ('das Band')),
+        (('the part'), ('der Teil')),
+   ]
+}
+
+
 # duolingo_verbs_8a = {
 #     'name' : 'Verbs 8a',
 #     'words' : [
@@ -1006,4 +1064,7 @@ vocabulary = [
     duolingo_fantasy,       # 31
     duolingo_abstract_4a,   # 32
     duolingo_abstract_4b,   # 33
+    duolingo_abstract_4c,   # 34
+    duolingo_abstract_4d,   # 35
+    duolingo_abstract_4e,   # 36
 ]
