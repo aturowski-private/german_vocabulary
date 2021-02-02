@@ -884,11 +884,76 @@ duolingo_verbs_9b = {
         (('v. edited'), ('bearbeitet')),
         (('v. treat'), ('behandeln')),
         (('v. confirm'), ('bestätigen')),
-        (('v. authorize'), ('berechitigen')),
+        (('v. authorize'), ('berechtigen')),
         (('v. consist'), ('besteht')),
+        (('v. try'), ('versuchen')),
    ]
 }
 
+duolingo_fantasy = {
+    'name' : 'Fantasy',
+    'words' : [
+        (('the witch'), ('die Hexe')),
+        (('the magic'), ('die Magie')),
+        (('v. rescue'), ('retten')),
+        (('magical'), ('magisch')),
+        (('the dragon'), ('der Drache')),
+        (('the planet'), ('der Planet')),
+        (('the alien'), ('der Außerirdische')),
+        (('the dimension'), ('die Dimension')),
+        (('the galaxy'), ('die Galaxie')),
+        (('the star ship'), ('das Raumschiff')),
+        (('the space'), ('der Weltraum')),
+        (('v. discover'), ('entdecken')),
+        (('v. discovered'), ('entdeckt')),
+        (('the unicorn'), ('das Einhorn')),
+        (('v. ride'), ('reiten')),
+        (('incredible'), ('unglaublich')),
+        (('the time travel'), ('die Zeitreise')),
+        (('v. use the magic'), ('verwenden die Magie')),
+        (('the nature'), ('die Natur')),
+   ]
+}
+
+duolingo_abstract_4a = {
+    'name' : 'Abstract 4a',
+    'words' : [
+        (('the figure'), ('die Figur')),
+        (('the principle'), ('das Prinzip')),
+        (('the connection'), ('der Anschluss')),
+        (('the origin'), ('die Herkunft')),
+        (('the option'), ('die Option')),
+        (('the seat'), ('der Sitz')),
+        (('the calculation'), ('die Berechnung')),
+        (('the order'), ('die Ordnung')),
+        (('the series'), ('die Serien')),
+        (('the section'), ('die Abteilung')),
+        (('the characteristic'), ('das Merkmal')),
+        (('the sound'), ('der Ton')),
+        (('the purpose'), ('der Zweck')),
+        (('v. appear'), ('scheinen')),
+        (('the exchange'), ('der Austausch')),
+   ]
+}
+
+duolingo_abstract_4b = {
+    'name' : 'Abstract 4b',
+    'words' : [
+        (('the preparation'), ('die Vorbereitung')),
+        (('the rating'), ('die Wertung')),
+        (('the contrast'), ('der Gegensatz')),
+        (('the advantage'), ('der Vorteil')),
+        (('the supervision'), ('die Betreuung')),
+        (('the socket'), ('die Fassung')),
+        (('the course'), ('der Lauf')),
+        (('the sight'), ('die Sicht')),
+        (('the context'), ('der Zusammenhang')),
+        (('the line'), ('die Leitung')),
+        (('the source'), ('die Quelle')),
+        (('the format'), ('das Format')),
+        (('the summary'), ('die Übersicht')),
+   ]
+}
 
 # duolingo_verbs_8a = {
 #     'name' : 'Verbs 8a',
@@ -938,4 +1003,7 @@ vocabulary = [
     duolingo_philosophy_1a, # 28
     duolingo_verbs_9a,      # 29
     duolingo_verbs_9b,      # 30
+    duolingo_fantasy,       # 31
+    duolingo_abstract_4a,   # 32
+    duolingo_abstract_4b,   # 33
 ]
