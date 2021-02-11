@@ -979,7 +979,6 @@ duolingo_abstract_4d = {
     'words' : [
         (('the standard'), ('der Standard')),
         (('the step'), ('der Schritt')),
-        (('the sequence'), ('die Folge')),
         (('the possibility'), ('die Möglichkeit')),
         (('the responsibility'), ('die Verantwortung')),
         (('the consequence'), ('die Folge')),
@@ -1012,6 +1011,130 @@ duolingo_abstract_4e = {
    ]
 }
 
+duolingo_music_1a = {
+    'name' : 'Music 1a',
+    'words' : [
+        (('cheaper'), ('billiger')),
+        (('v. helped'), ('geholfen')),
+        (('the violin'), ('die Geige')),
+        (('the melody'), ('die Melodie')),
+        (('the piano'), ('das Klavier')),
+        (('the composer'), ('der Komponist')),
+        (('the flute'), ('die Flöte')),
+        (('the orchestra'), ('das Orchester')),
+        (('the drum'), ('die Trommel')),
+        (('the conductor'), ('der Dirigent')),
+        (('v. conduct'), ('dirigieren')),
+        (('the male singer'), ('der Sänger')),
+        (('the opera'), ('die Oper')),
+        (('v. sound'), ('klingen')),
+   ]
+}
+
+duolingo_politics_2a = {
+    'name' : 'Politics 2a',
+    'words' : [
+        (('the event'), ('die Veranstaltung')),
+        (('the freedom'), ('die Freiheit')),
+        (('the verdict'), ('das Urteil')),
+        (('the federal republik'), ('die Bundesrepublik')),
+        (('the strategy'), ('die Strategie')),
+        (('the hope'), ('die Hoffnung')),
+        (('the federal government'), ('die Bundesregierung')),
+        (('the department'), ('das Amt')),
+        (('the opinion poll'), ('die Umfrage')),
+        (('ausgezeichnet'), ('excellent')),
+        (('the police'), ('die Polizei')),
+        (('the tax'), ('die Steuer')),
+        (('the empire'), ('das Reich')),
+        (('the economy'), ('die Wirtschaft')),
+        (('the agreement'), ('die Vereinbarung')),
+        (('v. protest'), ('protestieren')),
+        (('v. corrupt'), ('korrupt')),
+        (('the claim'), ('der Anspruch')),
+        (('the claims'), ('die Ansprüche')),
+        (('the advice'), ('der Rat')),
+        (('the association'), ('der Verband')),
+        (('the associations'), ('der Verbände')),
+   ]
+}
+
+duolingo_germany_1a = {
+    'name' : 'Germany 1a',
+    'words' : [
+        (('the festival'), ('das Fest')),
+        (('the sauerkraut'), ('der Sauerkraut')),
+        (('v. celebrate'), ('feiern')),
+        (('the christmas'), ('das Weihnachten')),
+        (('the newsstand'), ('der Kiosk')),
+        (('the sausage'), ('die Wurst')),
+        (('the Pilsner'), ('das Pils')),
+        (('the pretzel'), ('eine Brezel')),
+   ]
+}
+
+duolingo_verben_akk_dat_1a = {
+    'name' : 'Verben mit Akkusative/Dative 1a',
+    'words' : [
+        (('sehen folgt'), ('Akk')),
+        (('geben folgt'), ('Dat')),
+        (('wohnen folgt'), ('Akk')),
+        (('suchen folgt'), ('Akk')),
+        (('tragen folgt'), ('Akk')),
+        (('antworten folgt'), ('Dat')),
+        (('danken folgt'), ('Dat')),
+        (('folgen folgt'), ('Dat')),
+        (('helfen folgt'), ('Dat')),
+        (('schmecken folgt'), ('Dat')),
+        (('bauen folgt'), ('Akk')),
+        (('lieben folgt'), ('Akk')),
+        (('kennen folgt'), ('Akk')),
+        (('lernen folgt'), ('Akk')),
+        (('lesen folgt'), ('Akk')),
+   ]
+}
+duolingo_verben_akk_dat_1b = {
+    'name' : 'Verben mit Akkusative/Dative 1b',
+    'words' : [
+        (('tragen folgt'), ('Akk')),
+        (('treffen folgt'), ('Akk')),
+        (('trinken folgt'), ('Akk')),
+        (('übersetzen folgt'), ('Akk')),
+        (('vergessen folgt'), ('Akk')),
+        (('verstehen folgt'), ('Akk')),
+        (('waschen folgt'), ('Akk')),
+        (('wiederholen folgt'), ('Akk')),
+        (('es gibt folgt'), ('Akk')),
+        (('befehlen folgt'), ('Dat')),
+        (('gratulieren folgt'), ('Dat')),
+        (('passen folgt'), ('Dat')),
+        (('glauben folgt'), ('Dat')),
+        (('gefällen folgt'), ('Dat')),
+        (('gehören folgt'), ('Dat')),
+   ]
+}
+
+duolingo_verben_akk_dat_1c = {
+    'name' : 'Verben mit Akkusative/Dative 1c',
+    'words' : [
+        (('öffnen folgt'), ('Akk')),
+        (('rufen folgt'), ('Akk')),
+        (('sammeln folgt'), ('Akk')),
+        (('essen folgt'), ('Akk')),
+        (('finden folgt'), ('Akk')),
+        (('fragen folgt'), ('Akk')),
+        (('fressen folgt'), ('Akk')),
+        (('haben folgt'), ('Akk')),
+        (('hören folgt'), ('Akk')),
+        (('machen folgt'), ('Akk')),
+        (('malen folgt'), ('Akk')),
+        (('raten folgt'), ('Dat')),
+        (('vertrauen folgt'), ('Dat')),
+        (('fehlen folgt'), ('Dat')),
+        (('gefallen folgt'), ('Dat')),
+        (('weh tun folgt'), ('Dat')),
+   ]
+}
 
 # duolingo_verbs_8a = {
 #     'name' : 'Verbs 8a',
@@ -1067,4 +1190,11 @@ vocabulary = [
     duolingo_abstract_4c,   # 34
     duolingo_abstract_4d,   # 35
     duolingo_abstract_4e,   # 36
+    duolingo_music_1a,      # 37
+    duolingo_politics_2a,   # 38
+    duolingo_germany_1a,    # 39
+    duolingo_verben_akk_dat_1a,     # 40
+    duolingo_verben_akk_dat_1b,     # 41
+    duolingo_verben_akk_dat_1c,     # 42
+
 ]
