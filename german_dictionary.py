@@ -1043,7 +1043,7 @@ duolingo_politics_2a = {
         (('the federal government'), ('die Bundesregierung')),
         (('the department'), ('das Amt')),
         (('the opinion poll'), ('die Umfrage')),
-        (('ausgezeichnet'), ('excellent')),
+        (('excellent'), ('ausgezeichnet')),
         (('the police'), ('die Polizei')),
         (('the tax'), ('die Steuer')),
         (('the empire'), ('das Reich')),
@@ -1051,11 +1051,11 @@ duolingo_politics_2a = {
         (('the agreement'), ('die Vereinbarung')),
         (('v. protest'), ('protestieren')),
         (('v. corrupt'), ('korrupt')),
-        (('the claim'), ('der Anspruch')),
-        (('the claims'), ('die Ansprüche')),
+        (('the expectation'), ('der Anspruch')),
+        (('the expectations'), ('die Ansprüche')),
         (('the advice'), ('der Rat')),
         (('the association'), ('der Verband')),
-        (('the associations'), ('der Verbände')),
+        (('the associations'), ('die Verbände')),
    ]
 }
 
@@ -1069,13 +1069,14 @@ duolingo_germany_1a = {
         (('the newsstand'), ('der Kiosk')),
         (('the sausage'), ('die Wurst')),
         (('the Pilsner'), ('das Pils')),
-        (('the pretzel'), ('eine Brezel')),
+        (('the pretzel'), ('die Brezel')),
    ]
 }
 
 duolingo_verben_akk_dat_1a = {
     'name' : 'Verben mit Akkusative/Dative 1a',
     'words' : [
+        (('mögen folgt'), ('Akk')),
         (('sehen folgt'), ('Akk')),
         (('geben folgt'), ('Dat')),
         (('wohnen folgt'), ('Akk')),
@@ -1117,6 +1118,7 @@ duolingo_verben_akk_dat_1b = {
 duolingo_verben_akk_dat_1c = {
     'name' : 'Verben mit Akkusative/Dative 1c',
     'words' : [
+        (('spielen folgt'), ('Akk')),
         (('öffnen folgt'), ('Akk')),
         (('rufen folgt'), ('Akk')),
         (('sammeln folgt'), ('Akk')),
@@ -1133,6 +1135,7 @@ duolingo_verben_akk_dat_1c = {
         (('fehlen folgt'), ('Dat')),
         (('gefallen folgt'), ('Dat')),
         (('weh tun folgt'), ('Dat')),
+        (('zustimmen folgt'), ('Dat')),
    ]
 }
 
