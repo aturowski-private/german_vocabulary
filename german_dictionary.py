@@ -1139,6 +1139,21 @@ duolingo_verben_akk_dat_1c = {
    ]
 }
 
+duolingo_the_world_1a = {
+    'name' : 'The world 1a',
+    'words' : [
+        (('the adventure'), ('das Abenteuer')),
+        (('the adventures'), ('die Abenteuer')),
+        (('european'), ('europäisch')),
+        (('the union'), ('die Union')),
+        (('the continent'), ('der Kontinent')),
+        (('Egipt'), ('Ägypten')),
+        (('Turkey'), ('die Türkei')),
+        (('Switzerland'), ('die Schweiz')),
+        (('the south pole'), ('der Südpol')),
+        (('the north pole'), ('der Nordpol')),
+   ]
+}
 # duolingo_verbs_8a = {
 #     'name' : 'Verbs 8a',
 #     'words' : [
@@ -1199,5 +1214,5 @@ vocabulary = [
     duolingo_verben_akk_dat_1a,     # 40
     duolingo_verben_akk_dat_1b,     # 41
     duolingo_verben_akk_dat_1c,     # 42
-
+    duolingo_the_world_1a,          # 43
 ]
