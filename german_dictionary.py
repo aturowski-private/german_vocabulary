@@ -47,7 +47,6 @@ at_difficult_1 = {
         (('the experience'), ('die Erfahrung')),
     ]
 }
-
 at_difficult_2 = {
     'name' : 'Adam difficult 2',
     'words' : [
@@ -64,7 +63,6 @@ at_difficult_2 = {
         (('the licence'), ('die Genehmigung')),
     ]
 }
-
 duolingo_hobbies = {
     'name' : 'Hobbies',
     'words' : [
@@ -227,8 +225,8 @@ duolingo_abstract = {
         (('the letter'), ('der Brief')),
     ]
 }
-duolingo_abstract_2 = {
-    'name' : 'Abstract 2',
+duolingo_abstract_2a = {
+    'name' : 'Abstract 2a',
     'words' : [
         (('the process'), ('der Verlauf')),
         (('the party'), ('die Party')),
@@ -251,6 +249,11 @@ duolingo_abstract_2 = {
         (('the overview'), ('der '+Uu+'berblick')),
         (('the condition'), ('der Zustand')),
         (('the combination'), ('die Kombination')),
+    ]
+}
+duolingo_abstract_2b = {
+    'name' : 'Abstract 2b',
+    'words' : [
         (('the difference'), ('der Unterschied')),
         (('the regulation'), ('die Bestimmung')),
         (('the encouragement'), ('die Ermunterung')),
@@ -274,8 +277,8 @@ duolingo_abstract_2 = {
         (('the ladder'), ('die Leiter')),
     ]
 }
-duolingo_business_2 = {
-    'name' : 'Business 2',
+duolingo_business_2a = {
+    'name' : 'Business 2a',
     'words' : [
         (('the firm'), ('die Firma')),
         (('young'), ('jung')),
@@ -296,6 +299,11 @@ duolingo_business_2 = {
         (('the island'), ('die Insel')),
         (('probably'), ('wahrscheinlich')),
         (('whom'), ('wen')),
+    ]
+}
+duolingo_business_2b = {
+    'name' : 'Business 2b',
+    'words' : [
         (('to pay'), ('zahlen')),
         (('the enterprise'), ('das Unternehmen')),
         (('the contract'), ('der Auftrag')),
@@ -314,6 +322,11 @@ duolingo_business_2 = {
         (('the benefit'), ('die Leistung')),
         (('the customer service'), ('der Kundenservice')),
         (('the expense'), ('die Ausgabe')),
+    ]
+}
+duolingo_business_2c = {
+    'name' : 'Business 2c',
+    'words' : [
         (('the country'), ('das Land')),
         (('the production'), ('die Produktion')),
         (('the stock exchange'), ('die B'+ou+'rse')),
@@ -333,11 +346,10 @@ duolingo_business_2 = {
         (('the male customer'), ('der Kunde')),
         (('the female customer'), ('die Kundin')),
         (('the knowledge'), ('das Wissen')),
-
     ]
 }
-duolingo_verbs_7 = {
-    'name' : 'Verbs 7',
+duolingo_verbs_7a = {
+    'name' : 'Verbs 7a',
     'words' : [
         (('to select'), ('ausw'+au+'hlen')),
         (('the window'), ('das Fenster')),
@@ -356,6 +368,11 @@ duolingo_verbs_7 = {
         (('the date'), ('das Datum')),
         (('the scissor'), ('die Schere')),
         (('tomorrow'), ('morgen')),
+    ]
+}
+duolingo_verbs_7b = {
+    'name' : 'Verbs 7b',
+    'words' : [
         (('soon'), ('bald')),
         (('the nutrition'), ('die Ern'+au+'hrung')),
         (('nobody'), ('niemand')),
@@ -374,6 +391,11 @@ duolingo_verbs_7 = {
         (('afterwards'), ('danach')),
         (('to work'), ('arbeiten')),
         (('to find'), ('finden')),
+    ]
+}
+duolingo_verbs_7c = {
+    'name' : 'Verbs 7c',
+    'words' : [
         (('the tree'), ('der Baum')),
         (('to care'), ('sorgen')),
         (('to inform'), ('informieren')),
@@ -397,8 +419,8 @@ duolingo_verbs_7 = {
         (('the books'), ('die B'+uu+'cher')),
     ]
 }
-duolingo_sport = {
-    'name' : 'Sport',
+duolingo_sport_1a = {
+    'name' : 'Sport 1a',
     'words' : [
         (('the team'), ('das Team')),
         (('the ball'), ('der Ball')),
@@ -416,6 +438,14 @@ duolingo_sport = {
         (('the female patient'), ('die Patientin')),
         (('round'), ('rund')),
         (('to meet'), ('treffen')),
+        (('led'), ('gef'+uu+'hrt')),
+        (('thought'), ('gedacht')),
+        (('the accident'), ('der Unfall')),
+    ]
+}
+duolingo_sport_1b = {
+    'name' : 'Sport 1b',
+    'words' : [
         (('the luck'), ('das Gl'+uu+'ck')),
         (('the league'), ('die Liga')),
         (('the German football league'), ('die Bundesliga')),
@@ -432,6 +462,14 @@ duolingo_sport = {
         (('the game'), ('das Spiel')),
         (('seen'), ('gesehen')),
         (('to watch television'), ('fernsehen')),
+        (('the mayor'), ('der B'+uu+'rgermeister')),
+        (('the hand'), ('die Hand')),
+        (('the optical glasses'), ('die Brille')),
+    ]
+}
+duolingo_sport_1c = {
+    'name' : 'Sport 1c',
+    'words' : [
         (('TV'), ('das Fernsehen')),
         (('complete'), ('komplett')),
         (('the ski'), ('der Ski')),
@@ -451,9 +489,12 @@ duolingo_sport = {
         (('happened'), ('passiert')),
         (('yesterday'), ('gestern')),
         (('understood'), ('verstanden')),
-        (('led'), ('gef'+uu+'hrt')),
-        (('thought'), ('gedacht')),
-        (('the accident'), ('der Unfall')),
+        (('elected'), ('gew'+au+'hlt')),
+    ]
+}
+duolingo_sport_1d = {
+    'name' : 'Sport 1d',
+    'words' : [
         (('had'), ('hatten')),
         (('founded'), ('gegr'+uu+'ndet')),
         (('already'), ('schon')),
@@ -475,14 +516,10 @@ duolingo_sport = {
         (('held'), ('gehalten')),
         (('fulfilled'), ('erf'+uu+'llt')),
         (('forgiven'), ('vergeben')),
-        (('elected'), ('gew'+au+'hlt')),
-        (('the mayor'), ('der B'+uu+'rgermeister')),
-        (('the hand'), ('die Hand')),
-        (('the optical glasses'), ('die Brille')),
     ]
 }
-duolingo_the_arts = {
-    'name' : 'The Arts',
+duolingo_the_arts_1a = {
+    'name' : 'The Arts 1a',
     'words' : [
         (('the gallery'), ('die Galerie')),
         (('is located'), ('befindet sich')),
@@ -500,6 +537,12 @@ duolingo_the_arts = {
         (('the theater'), ('das Theater')),
         (('the culture'), ('die Kultur')),
         (('the start'), ('der Start')),
+        (('the shoe'), ('der Schuh')),
+    ]
+}
+duolingo_the_arts_1b = {
+    'name' : 'The Arts 1b',
+    'words' : [
         (('ready'), ('bereit')),
         (('everything'), ('alles')),
         (('the director of the movie'), ('die Regie')),
@@ -516,7 +559,11 @@ duolingo_the_arts = {
         (('the design'), ('das Design')),
         (('the song'), ('das Lied')),
         (('the collection'), ('die Sammlung')),
-        (('the shoe'), ('der Schuh')),
+    ]
+}
+duolingo_the_arts_1c = {
+    'name' : 'The Arts 1c',
+    'words' : [
         (('the photography'), ('die Fotografie')),
         (('the recommendation'), ('die Empfehlung')),
         (('the concert'), ('das Konzert')),
@@ -537,7 +584,6 @@ duolingo_the_arts = {
         (('the word'), ('das Wort')),
     ]
 }
-
 duolingo_passiv_2 = {
     'name' : 'The Arts',
     'words' : [
@@ -555,7 +601,6 @@ duolingo_passiv_2 = {
         (('v. assessed'), ('bewertet')),
     ]
 }
-
 duolingo_religion = {
     'name' : 'Religion',
     'words' : [
@@ -591,7 +636,6 @@ duolingo_religion = {
         (('v. believe in'), ('glauben an')),
     ]
 }
-
 duolingo_politics_1a = {
     'name' : 'Politics 1a',
     'words' : [
@@ -617,7 +661,6 @@ duolingo_politics_1a = {
         (('the agencies'), ('die Behörden')),
     ]
 }
-
 duolingo_politics_1b = {
     'name' : 'Politics 1b',
     'words' : [
@@ -648,7 +691,6 @@ duolingo_politics_1b = {
         (('successful'), ('erfolgreich')),
     ]
 }
-
 duolingo_adverbs_2 = {
     'name' : 'Adverbs 2a',
     'words' : [
@@ -669,7 +711,6 @@ duolingo_adverbs_2 = {
         (('still'), ('weiterhin')),
     ]
 }
-
 duolingo_abstract_3a = {
     'name' : 'Abstract 3a',
     'words' : [
@@ -688,7 +729,6 @@ duolingo_abstract_3a = {
         (('the average'), ('der Durchschnitt')),
     ]
 }
-
 duolingo_abstract_3b = {
     'name' : 'Abstract 3b',
     'words' : [
@@ -707,7 +747,6 @@ duolingo_abstract_3b = {
         (('the tradition'), ('die Tradition')),
     ]
 }
-
 duolingo_abstract_3c = {
     'name' : 'Abstract 3c',
     'words' : [
@@ -729,7 +768,6 @@ duolingo_abstract_3c = {
         (('the entrance'), ('der Eingang')),
     ]
 }
-
 duolingo_abstract_3d = {
     'name' : 'Abstract 3d',
     'words' : [
@@ -750,7 +788,6 @@ duolingo_abstract_3d = {
         (('the cases'), ('die Fälle')),
     ]
 }
-
 duolingo_verbs_8a = {
     'name' : 'Verbs 8a',
     'words' : [
@@ -769,7 +806,6 @@ duolingo_verbs_8a = {
         (('v. protect'), ('schützen')),
     ]
 }
-
 duolingo_verbs_8b = {
     'name' : 'Verbs 8b',
     'words' : [
@@ -791,7 +827,6 @@ duolingo_verbs_8b = {
         (('v. surrender'), ('aufgeben')),
     ]
 }
-
 duolingo_verbs_8c = {
     'name' : 'Verbs 8c',
     'words' : [
@@ -809,7 +844,6 @@ duolingo_verbs_8c = {
         (('v. appear'), ('erscheinen')),
     ]
 }
-
 duolingo_verbs_8d = {
     'name' : 'Verbs 8d',
     'words' : [
@@ -826,7 +860,6 @@ duolingo_verbs_8d = {
         (('v. discuss'), ('diskutieren')),
     ]
 }
-
 duolingo_verbs_8e = {
     'name' : 'Verbs 8e',
     'words' : [
@@ -840,7 +873,6 @@ duolingo_verbs_8e = {
         (('careful'), ('vorsichtig')),
     ]
 }
-
 duolingo_philosophy_1a = {
     'name' : 'Philosophy 1a',
     'words' : [
@@ -850,7 +882,6 @@ duolingo_philosophy_1a = {
         (('true'), ('wahr')),
    ]
 }
-
 duolingo_verbs_9a = {
     'name' : 'Verbs 9a',
     'words' : [
@@ -870,7 +901,6 @@ duolingo_verbs_9a = {
         (('v. deal'), ('handeln')),
    ]
 }
-
 duolingo_verbs_9b = {
     'name' : 'Verbs 9b',
     'words' : [
@@ -889,7 +919,6 @@ duolingo_verbs_9b = {
         (('v. try'), ('versuchen')),
    ]
 }
-
 duolingo_fantasy = {
     'name' : 'Fantasy',
     'words' : [
@@ -914,7 +943,6 @@ duolingo_fantasy = {
         (('the nature'), ('die Natur')),
    ]
 }
-
 duolingo_abstract_4a = {
     'name' : 'Abstract 4a',
     'words' : [
@@ -935,7 +963,6 @@ duolingo_abstract_4a = {
         (('the exchange'), ('der Austausch')),
    ]
 }
-
 duolingo_abstract_4b = {
     'name' : 'Abstract 4b',
     'words' : [
@@ -954,7 +981,6 @@ duolingo_abstract_4b = {
         (('the summary'), ('die Übersicht')),
    ]
 }
-
 duolingo_abstract_4c = {
     'name' : 'Abstract 4c',
     'words' : [
@@ -973,7 +999,6 @@ duolingo_abstract_4c = {
         (('the expression'), ('der Ausdruck')),
    ]
 }
-
 duolingo_abstract_4d = {
     'name' : 'Abstract 4d',
     'words' : [
@@ -991,7 +1016,6 @@ duolingo_abstract_4d = {
         (('the requirement'), ('die Anforderung')),
    ]
 }
-
 duolingo_abstract_4e = {
     'name' : 'Abstract 4e',
     'words' : [
@@ -1010,7 +1034,6 @@ duolingo_abstract_4e = {
         (('the part'), ('der Teil')),
    ]
 }
-
 duolingo_music_1a = {
     'name' : 'Music 1a',
     'words' : [
@@ -1030,7 +1053,6 @@ duolingo_music_1a = {
         (('v. sound'), ('klingen')),
    ]
 }
-
 duolingo_politics_2a = {
     'name' : 'Politics 2a',
     'words' : [
@@ -1058,7 +1080,6 @@ duolingo_politics_2a = {
         (('the associations'), ('die Verbände')),
    ]
 }
-
 duolingo_germany_1a = {
     'name' : 'Germany 1a',
     'words' : [
@@ -1072,7 +1093,6 @@ duolingo_germany_1a = {
         (('the pretzel'), ('die Brezel')),
    ]
 }
-
 duolingo_verben_akk_dat_1a = {
     'name' : 'Verben mit Akkusative/Dative 1a',
     'words' : [
@@ -1114,7 +1134,6 @@ duolingo_verben_akk_dat_1b = {
         (('gehören folgt'), ('Dat')),
    ]
 }
-
 duolingo_verben_akk_dat_1c = {
     'name' : 'Verben mit Akkusative/Dative 1c',
     'words' : [
@@ -1138,7 +1157,6 @@ duolingo_verben_akk_dat_1c = {
         (('zustimmen folgt'), ('Dat')),
    ]
 }
-
 duolingo_the_world_1a = {
     'name' : 'The world 1a',
     'words' : [
@@ -1180,39 +1198,49 @@ vocabulary = [
     duolingo_weather,       # 6
     duolingo_family_2,      # 7
     duolingo_abstract,      # 8
-    duolingo_abstract_2,    # 9
-    duolingo_business_2,    # 10
-    duolingo_verbs_7,       # 11
-    duolingo_sport,         # 12
-    duolingo_the_arts,      # 13
-    duolingo_passiv_2,      # 14
-    duolingo_religion,      # 15
-    duolingo_politics_1a,   # 16
-    duolingo_politics_1b,   # 17
-    duolingo_adverbs_2,     # 18
-    duolingo_abstract_3a,   # 19
-    duolingo_abstract_3b,   # 20
-    duolingo_abstract_3c,   # 21
-    duolingo_abstract_3d,   # 22
-    duolingo_verbs_8a,      # 23
-    duolingo_verbs_8b,      # 24
-    duolingo_verbs_8c,      # 25
-    duolingo_verbs_8d,      # 26
-    duolingo_verbs_8e,      # 27
-    duolingo_philosophy_1a, # 28
-    duolingo_verbs_9a,      # 29
-    duolingo_verbs_9b,      # 30
-    duolingo_fantasy,       # 31
-    duolingo_abstract_4a,   # 32
-    duolingo_abstract_4b,   # 33
-    duolingo_abstract_4c,   # 34
-    duolingo_abstract_4d,   # 35
-    duolingo_abstract_4e,   # 36
-    duolingo_music_1a,      # 37
-    duolingo_politics_2a,   # 38
-    duolingo_germany_1a,    # 39
-    duolingo_verben_akk_dat_1a,     # 40
-    duolingo_verben_akk_dat_1b,     # 41
-    duolingo_verben_akk_dat_1c,     # 42
-    duolingo_the_world_1a,          # 43
+    duolingo_abstract_2a,   # 9
+    duolingo_abstract_2b,   # 10
+    duolingo_business_2a,   # 11
+    duolingo_business_2b,   # 12
+    duolingo_business_2c,   # 13
+    duolingo_verbs_7a,      # 14
+    duolingo_verbs_7b,      # 15
+    duolingo_verbs_7c,      # 16
+    duolingo_sport_1a,      # 18
+    duolingo_sport_1b,      # 19
+    duolingo_sport_1c,      # 20
+    duolingo_sport_1d,      # 21
+    duolingo_the_arts_1a,   # 22
+    duolingo_the_arts_1b,   # 23
+    duolingo_the_arts_1c,   # 24
+    duolingo_passiv_2,      # 25
+    duolingo_religion,      # 26
+    duolingo_politics_1a,   # 27
+    duolingo_politics_1b,   # 28
+    duolingo_adverbs_2,     # 29
+    duolingo_abstract_3a,   # 30
+    duolingo_abstract_3b,   # 31
+    duolingo_abstract_3c,   # 32
+    duolingo_abstract_3d,   # 33
+    duolingo_verbs_8a,      # 34
+    duolingo_verbs_8b,      # 35
+    duolingo_verbs_8c,      # 36
+    duolingo_verbs_8d,      # 37
+    duolingo_verbs_8e,      # 38
+    duolingo_philosophy_1a, # 39
+    duolingo_verbs_9a,      # 40
+    duolingo_verbs_9b,      # 41
+    duolingo_fantasy,       # 42
+    duolingo_abstract_4a,   # 43
+    duolingo_abstract_4b,   # 44
+    duolingo_abstract_4c,   # 45
+    duolingo_abstract_4d,   # 46
+    duolingo_abstract_4e,   # 47
+    duolingo_music_1a,      # 48
+    duolingo_politics_2a,   # 49
+    duolingo_germany_1a,    # 50
+    duolingo_verben_akk_dat_1a,     # 51
+    duolingo_verben_akk_dat_1b,     # 52
+    duolingo_verben_akk_dat_1c,     # 53
+    duolingo_the_world_1a,          # 54
 ]
