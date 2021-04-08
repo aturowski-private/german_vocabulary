@@ -1172,6 +1172,63 @@ duolingo_the_world_1a = {
         (('the north pole'), ('der Nordpol')),
    ]
 }
+seedlang_how_do_you_stay_happy_1a = {
+    'name' : 'How do you stay happy 1a',
+    'words' : [
+        (('v. distract'), ('ablenken')),
+        (('v. get up'), ('aufstehen')),
+        (('v. power off'), ('ausschalten')),
+        (('the exchange'), ('der Austausch')),
+        (('v. bake'), ('backen')),
+        (('v. reward'), ('belohnen')),
+        (('busy'), ('beschäftigt')),
+        (('movement'), ('die Bewegung')),
+        (('aware'), ('bewusst')),
+        (('the beer'), ('das Bier')),
+        (('v. persuade'), ('einreden')),
+        (('the research'), ('die Forschung')),
+        (('the joy'), ('die Freude')),
+   ]
+}
+seedlang_how_do_you_stay_happy_1b = {
+    'name' : 'How do you stay happy 1b',
+    'words' : [
+        (('v. enjoy'), ('genießen')),
+        (('healthy'), ('gesund')),
+        (('happy'), ('glücklich')),
+        (('the immune system'), ('das Immunsystem')),
+        (('v. cook'), ('kochen')),
+        (('the artist (male)'), ('der Künstler')),
+        (('medical'), ('medizinisch')),
+        (('possible'), ('möglich')),
+        (('v. go out'), ('rausgehen')),
+        (('regular'), ('regelmäßig')),
+        (('the recipe'), ('das Rezept')),
+        (('v. calm down'), ('runterkommen')),
+        (('v. seem'), ('scheinen')),
+        (('the sun'), ('die Sonne')),
+   ]
+}
+seedlang_how_do_you_stay_happy_1c = {
+    'name' : 'How do you stay happy 1c',
+    'words' : [
+        (('spontaneous'), ('spontan')),
+        (('spontaneity'), ('die Spontanität')),
+        (('the sport'), ('der Sport')),
+        (('v. spend time'), ('verbringen')),
+        (('wrong'), ('verkehrt')),
+        (('v. miss (e.g. a person or place)'), ('vermissen')),
+        (('theweather'), ('das Wetter')),
+        (('important'), ('wichtig')),
+        (('the time'), ('die Zeit')),
+        (('the purpose'), ('der Zweck')),
+        (('v. force'), ('zwingen')),
+        (('the fun'), ('der Spaß')),
+        (('v. walk'), ('spazieren')),
+        (('the feeling'), ('das Gefühl')),
+   ]
+}
+
 # duolingo_verbs_8a = {
 #     'name' : 'Verbs 8a',
 #     'words' : [
@@ -1186,7 +1243,6 @@ duolingo_the_world_1a = {
 #         ((''), ('')),
 #    ]
 # }
-
 
 vocabulary = [
     at_difficult_1,         # 0
@@ -1206,41 +1262,44 @@ vocabulary = [
     duolingo_verbs_7a,      # 14
     duolingo_verbs_7b,      # 15
     duolingo_verbs_7c,      # 16
-    duolingo_sport_1a,      # 18
-    duolingo_sport_1b,      # 19
-    duolingo_sport_1c,      # 20
-    duolingo_sport_1d,      # 21
-    duolingo_the_arts_1a,   # 22
-    duolingo_the_arts_1b,   # 23
-    duolingo_the_arts_1c,   # 24
-    duolingo_passiv_2,      # 25
-    duolingo_religion,      # 26
-    duolingo_politics_1a,   # 27
-    duolingo_politics_1b,   # 28
-    duolingo_adverbs_2,     # 29
-    duolingo_abstract_3a,   # 30
-    duolingo_abstract_3b,   # 31
-    duolingo_abstract_3c,   # 32
-    duolingo_abstract_3d,   # 33
-    duolingo_verbs_8a,      # 34
-    duolingo_verbs_8b,      # 35
-    duolingo_verbs_8c,      # 36
-    duolingo_verbs_8d,      # 37
-    duolingo_verbs_8e,      # 38
-    duolingo_philosophy_1a, # 39
-    duolingo_verbs_9a,      # 40
-    duolingo_verbs_9b,      # 41
-    duolingo_fantasy,       # 42
-    duolingo_abstract_4a,   # 43
-    duolingo_abstract_4b,   # 44
-    duolingo_abstract_4c,   # 45
-    duolingo_abstract_4d,   # 46
-    duolingo_abstract_4e,   # 47
-    duolingo_music_1a,      # 48
-    duolingo_politics_2a,   # 49
-    duolingo_germany_1a,    # 50
-    duolingo_verben_akk_dat_1a,     # 51
-    duolingo_verben_akk_dat_1b,     # 52
-    duolingo_verben_akk_dat_1c,     # 53
-    duolingo_the_world_1a,          # 54
+    duolingo_sport_1a,      # 17
+    duolingo_sport_1b,      # 18
+    duolingo_sport_1c,      # 19
+    duolingo_sport_1d,      # 20
+    duolingo_the_arts_1a,   # 21
+    duolingo_the_arts_1b,   # 22
+    duolingo_the_arts_1c,   # 23
+    duolingo_passiv_2,      # 24
+    duolingo_religion,      # 25
+    duolingo_politics_1a,   # 26
+    duolingo_politics_1b,   # 27
+    duolingo_adverbs_2,     # 28
+    duolingo_abstract_3a,   # 29
+    duolingo_abstract_3b,   # 30
+    duolingo_abstract_3c,   # 31
+    duolingo_abstract_3d,   # 32
+    duolingo_verbs_8a,      # 33
+    duolingo_verbs_8b,      # 34
+    duolingo_verbs_8c,      # 35
+    duolingo_verbs_8d,      # 36
+    duolingo_verbs_8e,      # 37
+    duolingo_philosophy_1a, # 38
+    duolingo_verbs_9a,      # 39
+    duolingo_verbs_9b,      # 40
+    duolingo_fantasy,       # 41
+    duolingo_abstract_4a,   # 42
+    duolingo_abstract_4b,   # 43
+    duolingo_abstract_4c,   # 44
+    duolingo_abstract_4d,   # 45
+    duolingo_abstract_4e,   # 46
+    duolingo_music_1a,      # 47
+    duolingo_politics_2a,   # 48
+    duolingo_germany_1a,    # 49
+    duolingo_verben_akk_dat_1a,     # 50
+    duolingo_verben_akk_dat_1b,     # 51
+    duolingo_verben_akk_dat_1c,     # 52
+    duolingo_the_world_1a,          # 53
+    seedlang_how_do_you_stay_happy_1a,      # 54
+    seedlang_how_do_you_stay_happy_1b,      # 55
+    seedlang_how_do_you_stay_happy_1c,      # 56
 ]
