@@ -1172,8 +1172,8 @@ duolingo_the_world_1a = {
         (('the north pole'), ('der Nordpol')),
    ]
 }
-seedlang_how_do_you_stay_happy_1a = {
-    'name' : 'How do you stay happy 1a',
+seedlang_eg391a = {
+    'name' : 'Easy German 391a How do you stay happy?',
     'words' : [
         (('v. distract'), ('ablenken')),
         (('v. get up'), ('aufstehen')),
@@ -1190,8 +1190,8 @@ seedlang_how_do_you_stay_happy_1a = {
         (('the joy'), ('die Freude')),
    ]
 }
-seedlang_how_do_you_stay_happy_1b = {
-    'name' : 'How do you stay happy 1b',
+seedlang_eg391b = {
+    'name' : 'Easy German 391b How do you stay happy?',
     'words' : [
         (('v. enjoy'), ('genießen')),
         (('healthy'), ('gesund')),
@@ -1209,8 +1209,8 @@ seedlang_how_do_you_stay_happy_1b = {
         (('the sun'), ('die Sonne')),
    ]
 }
-seedlang_how_do_you_stay_happy_1c = {
-    'name' : 'How do you stay happy 1c',
+seedlang_eg391c = {
+    'name' : 'Easy German 391c How do you stay happy?',
     'words' : [
         (('spontaneous'), ('spontan')),
         (('the spontaneity'), ('die Spontanität')),
@@ -1228,6 +1228,62 @@ seedlang_how_do_you_stay_happy_1c = {
         (('the feeling'), ('das Gefühl')),
    ]
 }
+seedlang_eg392a = {
+    'name' : 'Easy German 392a What annoys you?',
+    'words' : [
+        (('generally'), ('allgemein')),
+        (('the daily routine'), ('der Alltag')),
+        (('v. acknowledge'), ('anerkennen')),
+        (('the recognition'), ('die Anerkennung')),
+        (('the hint'), ('die Anspielung')),
+        (('the work'), ('die Arbeit')),
+        (('sufficient'), ('ausreichend')),
+        (('v. get out'), ('aussteigen')),
+        (('the railway'), ('die Bahn')),
+        (('the balcony'), ('der Balkon')),
+        (('the stupidity'), ('die Dummheit')),
+        (('v. enter'), ('einsteigen')),
+        (('the decision'), ('die Entscheidung')),
+        (('the outcome'), ('das Ergebnis')),
+   ]
+}
+seedlang_eg392b = {
+    'name' : 'Easy German 392b What annoys you?',
+    'words' : [
+        (('social'), ('gesellschaftlich')),
+        (('hopefully'), ('hoffentlich')),
+        (('the intolerance'), ('die Intoleranz')),
+        (('complicated'), ('kompliziert')),
+        (('slow'), ('langsam')),
+        (('the team'), ('die Mannschaft')),
+        (('the side job'), ('der Nebenjob')),
+        (('v. annoy'), ('nerven')),
+        (('political'), ('politisch')),
+        (('the lawsuit'), ('der Prozess')),
+        (('fast'), ('schnell')),
+        (('the sun'), ('die Sonne')),
+        (('the sport'), ('der Sport')),
+   ]
+}
+seedlang_eg392c = {
+    'name' : 'Easy German 392c What annoys you?',
+    'words' : [
+        (('the indecision'), ('die Unentschlossenheit')),
+        (('unnecessary'), ('unnötig')),
+        (('invisible'), ('unsichtbar')),
+        (('the lack of understanding'), ('das Unverständnis')),
+        (('v. to change'), ('verändern')),
+        (('v. fade away'), ('verhallen')),
+        (('the apartment'), ('die Wohnung')),
+        (('v. agree'), ('zustimmen')),
+        (('the breadline'), ('das Existenzminimum')),
+        (('the free time'), ('die Freizeit')),
+        (('irritated'), ('genervt')),
+        (('the traffic jam'), ('der Stau')),
+        (('v. prance'), ('tänzeln')),
+   ]
+}
+
 
 # duolingo_verbs_8a = {
 #     'name' : 'Verbs 8a',
@@ -1299,7 +1355,10 @@ vocabulary = [
     duolingo_verben_akk_dat_1b,     # 51
     duolingo_verben_akk_dat_1c,     # 52
     duolingo_the_world_1a,          # 53
-    seedlang_how_do_you_stay_happy_1a,      # 54
-    seedlang_how_do_you_stay_happy_1b,      # 55
-    seedlang_how_do_you_stay_happy_1c,      # 56
+    seedlang_eg391a,                # 54
+    seedlang_eg391b,                # 55
+    seedlang_eg391c,                # 56
+    seedlang_eg392a,                # 57
+    seedlang_eg392b,                # 58
+    seedlang_eg392c,                # 59
 ]
