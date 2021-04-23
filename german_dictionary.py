@@ -1283,7 +1283,59 @@ seedlang_eg392c = {
         (('v. prance'), ('tänzeln')),
    ]
 }
-
+seedlang_eg393a = {
+    'name' : 'Easy German 393a Mild insults in German?',
+    'words' : [
+        (('the monkey'), ('der Affe')),
+        (('aggressive'), ('aggressiv')),
+        (('the arsehole'), ('das Arschloch')),
+        (('antisocial person'), ('der Assi')),
+        (('v. watch out'), ('aufpassen')),
+        (('the insult'), ('die Beschimpfung')),
+        (('the chaotic person'), ('der Chaot')),
+        (('stupid'), ('dumm')),
+        (('the jackass'), ('der Dummkopf')),
+        (('serious'), ('ernst')),
+        (('the cycle lane'), ('der Fahrradweg')),
+        (('v. curse'), ('fluchen')),
+   ]
+}
+seedlang_eg393b = {
+    'name' : 'Easy German 393b Mild insults in German?',
+    'words' : [
+        (('ironic'), ('ironisch')),
+        (('the teenager (male)'), ('der Jugendliche')),
+        (('crap'), ('die Kacke')),
+        (('the child'), ('das Kind')),
+        (('the classic'), ('der Klassiker')),
+        (('the head'), ('der Kopf')),
+        (('mild'), ('mild')),
+        (('v. fit'), ('passen')),
+        (('the policeman'), ('der Polizist')),
+        (('v. react'), ('reagieren')),
+        (('the shit'), ('die Scheiße')),
+        (('v. rant'), ('schimpfen')),
+        (('the swearword'), ('das Schimpfwort')),
+        (('bad'), ('schlimm')),
+   ]
+}
+seedlang_eg393c = {
+    'name' : 'Easy German 393c Mild insults in German?',
+    'words' : [
+        (('v. scream'), ('schreien')),
+        (('the mood'), ('die Stimmung')),
+        (('the road traffic'), ('der Straßenverkehr')),
+        (('the stressful situation'), ('die Stresssituation')),
+        (('the intonation'), ('der Tonfall')),
+        (('the fool'), ('der Trottel')),
+        (('the accident'), ('der Unfall')),
+        (('the accusation'), ('der Vorwurf')),
+        (('the facial expression'), ('der Gesichtsausdruck')),
+        (('gesture'), ('die Geste')),
+        (('simultaneously'), ('gleichzeitig')),
+        (('the border'), ('die Grenze')),
+   ]
+}
 
 # duolingo_verbs_8a = {
 #     'name' : 'Verbs 8a',
@@ -1361,4 +1413,7 @@ vocabulary = [
     seedlang_eg392a,                # 57
     seedlang_eg392b,                # 58
     seedlang_eg392c,                # 59
+    seedlang_eg393a,                # 60
+    seedlang_eg393b,                # 61
+    seedlang_eg393c,                # 62
 ]
