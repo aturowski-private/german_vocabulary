@@ -1305,7 +1305,7 @@ seedlang_eg393b = {
     'words' : [
         (('ironic'), ('ironisch')),
         (('the teenager (male)'), ('der Jugendliche')),
-        (('crap'), ('die Kacke')),
+        (('the crap'), ('die Kacke')),
         (('the child'), ('das Kind')),
         (('the classic'), ('der Klassiker')),
         (('the head'), ('der Kopf')),
