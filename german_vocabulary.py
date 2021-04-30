@@ -163,9 +163,18 @@ def main(stdscr):
     englishWindow = EnglishText((0, 0), (3, 50))
     germanWindow = InputGermanText((3, 0), (5, 50))
     resultWindow = Result((10, 0), (6, 50))
-    progressWindow = Progress(args.words_count, test_index, (16, 0), (3,50))
-    for i in range(args.words_count):
-        word = random.choices(words, weights = weights, k = 1)[0]   # randomly select a word from the list taking into accuout weights
+    if args.revision:
+        # during revision use all the words from the lesson
+        wordsCount = len(words)
+        wordsRevision = random.sample(words, wordsCount)
+    else:
+        wordsCount = args.word_count
+    progressWindow = Progress(wordsCount, test_index, (16, 0), (3,50))
+    for i in range(wordsCount):
+        if args.revision:
+            word = wordsRevision[i]
+        else:
+            word = random.choices(words, weights = weights, k = 1)[0]   # randomly select a word from the list taking into accuout weights
         if type(word[ENG_IDX]) is tuple:
             englishWord = word[ENG_IDX][0]  # pick first english word from the tuple
         else:
@@ -203,5 +212,7 @@ if __name__ == "__main__":
                         help='Specifies Duolingo lesson from which the words will be tested')
     parser.add_argument('-n', '--words_count', type=int, default=50,
                         help='Specifies how many words should be tested in the session')
+    parser.add_argument('-r', '--revision', action = 'store_true',
+                        help ='Specifies that we just want to review all the words from the lesson, so they will all be presented in random order without repetition')
     args = parser.parse_args()
     curses.wrapper(main)
