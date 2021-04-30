@@ -1289,7 +1289,7 @@ seedlang_eg393a = {
         (('the monkey'), ('der Affe')),
         (('aggressive'), ('aggressiv')),
         (('the arsehole'), ('das Arschloch')),
-        (('antisocial person'), ('der Assi')),
+        (('the antisocial person'), ('der Assi')),
         (('v. watch out'), ('aufpassen')),
         (('the insult'), ('die Beschimpfung')),
         (('the chaotic person'), ('der Chaot')),
@@ -1331,7 +1331,7 @@ seedlang_eg393c = {
         (('the accident'), ('der Unfall')),
         (('the accusation'), ('der Vorwurf')),
         (('the facial expression'), ('der Gesichtsausdruck')),
-        (('gesture'), ('die Geste')),
+        (('the gesture'), ('die Geste')),
         (('simultaneously'), ('gleichzeitig')),
         (('the border'), ('die Grenze')),
    ]
