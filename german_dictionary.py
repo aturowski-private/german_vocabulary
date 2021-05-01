@@ -1336,7 +1336,69 @@ seedlang_eg393c = {
         (('the border'), ('die Grenze')),
    ]
 }
-
+seedlang_eg394a = {
+    'name' : 'Easy German 394a Are you a typical German?',
+    'words' : [
+        (('the alcoholic (male)'), ('der Alkoholiker')),
+        (('v. make a fuss'), ('anecken')),
+        (('the residence permit'), ('die Aufenthaltsgenehmigung')),
+        (('v. stand out'), ('auffallen')),
+        (('the foreigner (male)'), ('der Ausländer')),
+        (('v. dominate'), ('beherrschen')),
+        (('v. insult'), ('beschimpfen')),
+        (('v. confirm'), ('bestätigen')),
+        (('bureaucratic'), ('bürokratisch')),
+        (('distant'), ('distanziert')),
+        (('the characteristic'), ('die Eigenschaft')),
+        (('serious'), ('ernsthaft')),
+        (('v. decide'), ('sich entschließen')),
+        (('v. be glad'), ('sich freuen')),
+        (('v. wonder'), ('sich fragen')),
+   ]
+}
+seedlang_eg394b = {
+    'name' : 'Easy German 394b Are you a typical German?',
+    'words' : [
+        (('the stranger'), ('der Fremde')),
+        (('v. fear'), ('fürchten')),
+        (('the birth'), ('die Geburt')),
+        (('cordial'), ('herzlich')),
+        (('interestingly'), ('interessanterweise')),
+        (('the country'), ('das Land')),
+        (('fun-loving'), ('lebensfroh')),
+        (('the migration background'), ('der Migrationshintergrund')),
+        (('v. annoy'), ('nerven')),
+        (('obvious'), ('offensichtlich')),
+        (('orderly'), ('ordentlich')),
+        (('the order'), ('die Ordnung')),
+        (('the generalisation'), ('die Pauschalisierung')),
+        (('pedantic'), ('pedantisch')),
+        (('the obtrusiveness'), ('die Penetranz')),
+        (('fussy'), ('penibel')),
+   ]
+}
+seedlang_eg394c = {
+    'name' : 'Easy German 394c Are you a typical German?',
+    'words' : [
+        (('the precision'), ('die Präzision')),
+        (('punctual'), ('pünktlich')),
+        (('the punctuality'), ('die Pünktlichkeit')),
+        (('the trip'), ('die Reise')),
+        (('the practicality'), ('die Sachlichkeit')),
+        (('v. appreciate'), ('schätzen')),
+        (('independent'), ('selbstständig')),
+        (('meticulous'), ('sorgfältig')),
+        (('the proverb'), ('das Sprichwort')),
+        (('the tax declaration'), ('die Steuererklärung')),
+        (('the structuredness'), ('die Strukturiertheit')),
+        (('typical'), ('typisch')),
+        (('v. to prosecute'), ('verfolgen')),
+        (('withdrawn'), ('verschlossen')),
+        (('spoiled'), ('verwöhnt')),
+        (('biased'), ('voreingenommen')),
+        (('the stereotype'), ('das Vorurteil')),
+   ]
+}
 # duolingo_verbs_8a = {
 #     'name' : 'Verbs 8a',
 #     'words' : [
@@ -1416,4 +1478,7 @@ vocabulary = [
     seedlang_eg393a,                # 60
     seedlang_eg393b,                # 61
     seedlang_eg393c,                # 62
+    seedlang_eg394a,                # 63
+    seedlang_eg394b,                # 64
+    seedlang_eg394c,                # 65
 ]

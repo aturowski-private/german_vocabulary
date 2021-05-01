@@ -168,7 +168,7 @@ def main(stdscr):
         wordsCount = len(words)
         wordsRevision = random.sample(words, wordsCount)
     else:
-        wordsCount = args.word_count
+        wordsCount = args.words_count
     progressWindow = Progress(wordsCount, test_index, (16, 0), (3,50))
     for i in range(wordsCount):
         if args.revision:
