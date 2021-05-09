@@ -1399,6 +1399,51 @@ seedlang_eg394c = {
         (('the stereotype'), ('das Vorurteil')),
    ]
 }
+seedlang_seg164a = {
+    'name' : 'Super Easy German 164a German Abendbrot?',
+    'words' : [
+        (('the dinner'), ('das Abendbrot')),
+        (('the dinner'), ('das Abendessen')),
+        (('v. to expand'), ('ausweiten')),
+        (('the beer'), ('das Bier')),
+        (('the pretzel'), ('die Brezel')),
+        (('the bread'), ('das Brot')),
+        (('colorful'), ('bunt')),
+        (('the office'), ('das Büro')),
+        (('the butter'), ('die Butter')),
+        (('the open sandwich'), ('das Butterbrot')),
+        (('v. to belong'), ('dazugehören')),
+        (('hearty'), ('deftig')),
+        (('the egg'), ('das Ei')),
+        (('the progress, advance'), ('der Fortschritt')),
+        (('the vegetable'), ('das Gemüse')),
+        (('the cucumber'), ('die Gurke')),
+   ]
+}
+seedlang_seg164b = {
+    'name' : 'Super Easy German 164b German Abendbrot?',
+    'words' : [
+        (('hard-boiled'), ('hartgekocht')),
+        (('the wooden board'), ('das Holzbrett')),
+        (('the cheese plate'), ('die Käseplatte')),
+        (('v. to get to know'), ('kennenlernen')),
+        (('the provisions'), ('das Lebensmittel')),
+        (('delicious'), ('lecker')),
+        (('the meal'), ('die Mahlzeit')),
+        (('the radish'), ('das Radieschen')),
+        (('the salad'), ('der Salat')),
+        (('v. to cut'), ('schneiden')),
+        (('the sauce'), ('die Soße')),
+        (('technical'), ('technisch')),
+        (('the tomato'), ('die Tomate')),
+        (('the tradition'), ('die Tradition')),
+        (('surprised'), ('überrascht')),
+        (('the wholemeal bread'), ('das Vollkornbrot')),
+        (('v. to prepare'), ('vorbereiten')),
+        (('the tray of cold cuts'), ('die Wurstplatte')),
+   ]
+}
+
 # duolingo_verbs_8a = {
 #     'name' : 'Verbs 8a',
 #     'words' : [
@@ -1481,4 +1526,6 @@ vocabulary = [
     seedlang_eg394a,                # 63
     seedlang_eg394b,                # 64
     seedlang_eg394c,                # 65
+    seedlang_seg164a,               # 66
+    seedlang_seg164b,               # 67
 ]
